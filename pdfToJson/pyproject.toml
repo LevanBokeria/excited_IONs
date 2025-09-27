@@ -1,0 +1,14 @@
+[project]
+name = "pdf-to-json"
+version = "0.1.0"
+description = "Convert PDF to JSON using OpenAI API"
+authors = [
+    {name = "Excited IONs", email = "test@example.com"}
+]
+dependencies = [
+    "openai>=1.0.0",
+]
+requires-python = ">=3.8"
+
+[project.scripts]
+pdf-to-json = "pdf_to_json:main"
