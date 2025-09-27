@@ -1,0 +1,11 @@
+* JSON schema for the PDF to JSON
+
+Ref: https://claude.ai/chat/6616f346-a58a-4e5d-9b48-eea4c4140e6f
+
+Note: The below is just an example JSON schema that can serve as a
+reference for our final schema. I use it for testing.
+
+The schema is found in:
+
+[[./test_schema.json]]
+
