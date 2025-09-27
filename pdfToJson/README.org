@@ -1,0 +1,15 @@
+* OpenAI version to convert PDFs to structured JSON
+
+** Dependencies
+
+First install ~uv~:
+https://docs.astral.sh/uv/
+
+** Executing the script
+
+To execute the script run:
+#+begin_src sh
+uv run pdf_to_json.py /path/to/pdf
+#+end_src
+
+At the moment it will just print the JSON to the terminal.
