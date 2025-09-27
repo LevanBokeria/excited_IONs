@@ -4,12 +4,14 @@
   "title": "Scientific Paper",
   "description": "JSON schema for scientific research papers",
   "type": "object",
-  "required": ["metadata", "content"],
+  "required": ["metadata", "content", "references"],
+  "additionalProperties": false,
   "properties": {
     "metadata": {
       "type": "object",
       "description": "Paper metadata and bibliographic information",
       "required": ["title", "authors", "abstract"],
+      "additionalProperties": false,
       "properties": {
         "title": {
           "type": "string",
@@ -21,28 +23,11 @@
           "items": {
             "type": "object",
             "required": ["name"],
+            "additionalProperties": false,
             "properties": {
               "name": {
                 "type": "string",
                 "description": "Author's full name"
-              },
-              "affiliation": {
-                "type": "string",
-                "description": "Author's institutional affiliation"
-              },
-              "email": {
-                "type": "string",
-                "format": "email",
-                "description": "Author's email address"
-              },
-              "orcid": {
-                "type": "string",
-                "pattern": "^\\d{4}-\\d{4}-\\d{4}-\\d{3}[0-9X]$",
-                "description": "Author's ORCID identifier"
-              },
-              "corresponding": {
-                "type": "boolean",
-                "description": "Whether this author is the corresponding author"
               }
             }
           }
@@ -50,93 +35,14 @@
         "abstract": {
           "type": "string",
           "description": "Paper abstract"
-        },
-        "keywords": {
-          "type": "array",
-          "description": "Keywords associated with the paper",
-          "items": {
-            "type": "string"
-          }
-        },
-        "journal": {
-          "type": "object",
-          "description": "Journal publication information",
-          "properties": {
-            "name": {
-              "type": "string",
-              "description": "Journal name"
-            },
-            "volume": {
-              "type": "string",
-              "description": "Journal volume"
-            },
-            "issue": {
-              "type": "string",
-              "description": "Journal issue number"
-            },
-            "pages": {
-              "type": "string",
-              "description": "Page range (e.g., '123-145')"
-            },
-            "issn": {
-              "type": "string",
-              "pattern": "^\\d{4}-\\d{3}[\\dX]$",
-              "description": "Journal ISSN"
-            }
-          }
-        },
-        "publication_date": {
-          "type": "string",
-          "format": "date",
-          "description": "Publication date (ISO 8601 format)"
-        },
-        "doi": {
-          "type": "string",
-          "pattern": "^10\\.\\d+/.+$",
-          "description": "Digital Object Identifier"
-        },
-        "pmid": {
-          "type": "string",
-          "description": "PubMed ID"
-        },
-        "arxiv_id": {
-          "type": "string",
-          "pattern": "^\\d{4}\\.\\d{4,5}(v\\d+)?$",
-          "description": "arXiv identifier"
-        },
-        "subject_areas": {
-          "type": "array",
-          "description": "Scientific subject classification",
-          "items": {
-            "type": "string"
-          }
-        },
-        "funding": {
-          "type": "array",
-          "description": "Funding sources",
-          "items": {
-            "type": "object",
-            "properties": {
-              "agency": {
-                "type": "string",
-                "description": "Funding agency name"
-              },
-              "grant_number": {
-                "type": "string",
-                "description": "Grant or award number"
-              },
-              "recipient": {
-                "type": "string",
-                "description": "Grant recipient"
-              }
-            }
-          }
         }
       }
     },
     "content": {
       "type": "object",
       "description": "Main content of the paper",
+      "required": ["sections", "figures", "tables", "equations", "experimental_setup", "experimental_results", "data_availability", "code_availability"],
+      "additionalProperties": false,
       "properties": {
         "sections": {
           "type": "array",
@@ -144,6 +50,7 @@
           "items": {
             "type": "object",
             "required": ["title", "content"],
+            "additionalProperties": false,
             "properties": {
               "title": {
                 "type": "string",
@@ -152,13 +59,6 @@
               "content": {
                 "type": "string",
                 "description": "Section text content"
-              },
-              "subsections": {
-                "type": "array",
-                "description": "Nested subsections",
-                "items": {
-                  "$ref": "#/properties/content/properties/sections/items"
-                }
               }
             }
           }
@@ -169,6 +69,7 @@
           "items": {
             "type": "object",
             "required": ["id", "caption"],
+            "additionalProperties": false,
             "properties": {
               "id": {
                 "type": "string",
@@ -177,27 +78,6 @@
               "caption": {
                 "type": "string",
                 "description": "Figure caption"
-              },
-              "file_path": {
-                "type": "string",
-                "description": "Path to figure file"
-              },
-              "file_type": {
-                "type": "string",
-                "enum": ["png", "jpg", "jpeg", "svg", "pdf", "eps"],
-                "description": "Figure file format"
-              },
-              "alt_text": {
-                "type": "string",
-                "description": "Alternative text for accessibility"
-              },
-              "size": {
-                "type": "object",
-                "properties": {
-                  "width": {"type": "number"},
-                  "height": {"type": "number"},
-                  "unit": {"type": "string", "enum": ["px", "cm", "in"]}
-                }
               }
             }
           }
@@ -208,6 +88,7 @@
           "items": {
             "type": "object",
             "required": ["id", "caption", "data"],
+            "additionalProperties": false,
             "properties": {
               "id": {
                 "type": "string",
@@ -220,6 +101,8 @@
               "data": {
                 "type": "object",
                 "description": "Table structure and data",
+                "required": ["headers", "rows"],
+                "additionalProperties": false,
                 "properties": {
                   "headers": {
                     "type": "array",
@@ -235,10 +118,6 @@
                     }
                   }
                 }
-              },
-              "notes": {
-                "type": "string",
-                "description": "Table footnotes or notes"
               }
             }
           }
@@ -249,6 +128,7 @@
           "items": {
             "type": "object",
             "required": ["id", "latex"],
+            "additionalProperties": false,
             "properties": {
               "id": {
                 "type": "string",
@@ -257,10 +137,6 @@
               "latex": {
                 "type": "string",
                 "description": "LaTeX representation of the equation"
-              },
-              "description": {
-                "type": "string",
-                "description": "Plain text description of the equation"
               }
             }
           }
@@ -268,126 +144,48 @@
         "experimental_setup": {
           "type": "object",
           "description": "Experimental methodology and setup",
+          "required": ["description"],
+          "additionalProperties": false,
           "properties": {
             "description": {
               "type": "string",
               "description": "Detailed description of experimental setup"
-            },
-            "materials": {
-              "type": "array",
-              "description": "Materials used in experiments",
-              "items": {
-                "type": "object",
-                "properties": {
-                  "name": {"type": "string"},
-                  "supplier": {"type": "string"},
-                  "catalog_number": {"type": "string"},
-                  "concentration": {"type": "string"},
-                  "purity": {"type": "string"}
-                }
-              }
-            },
-            "equipment": {
-              "type": "array",
-              "description": "Equipment and instruments used",
-              "items": {
-                "type": "object",
-                "properties": {
-                  "name": {"type": "string"},
-                  "manufacturer": {"type": "string"},
-                  "model": {"type": "string"},
-                  "settings": {"type": "object"}
-                }
-              }
-            },
-            "procedures": {
-              "type": "array",
-              "description": "Step-by-step experimental procedures",
-              "items": {
-                "type": "object",
-                "properties": {
-                  "step": {"type": "integer"},
-                  "description": {"type": "string"},
-                  "duration": {"type": "string"},
-                  "temperature": {"type": "string"},
-                  "conditions": {"type": "string"}
-                }
-              }
             }
           }
         },
         "experimental_results": {
           "type": "object",
           "description": "Experimental results and findings",
+          "required": ["summary"],
+          "additionalProperties": false,
           "properties": {
             "summary": {
               "type": "string",
               "description": "Summary of key experimental results"
-            },
-            "measurements": {
-              "type": "array",
-              "description": "Quantitative measurements",
-              "items": {
-                "type": "object",
-                "properties": {
-                  "parameter": {"type": "string"},
-                  "value": {"type": "number"},
-                  "unit": {"type": "string"},
-                  "uncertainty": {"type": "number"},
-                  "method": {"type": "string"}
-                }
-              }
-            },
-            "statistical_analysis": {
-              "type": "object",
-              "description": "Statistical analysis of results",
-              "properties": {
-                "method": {"type": "string"},
-                "p_value": {"type": "number"},
-                "confidence_interval": {"type": "string"},
-                "sample_size": {"type": "integer"}
-              }
             }
           }
         },
         "data_availability": {
           "type": "object",
           "description": "Information about data availability",
+          "required": ["statement"],
+          "additionalProperties": false,
           "properties": {
             "statement": {
               "type": "string",
               "description": "Data availability statement"
-            },
-            "repository": {
-              "type": "string",
-              "description": "Data repository name"
-            },
-            "doi": {
-              "type": "string",
-              "description": "DOI for associated dataset"
-            },
-            "access_conditions": {
-              "type": "string",
-              "description": "Conditions for data access"
             }
           }
         },
         "code_availability": {
           "type": "object",
           "description": "Information about code availability",
+          "required": ["repository_url"],
+          "additionalProperties": false,
           "properties": {
             "repository_url": {
               "type": "string",
-              "format": "uri",
               "description": "URL to code repository"
-            },
-            "license": {
-              "type": "string",
-              "description": "Software license"
-            },
-            "version": {
-              "type": "string",
-              "description": "Code version used"
             }
           }
         }
@@ -399,6 +197,7 @@
       "items": {
         "type": "object",
         "required": ["id", "title", "authors"],
+        "additionalProperties": false,
         "properties": {
           "id": {
             "type": "string",
@@ -412,65 +211,6 @@
             "type": "array",
             "items": {"type": "string"},
             "description": "Reference authors"
-          },
-          "journal": {
-            "type": "string",
-            "description": "Journal name"
-          },
-          "year": {
-            "type": "integer",
-            "description": "Publication year"
-          },
-          "volume": {
-            "type": "string",
-            "description": "Volume number"
-          },
-          "pages": {
-            "type": "string",
-            "description": "Page numbers"
-          },
-          "doi": {
-            "type": "string",
-            "description": "DOI of the reference"
-          },
-          "url": {
-            "type": "string",
-            "format": "uri",
-            "description": "URL to the reference"
-          },
-          "type": {
-            "type": "string",
-            "enum": ["journal_article", "book", "conference_paper", "thesis", "preprint", "software", "dataset"],
-            "description": "Type of reference"
-          }
-        }
-      }
-    },
-    "supplementary_materials": {
-      "type": "array",
-      "description": "Supplementary materials and files",
-      "items": {
-        "type": "object",
-        "properties": {
-          "title": {
-            "type": "string",
-            "description": "Supplementary material title"
-          },
-          "description": {
-            "type": "string",
-            "description": "Description of supplementary material"
-          },
-          "file_path": {
-            "type": "string",
-            "description": "Path to supplementary file"
-          },
-          "file_type": {
-            "type": "string",
-            "description": "File format/type"
-          },
-          "size": {
-            "type": "string",
-            "description": "File size"
           }
         }
       }
