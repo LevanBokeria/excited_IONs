@@ -1,0 +1,20 @@
+{
+  "api": {
+    "openai_api_key": null,
+    "openai_model": "gpt-4",
+    "max_tokens": 4000,
+    "temperature": 0.7
+  },
+  "fetcher": {
+    "arxiv_base_url": "http://export.arxiv.org/api/query",
+    "pubmed_base_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/",
+    "max_results_per_query": 50,
+    "delay_between_requests": 1.0
+  },
+  "processing": {
+    "output_dir": "./output",
+    "cache_dir": "./cache",
+    "max_concurrent_papers": 5,
+    "enable_caching": true
+  }
+}
