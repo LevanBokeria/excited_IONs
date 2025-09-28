@@ -129,7 +129,7 @@ def extract_field_from_section(field, section_text, field_schema, client):
         return None
 
 def main(schema_path: str = "../schemas/test_schema.json",
-         paper: str = "../data/1-s2.0-S2352940721003279-main.md"):
+         paper_md: str = "../data/1-s2.0-S2352940721003279-main.md"):
     api_key = os.getenv("GEMINI_API_KEY")
     client = genai.Client(api_key=api_key)
 
@@ -139,7 +139,7 @@ def main(schema_path: str = "../schemas/test_schema.json",
     schema_keys = list(schema["properties"].keys())
     logging.info("Loaded schema keys: %r", schema_keys)
 
-    with open(paper, "r") as f:
+    with open(paper_md, "r") as f:
         paper_text = f.read()
     logging.info("Loaded paper text (%d chars)", len(paper_text))
 
@@ -198,7 +198,7 @@ def main(schema_path: str = "../schemas/test_schema.json",
         else:
             output[key] = None
 
-    outfile = paper.replace(".pdf", ".json")
+    outfile = paper.replace(".md", ".json")
     with open(outfile, "w") as f:
         json.dump(output, f, indent=2)
     logging.info("Structured output written to output.json")
