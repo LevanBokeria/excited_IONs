@@ -1,0 +1,41 @@
+* JSON files to PostgreSQL database (+ ~pgvector~ extension)
+
+From all the JSON files we end up generating a PostgreSQL database for
+easier filtering / lookup etc. In addition we use the [[https://github.com/pgvector/pgvector][pgvector]]
+extension to do semantic searching / nearest neighbor search for text
+queries based on embedding models.
+
+** Dependencies and setup
+
+For the PostgreSQL database and extension, we use Docker and
+~docker-compose~ to avoid the pain of setting up a database on one's
+machine.
+
+Simply run
+#+begin_src sh
+docker-compose up -d
+#+end_src
+to start up the docker container.
+
+For the Python code and its dependencies, we use [[https://docs.astral.sh/uv/][uv]]. To run the main
+conversion process, which builds the database from a given directory
+containing JSON files:
+#+begin_src sh
+uv run json_to_db.py 
+#+end_src
+
+** Usage
+
+Once one has created the database, it is possible to query the
+database for different things.
+
+** TODO Add script to add single paper to DB
+
+** TODO 
+
+
+** TODO API functions
+
+- [ ] Get top-N matches for a given query
+- [ ] Get all papers matching set of boolean conditions
+  
