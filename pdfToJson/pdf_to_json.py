@@ -12,6 +12,8 @@ PROMPT = """
 Your task is to convert the given PDF into JSON following the given schema.
 
 Be accurate and do not ignore any information!
+
+It is very important to be extensive in the tags. They should cover topics discussed in the paper, materials, chemicals etc used, type of paper (experimental, theoretical, ...) and so on. These tags will serve as one of the fundamental ways to filter the resulting corpus of data.
 """
 
 def pdf_to_text(pdf_path: str) -> str:
@@ -112,7 +114,13 @@ def main(filename: str, schema: str = '../schemas/basic_schema_openai.json',
         print("\n" + "="*50)
         print("FINAL RESULT:")
         print("="*50)
-        print(json.dumps(parsed_json, indent=2))
+        js = json.dumps(parsed_json, indent=2)
+        print(js)
+
+        # now write to file
+        outfile = filename.replace(".pdf", ".json")
+        with open(outfile, "w") as f:
+            f.write(js)
     except json.JSONDecodeError as e:
         print(f"\n❌ Error parsing JSON response: {e}")
         print("Raw response:")
