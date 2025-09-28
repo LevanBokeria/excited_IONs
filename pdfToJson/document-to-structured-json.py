@@ -69,6 +69,7 @@ def pdf_to_mardown(pdf_path: str) -> str:
         logger.error(f"Error running docling: {result.stderr}")
         print("Error running docling:", result.stderr)
         raise RuntimeError("Docling conversion failed")
+    return markdown_path
 
 
 def resolve_refs(schema, root=None, seen=None):
