@@ -278,12 +278,12 @@ def main(schema_path: str, paper_path: str):
         else:
             output[key] = None
 
-    outfile = paper_path.replace(
-        ".md", "extracted_information.json"
+    outfile = paper_path.replace(".pdf", "_extracted_information.json").replace(
+        ".md", "_extracted_information.json"
     )  # TODO: Fix edge case of .md.md lol
     with open(outfile, "w") as f:
         json.dump(output, f, indent=2)
-    logging.info("Structured output written to output.json")
+    logging.info("Structured output written to {outfile}".format(outfile=outfile))
     logging.info("Aggregate token usage (approx): %d", total_tokens)
 
 
