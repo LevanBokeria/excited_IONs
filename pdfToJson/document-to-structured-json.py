@@ -278,7 +278,9 @@ def main(schema_path: str, paper_path: str):
         else:
             output[key] = None
 
-    outfile = paper_path.replace(".md", ".json")  # TODO: Fix edge case of .md.md lol
+    outfile = paper_path.replace(
+        ".md", "extracted_information.json"
+    )  # TODO: Fix edge case of .md.md lol
     with open(outfile, "w") as f:
         json.dump(output, f, indent=2)
     logging.info("Structured output written to output.json")
