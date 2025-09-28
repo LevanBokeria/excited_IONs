@@ -218,6 +218,14 @@ def main(schema_path: str, paper_path: str):
         # NOTE: This should never happen due to earlier checks
         raise ValueError("Paper file must be .pdf or .md")
 
+    outfile = paper_path.replace(".pdf", "_extracted_information.json").replace(
+        ".md", "_extracted_information.json"
+    )  # TODO: Fix edge case of .md.md lol
+    if os.path.exists(outfile):
+        logging.info(f"Output file {outfile} already exists. Skipping processing.")
+        print(f"Output file {outfile} already exists. Skipping processing.")
+        return
+
     with open(paper_md, "r") as f:
         paper_text = f.read()
 
@@ -278,9 +286,6 @@ def main(schema_path: str, paper_path: str):
         else:
             output[key] = None
 
-    outfile = paper_path.replace(".pdf", "_extracted_information.json").replace(
-        ".md", "_extracted_information.json"
-    )  # TODO: Fix edge case of .md.md lol
     with open(outfile, "w") as f:
         json.dump(output, f, indent=2)
     logging.info("Structured output written to {outfile}".format(outfile=outfile))
