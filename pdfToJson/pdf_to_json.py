@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-import argparse
 import json
 import subprocess
 import tempfile
 import shutil
 import sys
+import typer
 from pathlib import Path
 from openai import OpenAI
 
@@ -74,26 +74,18 @@ def stream_openai_response(client: OpenAI, messages: list, schema: dict) -> str:
     print("\n✅ Streaming complete!")
     return collected_content
 
-def main():
-    parser = argparse.ArgumentParser(description='Convert PDF to JSON using OpenAI')
-    parser.add_argument('filename', help='PDF file to process')
-    parser.add_argument('--schema', default='../schemas/test_schema.json',
-                       help='JSON schema file path')
-    parser.add_argument('--show-stream', action='store_true',
-                       help='Show the content as it streams (instead of just dots)')
-
-    args = parser.parse_args()
-
+def main(filename: str, schema: str = '../schemas/test_schema.json',
+         show_stream: bool = True):
     # Get API key
     api_key = get_api_key()
     print(f"API Key: {api_key[:10]}...")
 
     # Load schema
-    with open(args.schema, 'r') as f:
+    with open(schema, 'r') as f:
         schema = json.load(f)
 
     # Convert PDF to text
-    paper_text = pdf_to_text(args.filename)
+    paper_text = pdf_to_text(filename)
 
     # Initialize OpenAI client
     client = OpenAI(api_key=api_key)
@@ -107,7 +99,7 @@ def main():
     ]
 
     # Stream the response
-    if args.show_stream:
+    if show_stream:
         # Alternative version that shows content as it streams
         json_response = stream_with_live_display(client, messages, schema)
     else:
@@ -134,7 +126,11 @@ def stream_with_live_display(client: OpenAI, messages: list, schema: dict) -> st
     stream = client.chat.completions.create(
         model="gpt-5-nano",
         messages=messages,
-        response_format={"type": "json_object", "schema": schema},
+        response_format={"type": "json_schema", "json_schema": {
+            "name" : "pdfToJson",
+            "strict" : True,
+            "schema" : schema}
+                         },
         stream=True
     )
 
@@ -153,4 +149,4 @@ def stream_with_live_display(client: OpenAI, messages: list, schema: dict) -> st
     return collected_content
 
 if __name__ == "__main__":
-    main()
+    typer.run(main)
