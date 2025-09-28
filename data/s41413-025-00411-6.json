@@ -1,0 +1,338 @@
+{
+  "metadata": {
+    "title": "Organelle-tuning condition robustly fabricates energetic mitochondria for cartilage regeneration",
+    "authors": [
+      {
+        "name": "Xuri Chen"
+      },
+      {
+        "name": "Yunting Zhou"
+      },
+      {
+        "name": "Wenyu Yao"
+      },
+      {
+        "name": "Chenlu Gao"
+      },
+      {
+        "name": "Zhuomin Sha"
+      },
+      {
+        "name": "Junzhi Yi"
+      },
+      {
+        "name": "Jiasheng Wang"
+      },
+      {
+        "name": "Xindi Liu"
+      },
+      {
+        "name": "Chenjie Dai"
+      },
+      {
+        "name": "Yi Zhang"
+      },
+      {
+        "name": "Zhonglin Wu"
+      },
+      {
+        "name": "Xudong Yao"
+      },
+      {
+        "name": "Jing Zhou"
+      },
+      {
+        "name": "Hua Liu"
+      },
+      {
+        "name": "Yishan Chen"
+      },
+      {
+        "name": "Hongwei Ouyang"
+      }
+    ],
+    "abstract": "Mitochondria are vital organelles whose impairment leads to metabolic disorders. Mitochondrial transplantation is a promising clinical therapy but is limited by the availability of healthy mitochondria, with doses reaching up to 10^9 mitochondria per injection/patient. This study demonstrates a highly efficient mitochondria-producing strategy by manipulating mitobiogenesis and tuning organelle balance in human mesenchymal stem cells (MSCs). Using an optimized mito-condition culture medium, a dramatic 854-fold increase in mitochondria production was achieved within 15 days, yielding off-the-shelf mitochondria suitable for clinical mitotherapy. The produced mitochondria exhibit superior function, including ATP production up to 5.71-fold higher than normal mitochondria. Mechanistically, activation of the AMPK pathway and establishment of a cellular state favorable for mitochondrial fabrication\u2014characterized by enhanced proliferation and mitobiogenesis while suppressing other energy-consuming processes\u2014were identified. In vivo, mito-condition mitochondria applied in a mouse osteoarthritis model promoted significant cartilage regeneration over 12 weeks. This work provides a scalable strategy for fabricating high-quality human mitochondria and offers mechanistic insight into organelle biogenesis and energy balance in regenerative medicine.",
+    "tags": [
+      "mitochondria",
+      "mitobiogenesis",
+      "organelle engineering",
+      "mitochondrial transplantation",
+      "mitochondrial biogenesis",
+      "AMPK pathway",
+      "TFAM",
+      "TOMM20",
+      "mtDNA",
+      "MSC",
+      "adipose-derived MSCs",
+      "mito-condition",
+      "cell culture optimization",
+      "HPL platelet lysate",
+      "bFGF",
+      "Vitamins C (Vc)",
+      "insulin-transferrin-selenium (ITS)",
+      "hydrocortisone (Hc)",
+      "progesterone (Prog)",
+      "Lipid concentrate",
+      "NaHCO3",
+      "osteoarthritis",
+      "cartilage regeneration",
+      "mitotherapy",
+      "bioenergetics",
+      "MMP",
+      "ROS",
+      "Seahorse OCR",
+      "MitoTracker",
+      "JC-1",
+      "TEM",
+      "RNA-seq",
+      "AMK signaling",
+      "lysosome balance",
+      "ER homeostasis",
+      "autophagy",
+      "extracellular vesicles",
+      "collagen II",
+      "ACAN"
+    ]
+  },
+  "content": {
+    "sections": [
+      {
+        "title": "A combinatorial phenotypic screen identifies mito-condition for robust mitochondria production",
+        "content": "Energetic mitochondria for cartilage regeneration begins with recognizing a critical bottleneck in clinical mitotherapy: the supply of healthy mitochondria is limited and donor variability impairs consistency. The study proposes a mitochondria-producing condition (mito-condition) by screening a panel of media components to enhance both cell proliferation and mitochondrial biogenesis in human adipose-derived MSCs. A schematic outlines the strategy: screen human MSCs, expand under an optimized mito-condition, isolate mitochondria, and assess bioenergetic function for potential mitotherapy. Seven sequential figures illustrate that (1) an optimized medium can be constructed from a set of 9 factors (including basic fibroblast growth factor, NaHCO3, lipid concentrate, ITS, Prog, hydrocortisone, Vitamin C, heparin, and platelet lysate) to boost mitochondrial production, (2) mc-MSCs display higher viability and mitochondrial intensity than tc-MSCs, (3) mc-MSCs show greater mitochondrial content per cell, increased mitochondria-related proteins, and higher mtDNA copies, (4) the mito-condition yields a dramatic increase in total mitochondria after several cell passages (up to ~854-fold after 5 passages, 15 days), enabling production of ~10^13 mitochondria off-the-shelf within 15 days, and (5) mc-MSCs maintain a stable mitochondrial profile across passages, supporting sustainable production. The results highlight that the mito-condition elevates mitochondrial quantity and quality, with quantitative metrics including 2.83-fold more mitochondria per mc-MSC, 1.70-fold higher mitochondrial protein per cell, and 8.69-fold mtDNA copies per cell relative to tc-MSCs. The data also demonstrate enhanced mitochondrial morphology (rounded mitochondria) and improved mitochondrial function, as assessed by MMP and ROS metrics, in mc-MSCs. These findings establish a robust, scalable framework for mito-condition\u2013driven mitochondrial fabrication."
+      },
+      {
+        "title": "The mito-condition maintains sustainable mitochondrial reproduction during stem cell passaging",
+        "content": "To enable scalable production, the authors test whether mc-MSCs can maintain mitochondrial abundance through repeated passaging. Donor-derived MSCs from three individuals show faster proliferation under mito-condition than under typical conditions. The population doubling time (PDT) for mc-MSCs is substantially shorter (e.g., ~21.23 h vs ~38.45 h for tc-MSCs) across passages P1\u2013P5. After five passages (~15 days), mc-MSCs yield approximately 302 times more cells than tc-MSCs, consistent with a robust proliferative phenotype. Imaging of the actin cytoskeleton and staining for Ki67 and EdU reveal a higher fraction of proliferative mc-MSCs. Colony-forming unit assays show mc-MSCs form more and larger colonies, and mc-MSCs retain higher multi-lineage differentiation potential (osteogenic, chondrogenic, adipogenic markers) than tc-MSCs. Flow cytometry confirms higher MitoTracker intensity in mc-MSCs at multiple passages, with relative mitochondrial content (mc-MSCs/tc-MSCs) increasing over time (1.36- to 1.58-fold). Importantly, after 5 passages the total mitochondrial yield from mc-MSCs remains dramatically higher than tc-MSCs (854-fold, total yield calculation combines per-cell increase with total cell number). The data support that mito-condition sustains mitochondrial production during stem cell expansion, enabling scalable manufacturing."
+      },
+      {
+        "title": "The mito-condition improves mitochondrial function for a robust energy supply",
+        "content": "Beyond increasing mitochondrial quantity, the mito-condition enhances mitochondrial function. Seahorse extracellular flux analysis shows mc-MSCs exhibit higher basal respiration, ATP production, and spare respiratory capacity, indicating improved mitochondrial bioenergetics. Cellular ATP levels are higher in mc-MSCs, consistent with elevated energy production. Mitochondria isolated from mc-MSCs (mc-Mito) show higher ATP output and mitochondrial membrane potential (MMP) than tc-Mito, and their ADP-driven OCR is enhanced. Post-isolation, mc-mitochondria retain higher ATP generation and MMP, indicating preserved functionality after isolation. When mc-Mito are transplanted into MSCs, recipient cells display increased proliferation and ATP, suggesting that mc-mitochondria can boost cellular bioenergetics in a therapeutic context. The data collectively demonstrate that the mito-condition yields energetic mitochondria capable of sustaining robust energy supply for regenerative applications."
+      },
+      {
+        "title": "The mito-condition improves mitobiogenesis by activating the AMPK pathway",
+        "content": "To uncover the mechanism driving enhanced mitobiogenesis, bulk RNA sequencing compares mc-MSCs and tc-MSCs, revealing 9,524 DEGs (fold change \u22652). GO analysis shows mc-MSCs enriched for mitochondrial translation, DNA replication, ribosome biogenesis, and cell division, while tc-MSCs show enrichment in cell adhesion, ECM organization, and autophagy. Key mitochondrial biogenesis genes (TFAM, TFB2M, NRF1, CYCS) are upregulated in mc-MSCs. KEGG pathways related to cell proliferation and metabolism (cell cycle, TCA cycle, oxidative phosphorylation, citrate cycle, fatty acid metabolism) are enriched in mc-MSCs; AMPK signaling is notably enriched as shown by GSEA. Western blot confirms activation of AMPK and increased phosphorylation (p-AMPK) in mc-MSCs, along with upregulation of TFAM and TOMM20, indicating enhanced mitochondrial biogenesis. Inhibition of AMPK with Compound C reduces total mitochondrial intensity in mc-MSCs, supporting the role of AMPK in driving mito-condition\u2013mediated mitobiogenesis. A proposed model shows mito-condition triggering AMPK \u2192 upregulation of TFAM and TOMM20 \u2192 increased mitochondrial biogenesis and function."
+      },
+      {
+        "title": "The mito-condition tunes energy balance by compromising other energy-consuming processes",
+        "content": "The mito-condition redirects cellular energy to support mitochondrial biogenesis at the expense of other energy-consuming processes. Transcriptomic and GO analyses show down-regulation of lysosome-, phagosome-, endocytosis-, actin cytoskeleton-, and focal adhesion\u2013related pathways, with a concurrent downregulation of autophagy markers Beclin1 and LC3-II/I ratio, suggesting reduced autophagy. Lysosome content and activity decrease in mc-MSCs, while ER quantity remains largely unchanged with modest ER swelling reduction under mito-condition. TEM and flow cytometry corroborate reduced lysosome abundance, aligning with lower autophagy activity. Despite elevated ATP generation, other energy-consuming processes such as extracellular vesicle (EV) secretion, cell migration, and cell adhesion are attenuated under mito-condition. The overall metabolic reprogramming reveals a balance that favors rapid mitochondrial production and proliferation, while limiting other cellular expenditures to maintain homeostasis and avoid mitochondrial overload."
+      },
+      {
+        "title": "Mc-mitochondria exhibit superior performance for in vivo mitotherapy",
+        "content": "To test therapeutic potential, mc-mitochondria are transplanted into chondrocytes and evaluated in vitro and in vivo. In vitro, mc-mitochondria elevate ATP production and MMP in OA chondrocytes more robustly than tc-mitochondria, and reduce apoptosis. In vivo, mc-mitochondria show greater cartilage-protective effects in a mouse osteoarthritis (MMx OA) model. Co-injections into mouse knee joints demonstrate superior joint surface preservation, higher COL2 and ACAN expression, and reduced OA pathology (lower OARSI scores) for mc-mitochondria vs tc-mitochondria at 8\u201312 weeks post-surgery. Micro-CT confirms reduced subchondral bone sclerosis and osteophyte formation with mc-mitochondria. Safranin-O staining and histology indicate better cartilage integrity in mc-mitochondria-treated joints. The authors conclude that mito-condition\u2013produced mitochondria (mc-mitochondria) provide superior in vivo mitotherapy potential by delivering higher quality mitochondria that sustain tissue regeneration while reducing energy-draining cellular processes."
+      }
+    ],
+    "figures": [
+      {
+        "id": "Figure 1",
+        "caption": "A combinatorial phenotypic screen identifies mito-condition for robust mitochondria production."
+      },
+      {
+        "id": "Figure 2",
+        "caption": "The mito-condition maintains sustainable mitochondrial reproduction during stem cell passaging."
+      },
+      {
+        "id": "Figure 3",
+        "caption": "The mito-condition produces energetic mitochondria for a robust energy supply."
+      },
+      {
+        "id": "Figure 4",
+        "caption": "The mito-condition creates a sustainable energy-generating homeostasis by activating the AMPK pathway."
+      },
+      {
+        "id": "Figure 5",
+        "caption": "The mito-condition tunes energy balance by compromising other energy-consuming processes."
+      },
+      {
+        "id": "Figure 6",
+        "caption": "Mc-mitochondria exhibit superior performance for in vivo mitotherapy."
+      }
+    ],
+    "tables": [
+      {
+        "id": "Table 1",
+        "caption": "Table 1. Human samples information",
+        "data": {
+          "headers": [
+            "Individual",
+            "Age/year",
+            "Gender",
+            "Disease",
+            "Sample location",
+            "Figures"
+          ],
+          "rows": [
+            [
+              "Human adipose-derived stem cells",
+              "56",
+              "M",
+              "Fracture",
+              "Thigh fat",
+              "Fig. 2a(#1), 2b, 2c and 2k"
+            ],
+            [
+              "Human adipose-derived stem cells",
+              "64",
+              "M",
+              "Osteoarthritis (joint replacement)",
+              "Thigh fat",
+              "Fig. 2a(#2), 2b, 2c and 2k"
+            ],
+            [
+              "Human adipose-derived stem cells",
+              "72",
+              "F",
+              "Osteoarthritis (joint replacement)",
+              "Thigh fat",
+              "Fig. 2a(#3), 2b, 2c and 2k"
+            ],
+            [
+              "Human adipose-derived stem cells",
+              "26",
+              "M",
+              "Fracture",
+              "Thigh fat",
+              "Figs. 1c, 1d, S1, and S3"
+            ],
+            [
+              "Human adipose-derived stem cells",
+              "10",
+              "M",
+              "Fracture",
+              "Thigh fat",
+              "Figs. 1e-j, 2d-j, 3, 4, 5, S2 and S4-9"
+            ],
+            [
+              "Human osteoarthritis chondrocytes",
+              "64",
+              "F",
+              "Osteoarthritis (joint replacement)",
+              "Osteoarthritis cartilage",
+              "Fig. S10"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "Table 2",
+        "caption": "Table 2. Antibody List",
+        "data": {
+          "headers": [
+            "Name",
+            "Source",
+            "Application"
+          ],
+          "rows": [
+            [
+              "CD34-APC",
+              "Biolegend, 343607",
+              "1:20 (FC)"
+            ],
+            [
+              "CD45-PE",
+              "Biolegend, 368510",
+              "1:20 (FC)"
+            ],
+            [
+              "CD73-PE",
+              "Biolegend, 344003",
+              "1:20 (FC)"
+            ],
+            [
+              "CD90-APC",
+              "Biolegend, 328114",
+              "1:20 (FC)"
+            ],
+            [
+              "CD105-PE",
+              "eBioscience, 12-1057-42",
+              "1:20 (FC)"
+            ],
+            [
+              "Mouse anti-TOMM20",
+              "Abcam, ab283317",
+              "1:500 (IF)"
+            ],
+            [
+              "Rabbit anti-Ki67",
+              "Abcam, ab16667",
+              "1:250 (IF)"
+            ],
+            [
+              "Rabbit anti-GM130",
+              "Proteintech, 11308-1-AP",
+              "1:200 (IF)"
+            ],
+            [
+              "Rabbit anti-Calnexin",
+              "Proteintech, 10427-2-AP",
+              "1:200 (IF)"
+            ],
+            [
+              "Rabbit anti-AMPK",
+              "Abcam, ab32047",
+              "1:3 000 (WB)"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "Table 3",
+        "caption": "Table 3. Primer sequences for RT-qPCR",
+        "data": {
+          "headers": [
+            "Primer Name",
+            "Base sequence"
+          ],
+          "rows": [
+            [
+              "Human-ATP5A1-F",
+              "GTATTGCCCGCGTACATGG"
+            ],
+            [
+              "Human-ATP5A1-R",
+              "AGGACATACCCTTTAAGCCTGA"
+            ],
+            [
+              "Human-UQCRC1-F",
+              "GGGGCACAAGTGCTATTGC"
+            ],
+            [
+              "Human-UQCRC1-R",
+              "GTTGTCCAGCAGGCTAACC"
+            ],
+            [
+              "Human-SDHB-F",
+              "ACAGCTCCCCGTATCAAGAAA"
+            ],
+            [
+              "Human-SDHB-R",
+              "GCATGATCTTCGGAAGGTCAA"
+            ],
+            [
+              "Human-GAPDH-F",
+              "TGACGCTGGGGCTGGCATTG"
+            ],
+            [
+              "Human-GAPDH-R",
+              "GGCTGGTGGTCCAGGGGTCT"
+            ]
+          ]
+        }
+      }
+    ],
+    "equations": [],
+    "experimental_setup": {
+      "description": "MATERIALS AND METHODS details outline the experimental setup used to generate and test the mito-condition. Human adipose-derived MSCs were isolated from surgical donors, cultured in a serum-free system under the mito-condition (DMEM/F12 with 5 ng/mL bFGF, NaHCO3, lipid concentrate, ITS, Prog, Hc, Vitamin C, heparin, and 1% human platelet lysate) to promote mitobiogenesis. MSCs were expanded over multiple passages with continuous monitoring of mitochondrial content using MitoTracker, TOMM20/TJM expression, and mtDNA copy number. Mitochondria were isolated with a dedicated mitochondria isolation kit, characterized by ATP output, MMP (JC-1), and OCR using Seahorse XF96. RNA sequencing and RT-qPCR were employed to assess gene expression related to mitobiogenesis (TFAM, TFB2M, NRF1, CYCS) and energy metabolism (AMPK pathway). Immunofluorescence, TEM, flow cytometry, and Western blot analyses were used to validate organelle balance and energy state. In vivo, mc-MSC mitochondria were transplanted into OA mouse models to assess cartilage regeneration by histology (Safranin-O/Fast Green), immunohistochemistry for COL2/ACAN, micro-CT, and OARSI scoring. Data availability and supplementary materials are noted."
+    },
+    "experimental_results": {
+      "summary": "The mito-condition substantially increases mitochondrial yield and improves mitochondrial function. Specific results include: (1) an 854-fold increase in mitochondria per initial cell after 5 passages (~15 days), enabling production of ~10^13 mitochondria; (2) mc-MSCs show higher mitochondrial content, with 2.83-fold more mitochondria per cell, 1.70-fold more mitochondrial protein, and 8.69-fold higher mtDNA copies per cell than tc-MSCs; (3) mc-MSCs display enhanced bioenergetics with higher basal respiration, ATP production, and spare respiratory capacity, as well as higher ATP content; (4) mc-Mito have higher ATP production and MMP after isolation, and their OCR is boosted; (5) AMPK pathway activation drives mito-biogenesis, evidenced by upregulation of TFAM and TOMM20 and sensitivity to Compound C; (6) mc-MSCs exhibit reduced lysosome/autophagy and attenuated energy-consuming processes (EV secretion, migration, adhesion) to reallocate energy toward mitochondrial synthesis; (7) in vivo, mc-mitochondria improve OA cartilage repair, reduce OA pathology, and preserve COL2 and ACAN expression. Overall, the mito-condition creates a sustainable energy-generating state by balancing energy production and consumption to favor mitochondrial fabrication and regenerative capacity."
+    },
+    "data_availability": {
+      "statement": "All data and material in this study are available upon request."
+    },
+    "code_availability": {
+      "repository_url": "N/A"
+    }
+  },
+  "references": []
+}

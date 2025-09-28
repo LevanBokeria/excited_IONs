@@ -1,0 +1,428 @@
+{
+  "metadata": {
+    "title": "Enhancement of Mitochondrial Transfer by Antioxidants in Human Mesenchymal Stem Cells",
+    "authors": [
+      {
+        "name": "Chia-Jung Li"
+      },
+      {
+        "name": "Po-Kong Chen"
+      },
+      {
+        "name": "Li-Yi Sun"
+      },
+      {
+        "name": "Cheng-Yoong Pang"
+      }
+    ],
+    "abstract": "Excessive reactive oxygen species is the major component of a harsh microenvironment after ischemia/reperfusion injury in human tissues. Combined treatment of N-acetyl-L-cysteine (NAC) and L-ascorbic acid 2-phosphate (AAP) promoted the growth of human mesenchymal stem cells (hMSCs) and suppressed oxidative stress-induced cell death by enhancing mitochondrial integrity and function in vitro. In this study, we aimed to determine whether NAC and AAP (termed MCA) could enhance the therapeutic potential of hMSCs. We established a coculture system consisting of MCA-treated and H2O2-treated hMSCs and investigated the role of tunneling nanotubes (TNTs) in the exchange of mitochondria between the 2 cell populations. The consequences of mitochondria exchange were assessed by fluorescence confocal microscopy and flow cytometry. The results showed that MCA could increase the mitochondrial mass, respiratory capacity, and numbers of TNTs in hMSCs. The \u201cenergized\u201d mitochondria were transferred to the injured hMSCs via TNTs, the oxidative stress was decreased, and the mitochondrial membrane potential of the H2O2-treated hMSCs was stabilized. The transfer of mitochondria decreased the expression of S616-phosphorylated dynamin-related protein 1, a protein that dictates the fragmentation/\ufb01ssion of mitochondria. Concurrently, MCA also enhanced mitophagy in the coculture system, implicating that damaged mitochondria were eliminated in order to maintain cell physiology.",
+    "tags": [
+      "oxidative stress",
+      "reactive oxygen species",
+      "mitochondria",
+      "mitochondrial transfer",
+      "tunneling nanotubes",
+      "MCA",
+      "NAC",
+      "AAP",
+      "N-acetyl-L-cysteine",
+      "L-ascorbic acid 2-phosphate",
+      "hMSCs",
+      "mesenchymal stem cells",
+      "MitoTracker",
+      "MitoTracker Red",
+      "JC-1",
+      "MitoSOX",
+      "mitophagy",
+      "Drp1",
+      "Drp1 S616",
+      "Mfn2",
+      "mitochondrial biogenesis",
+      "mitochondrial mass",
+      "respiratory capacity",
+      "Oroboros Oxygraph-2k",
+      "flow cytometry",
+      "confocal microscopy",
+      "co-culture",
+      "cell therapy",
+      "ischemia/reperfusion",
+      "antioxidant preconditioning",
+      "Miro1",
+      "nocodazole"
+    ]
+  },
+  "content": {
+    "sections": [
+      {
+        "title": "1. Introduction",
+        "content": "Mitochondria are a major source of reactive oxygen species (ROS) in eukaryotic cells, and excessive ROS in mitochondria usually cause damages to mitochondria and subsequently trigger mitochondrion-mediated cell death [7, 8]. It is thus important to increase the viability of hMSCs when transplanting them into injured tissues.\n\nHuman mesenchymal stem cells (hMSCs) are multipotent cells isolated from adult tissues and possess the potential to differentiate into various cell types [1\u20133]. Recently, hMSCs have been tested in rescuing tissue injuries, including ischemia/reperfusion injuries of the heart, kidney, and brain [4, 5]. Ischemia/reperfusion injuries caused complex pathology in these tissues. Among them, overproduction of reactive oxygen species (ROS) in the injured tissues usually decrease the viability of engrafted MSCs after transplantation [6]. ROS are highly reactive molecules and are derived from the metabolism of oxygen. Mitochondria are the primary sources of ROS in eukaryotic cells, and excessive ROS in mitochondria usually cause damages to mitochondria and subsequently trigger mitochondrion-mediated cell death [7, 8]. It is thus important to increase the viability of hMSCs when transplanting them into injured tissues.\n\nIn our previous studies, we demonstrated that combined treatment of N-acetyl-L-cysteine (NAC) and L-ascorbic acid 2-phosphate (AAP) offered several advantages in human adipose-derived MSCs: (1) NAC and AAP-pretreatment promoted hMSCs proliferation and maintained its stemness; (2) NAC and AAP-pretreatment suppressed oxidative stress-induced cell death by enhancing mitochondrial integrity and functions [15, 16]. In this study, we aimed to determine whether NAC and AAP-pretreatment could enhance the therapeutic potential of hMSCs. The medium that contained both antioxidants was named mesenchymal stem cell adjuvant (MCA). We established a coculture system that consisted of MCA-treated and H2O2-treated hMSCs and investigated the formation of TNTs and the exchange of mitochondria between the 2 cell populations. The consequences of mitochondria exchange were assessed by fluorescence confocal microscopy and flow cytometry. The results showed that MCA could increase the mitochondrial mass, respiratory capacity, and numbers of TNTs in hMSCs. The \u201cenergized\u201d mitochondria were transferred to the recipients via TNTs and decreased the oxidative stress of the recipient cells; the mitochondrial membrane potential (\u0394\u03a8m) of the H2O2-treated hMSCs was stabilized. The transfer of mitochondria decreased the expression of S616-phosphorylated dynamin-related protein 1, a protein that dictates the fragmentation/fission of mitochondria. Concurrently, MCA also enhanced mitophagy in the coculture system, implicating that damaged mitochondria were eliminated in order to maintain cell physiology."
+      },
+      {
+        "title": "2. Materials and Methods",
+        "content": "2. Materials and Methods\n\n2.1. Isolation and Maintenance of Human Adipose Tissue-Derived MSCs. Adipose tissue was procured from a donor who underwent liposuction with written informed consent (Buddhist Tzu Chi General Hospital IRB# IRB102-130). The human adipocyte-derived MSCs were isolated using our previously published method [15]. The hMSCs were cultured in a medium that consisted of Iscove\u2019s modified Dulbecco\u2019s medium (IMDM; GIBCO-Invitrogen Co.), 10% FBS (MSC-Quali\ufb01ed, GIBCO-Invitrogen Co.), 10 ng/mL FGF-2 (R&D Systems), and 2 mM L-glutamine and adjusted to contain 0.1 M sodium bicarbonate at 37\u00b0C in a humidified incubator with 5% CO2 and 95% air. All experiments were performed using hMSCs cultured between passages 3 to 6.\n\n2.2. Oxygen Uptake Measurement. Mitochondrial oxygen consumption was measured using Oxygraph-2k according to the manual provided by the manufacturer (Oroboros Instru ments Corp., Austria). The electrode was calibrated between 0 and 100% saturation with atmospheric oxygen at 37\u00b0C. In brief, respiration was measured at 37\u00b0C in 2 mL glass chambers. Cells were harvested by trypsinization, followed by centrifugation, and the cell pellet was resuspended in PBS for analysis. Maximal oxidative capacities (state 3) were determined in the presence of oxygen content of room air (21%). Respiration rates were calculated as the time derivative of oxygen measured in the closed respirometer and expressed per million viable cells. The amplified signal was recorded in a computer with online display of the calibrated oxygen concentration and oxygen flux (DatLab software for data acquisition and analysis; Oroboros In struments, Innsbruck, Austria). Oxygen consumption is expressed as pmol O2/s/mg of mitochondrial protein. The reaction chamber was filled with ~1 \u00d7 10^6 indicated cells, and the OCR of each respiratory complex was measured after addition of appropriate substrates, respiratory inhibitors (2 \u03bcM rotenone, 2 \u03bcM antimycin A, 0.5 \u03bcM oligomycin), and mitochondrial uncoupler FCCP (2 \u03bcM).\n\n2.3. Mitochondrial Dehydrogenase Activity Assay. Mitochondrial dehydrogenase activity was analyzed using WST-8 (2-(2-methoxy-4-nitrophenyl)-3-(4-nitrophenyl)-5-(2,4-disulfophenyl)-2H-tetrazolium; CCK-8 Kit-8, Enzo Sci. Inc., US) that produces a highly water soluble formazan dye upon biochemical reduction at the presence of an electron carrier, 1-methoxy-PMS. At the end of various treatments, 10 \u03bcL of the CCK-8 reagent was added to each well and incubated at 37\u00b0C for additional 4 h. Absorbance at 450 nm was recorded by an ELISA microplate reader.\n\n2.4. Cell Treatments. The MCA consisted of 2 mM NAC and 0.2 mM AAP (L-ascorbic acid 2-phosphate sesquimagnesium salt hydrate, Sigma). The cells cultured in medium without NAC and AAP were used as the normal control. Generally, for MCA protection experiments, the hMSCs were treated with MCA for 24 h and H2O2 (Sigma) for 4 h.\n\n2.5. Detecting Mitochondria Transfer in Coculture System. The mitochondria of the healthy hMSCs were labeled with MitoTracker Red (Molecular Probes), and the mitochondria of the H2O2-treated hMSCs were labeled with Mitotracker Green (Molecular Probes) according to the manufacturer\u2019s instructions. To induce mitochondrial dysfunction, hMSCs were treated with 0.5 mM H2O2 for 4 h, while the healthy cells were cultured in control medium or MCA medium for 24 h. The injured cells were then cocultured at a 1 : 1 ratio with the control or MCA-treated hMSCs. Cells were observed under confocal microscopy (LSM510 Meta, Carl Zeiss) at an indicated time after coculture.\n\n2.6. Quantification of Mitochondria Transfer. Healthy cells were labeled with 5-carboxy\ufb02uorescein diacetate (CFDA, Thermo Fisher Scientific) before 1 : 1 coculture with H2O2-treated hMSCs. The mitochondria of the control or MCA-treated hMSCs were stained with MitoTracker Red before 1 : 1 coculture. After 24 h coculture, all cells were harvested and subjected to flow cytometric analysis (BD FACSCalibur, US). The transfer of mitochondria was quantitated in the R2-gated CFDA-free cells. The appearance of MitoTracker Red fluorescence in the gated cells was supposed to be transferred from the control or MCA-treated hMSCs.\n\n2.7. Determination of Mitochondrial Membrane Potential (\u0394\u03a8m), ROS, and Mass. Cells from each experimental condition were stained with JC-1 reagent (for \u0394\u03a8m, 5 \u03bcM), MitoSOX Red (for mitochondrial ROS, 5 \u03bcM), and MitoTracker Green (for mitochondrial mass, 0.1 \u03bcM) (all purchased from Molecular Probes), at 37\u00b0C for 30 min. Cells were washed twice with PBS, harvested, resuspended in PBS, and subjected to cytometric analysis (BD FACSCalibur, US).\n\n2.8. Western Blotting Analysis. Cells were harvested after various treatments, and the expressions of each indicated proteins were densitometrically quantitated after SDS-PAGE and immunoblotting [16].\n\n2.9. Quantification of TNTs. Fluorescent staining of actin was done with phalloidin 633 (4 units/mL, Molecular Probes) in culture medium containing 0.05% Triton X. The staining was performed on live cells with 15 min incubation at 37\u00b0C prior to fixation. The number of TNTs in the actin-labelled populations was counted and expressed as the number of TNTs per 100 cells.\n\n2.10. Antibodies and Inhibitors. Anti-dynamin-related protein 1 (Drp-1, #5931), anti-phospho-Drp-1 Ser616 (#53455) were purchased from Cell Signaling Technology (MA, US). Antimitofusin-2 (Mfn2) was from GeneTex (GTX102055, GeneTex Inc., US). Anti-\u03b2-actin (A5411) was purchased from Sigma. To inhibit gap junctions as well as microtubule polymerization, the coculture medium was loaded with 50 \u03bcM nocodazole (M1404, Sigma).\n\n2.11. Statistical Analysis. The intensity of bands in Western blots or fluorescence in fluorescent-micographs were quantified using AlphaDigiDoc software (Cell Biosciences, ON, Canada), ImageJ software (NIH), and MicroP software [17]. All values are expressed as the mean \u00b1 SEM and were analyzed using Student\u2019s t-test with two-tailed distribution between groups as indicated in the figures. All calculations were performed by Microsoft Excel 2010."
+      },
+      {
+        "title": "3. Results",
+        "content": "3.1. MCA Promotes Mitochondrial Biogenesis in hMSCs. The overall mitochondrial dehydrogenase activity of hMSCs was measured at 24 h after MCA treatment. The mitochondrial dehydrogenase activity of the MCA-treated hMSCs was 65.6% higher than that of the nontreated control hMSCs (Figure 1(a)). Concurrently, the mitochondrial mass of the MCA-treated cells was 143.5% larger than the nontreated cells (Figure 1(b)). The total cell number of both groups at 24 h did not differ much (Figure 1(c)). We next observed the mitochondrial network using confocal microscopy: the mitochondria were vitally stained with MitoTracker Red. We found that the morphology of mitochondria were markedly altered after MCA treatment in hMSCs (Figure 1(d)). The mitochondria were classified into five types according to the characteristics of their morphology: small globules, linear tubules, loops, branched tubules, and twisted tubules. The globular mitochondria decreased from 40.7% to 25.2%, while branched and tubular mitochondria increased from 22.7% and 33.8% to 31.1% and 45.1%, respectively (Figure 1(e), upper panel). In addition, we also noted that the average length of the mitochondria in MCA-treated cells significantly outscored those without treatment (Figure 1(e), lower panel, linear: 22.0 pixels versus 13.9 pixels).\nThe cellular bioenergetics was also evaluated in hMSCs after treatment with MCA for 24 h. Marked reduction of mitochondrial respiration was observed in H2O2-treated cells as compared to the control and MCA-treated cells (Figure 1(f)). The mitochondrial respiration efficiency of hMSCs was significantly improved after MCA treatment as compared to the control or monotreated cells (NAC or AAP alone).\n\n3.2. MCA Enhances TNT Formation. Previous studies have shown that cellular components can be transported between two separated cells by TNTs. Cytoplasm exchange, which includes mitochondria as well, occurs when TNTs form. The mitochondria from healthy hMSCs and injured hMSCs were labeled with MitoTracker Red and MitoTracker Green, respectively. Both cells were subjected to 1:1 coculture. The formation of intercellular TNTs between the donor and recipient cells enabled mitochondrial exchange through the TNTs (Figure 2(a)). After 24 h coculture, most of the mitochondria were found in the recipients, i.e., the H2O2-treated cells, and contained both MitoTrackers (Figure 2(a), yellow insets). Selected (x-y) sections, obtained from confocal microscopy, and 2.5-dimensional reconstructions (as presented in Figure 2(b)) allowed us to identify the transport of mitochondria as the two fluorochromes were from the same plane. \nWe next investigated whether the formation of TNTs between the donors and recipients could be enhanced by MCA treatment. Figures 3(a) and 3(b) clearly demonstrated that the numbers of TNTs increased significantly after MCA treatment, while they decreased dramatically when microtubule-disrupting agent nocodazole (50 \u03bcM) was included in the medium during the coculture period. MCA treatment also led to an increased number of long TNTs (Figures 3(c) and 3(d)). The average lengths of TNTs formed in coculture containing H2O2-treated hMSCs and hMSCs with or without MCA were 53.5 \u03bcm and 28.5 \u03bcm, respectively (Figure 3(d)). TNTs that were more than 50 \u03bcm in length was 35.7% in the coculture containing MCA-treated and H2O2-treated hMSCs as compared to only 8.6% in the non-MCA-treated hMSCs coculture (Figure 3(e)). \u2217 p < 0 05, as compared to the non-MCA-treated hMSCs coculture.\n\n3.3. MCA Enhances Mitochondrial Transfer. We also cocultured these cells with H2O2-treated hMSCs. After 24 h incubation, the total cells were harvested and subjected to flow cytometric analysis. The CFDA-free cells, that is, the H2O2-treated hMSCs, were gated and the fluorescence of MitoTracker Red was measured. The transfer of the MitoTracker Red-mitochondria from the MCA-treated cells significantly increased when compared to the control (30.5% versus 16.3%, Figure 4(c), right panel).\n\n3.4. MCA-hMSCs Rescue Injured Cells by Reducing Oxidative Stress. We next determined whether this mitochondrial transfer/donation could protect injured cells against H2O2-induced mitochondrial damage. Healthy hMSCs were labeled with CFDA before coculture; after 24 h coculture with H2O2-treated hMSCs, all cells were harvested, stained with MitoSOX Red, and subjected to flow cytometric analysis. Coculture with MCA-treated hMSCs markedly decreased the ROS level in the mitochondria of the recipient cells as compared to the control hMSCs (Figure 5(b), 32.4% versus 15.2%), whereas the ROS level in the donors\u2019 mitochondria (with or without MCA treatment) did not differ much (Figure 5(c)). The viability of the recipients also increased after coculture (Figure 5(d)).\n\n3.5. Maintenance of \u0394\u03a8m after Coculture with MCA-hMSCs. In addition to reducing mitochondrial ROS in the recipients, we further demonstrated that this mitochondria transfer/donation also contributed to the maintenance of \u0394\u03a8m. The cocultured cells were analyzed with JC-1. As shown in Figure 6(a), mitochondria with higher \u0394\u03a8m (red fluorescence) were dominant in coculture containing MCA-treated hMSCs. The red/green fluorescence were further quantitated by flow cytometry, and the results demonstrated that the mitochondria with lower \u0394\u03a8m were significantly reduced in coculture containing MCA-treated hMSCs (Figure 6(b)). The rescue of \u0394\u03a8m in the coculture decreased significantly in coculture medium containing nocodazole (Figure 6(c)). \u2217 p < 0 05.\n\n3.6. MCA Treatment Reduces Mitochondrial Fragmentation and Drp1 S616 Phosphorylation. Western blot analysis revealed that exposure of hMSCs to H2O2 induced an increase in Drp1 S616, while Drp1 S616 was decreased in MCA-treated hMSCs, as well as in the coculture system. Notably, although MCA treatment increased Mfn2 expression in hMSCs, it did not alter the total expression of Mfn2 after coculture. \n3.7. Mitochondria Transfer/Donation Helps in Maintaining Mitochondrion Quality in the Injured hMSCs. Besides affecting mitochondrial dynamics by regulating Drp1 S616, we next investigated the fate of the damaged mitochondria in the H2O2-treated hMSCs after coculture with MCA-treated cells. MitoTracker Red and Green were used to label mitochondria in the healthy and H2O2-treated cells, respectively, before coculture. At 6 h after coculture, the total cells were subjected to fluorescent confocal microscopy. Numerous tubular intact mitochondria showed strong red fluorescence, while green fluorescence was found majorly in dots and short tubules (Figure 8(a)). Some of these dots and short tubules also harbored MitoTracker Red when the images were merged (Figure 8(a)). Some green fluorescent mitochondria formed aggregates that colocalized with LysoRed in coculture that consisted of H2O2-treated and MCA-treated hMSCs (Figure 8(b)). Fluorescence intensity analysis confirmed that the green fluorescence was in the same plane as the red fluorescence (Figure 8(c)). These results suggest that mitochondria transfer helped regulate the quality of mitochondria in injured hMSCs and associated autophagic processing in the coculture."
+      },
+      {
+        "title": "4. Discussion",
+        "content": "Stem cell therapy is an important measure to restore tissue damage due to injury and might serve as an alternative to tissue or organ transplantation. Besides successful application of hematopoietic stem cell transplantation in treating blood disorders or cancer patients, the therapeutic application of stem cells from other sources is not fully tested in humans due to lack of exact mechanisms, poor viability of transplanted cells at the site of injury, poor integration of implanted cells with the damaged tissues, and ethical considerations. Stem cells from other sources include embryonic stem cells, adult stem cells, and tissue/organ-specific progenitor cells. Among them, adult stem cells, especially tissue-derived MSCs, have attracted interest due to their easy accessibility and immunomodulatory properties. Our previous studies have shown that NAC and AAP cotreatment could promote hMSCs entrance into S-phase by suppressing cyclin-dependent kinase inhibitors, which resulted in cell proliferation and yet retained their differentiation ability [15]. In addition, MCA also helped hMSCs to cope with H2O2-induced cell death by inhibiting cell death and maintaining mitochondria integrity [16]. In this study, using a coculture system that consisted of healthy and H2O2-treated hMSCs, we demonstrated that MCA enhanced the protection potential of healthy hMSCs by mitochondria transfer/donation through TNTs. MCA initially promoted the increase of mitochondrial mass, respiratory capacity, and TNT formation. These \u201cenergized\u201d mitochondria were transferred to the recipients via TNTs and decreased the oxidative stress of the H2O2-treated hMSCs. The \u0394\u03a8m of the injured cells was also stabilized after mitochondria transfer/donation. Concurrently, we also observed enhanced mitophagy in the coculture system, implicating that damaged mitochondria were eliminated to maintain cell physiology (Figure 9). Although our findings indicate that functional mitochondria transfer/donation from MCA-treated hMSCs protects injured cells against H2O2-induced mitochondrial damage, the precise mechanism of mitochondria transfer/donation remains to be defined. Mechanistically, although total Mfn2 did not increase after coculture, the decrease of Drp1 S616 was evident. Mfn2 and Drp1 are important regulators of mitochondrial fusion and fission, respectively. The phosphorylation state of Drp1 and Mfn2 expression may contribute to the observed changes in mitochondrial dynamics during coculture. Jiang et al. [28] demonstrated that human iPS-derived MSCs could donate their functional mitochondria to rescue corneal epithelial cells under rotenone-induced oxidative stress and proposed Miro1 as a regulator of intercellular mitochondrial transfer in MSCs [29, 30]. Our results extend these findings to human adipose tissue-derived MSCs and highlight TNT-mediated mitochondria transfer as a potential therapeutic strategy in tissue injury."
+      },
+      {
+        "title": "5. Conclusion",
+        "content": "This study reveals the protective effects of MCA in promoting the therapeutic potential of hMSCs by energizing mitochondria and enhancing mitochondria transfer/donation via TNTs (Figure 9). The pretreatment of hMSCs with antioxidants (MCA) thus provides a novel strategy to enhance the therapeutic outcome of stem cell-based therapy in tissue injury."
+      },
+      {
+        "title": "6. Acknowledgments",
+        "content": "This work was supported by Grant nos. TCRD105-01, TCRD-I101-05-02 (both granted to Cheng-Yoong Pang), and SC-5-2 (granted to Li-Yi Sun) from Hualien Buddhist Tzu Chi General Hospital and Buddhist Tzu Chi Medical Foundation, Taiwan."
+      },
+      {
+        "title": "7. References",
+        "content": "[1] A. I. Caplan, \u201cMesenchymal stem cells,\u201d Journal of Orthopaedic Research, vol. 9, no. 5, pp. 641\u2013650, 1991.\n[2] P. A. Zuk, M. Zhu, P. Ashjian et al., \u201cHuman adipose tissue is a source of multipotent stem cells,\u201d Molecular Biology of the Cell, vol. 13, no. 12, pp. 4279\u20134295, 2002.\n[3] O. K. Lee, T. K. Kuo, W. M. Chen, K. D. Lee, S. L. Hsieh, and T. H. Chen, \u201cIsolation of multipotent mesenchymal stem cells from umbilical cord blood,\u201d Blood, vol. 103, no. 5, pp. 1669\u20131675, 2004.\n[4] N. Souidi, M. Stolk, and M. Seifert, \u201cIschemia-reperfusion injury: bene\ufb01cial effects of mesenchymal stromal cells,\u201d Current Opinion in Organ Transplantation, vol. 18, no. 1, pp. 34\u201343, 2013.\n[5] H. K. Eltzschig and T. Eckle, \u201cIschemia and reperfusion\u2014from mechanism to translation,\u201d Nature Medicine, vol. 17, no. 11, pp. 1391\u20131401, 2011.\n[6] X. Y. Zhu, A. Lerman, and L. O. Lerman, \u201cConcise review: mesenchymal stem cell treatment for ischemic kidney disease,\u201d Stem Cells, vol. 31, no. 9, pp. 1731\u20131736, 2013.\n[7] M. Ott, M. Ott, V. Gogvadze, S. Orrenius, and B. Zhivotovsky, \u201cMitochondria, oxidative stress and cell death,\u201d Apoptosis, vol. 12, no. 5, pp. 913\u2013922, 2007.\n[8] J. Hou, Z. P. Han, Y. Y. Jing et al., \u201cAutophagy prevents irradiation injury and maintains stemness through decreasing ROS generation in mesenchymal stem cells,\u201d Cell Death & Disease, vol. 4, no. article e844, 2013.\n[9] A. Rustom, R. Saffrich, I. Markovic, P. Walther, and H. H. Gerdes, \u201cNanotubular highways for intercellular organelle transport,\u201d Science, vol. 303, no. 5660, pp. 1007\u20131010, 2004.\n[10] H. H. Gerdes, A. Rustom, and X. Wang, \u201cTunneling nanotubes, an emerging intercellular communication route in development,\u201d Mechanisms of Development, vol. 130, no. 6\u20138, pp. 381\u2013387, 2013.\n[11] D. Torralba, F. Baixauli, and F. S\u00e1nchez-Madrid, \u201cMitochondria know no boundaries: mechanisms and functions of intercellular mitochondrial transfer,\u201d Frontiers in Cell and Developmental Biology, vol. 4, p. 107, 2016.\n[12] B. L. Tang, \u201cMIRO GTPases in mitochondrial transport. Homeostasis and pathology,\u201d Cell, vol. 5, no. 1, p. 1, 2015.\n[13] J. Pasquier, B. S. Guerrouahen, H. Al Thawadi et al., \u201cPreferential transfer of mitochondria from endothelial to cancer cells through tunneling nanotubes modulates chemoresistance,\u201d Journal of Translational Medicine, vol. 11, p. 94, 2013.\n[14] E. Y. Plotnikov, T. G. Khryapenkova, S. I. Galkina, G. T. Sukhikh, and D. B. Zorov, \u201cCytoplasm and organelle transfer between mesenchymal multipotent stromal cells and renal tubular cells in coculture,\u201d Experimental Cell Research, vol. 316, no. 15, pp. 2447\u20132455, 2010.\n[15] L. Y. Sun, C. Y. Pang, D. K. Li et al., \u201cAntioxidants cause rapid expansion of human adipose-derived mesenchymal stem cells into S phase,\u201d Scientific Reports, vol. 5, p. 9819, 2015.\n[16] C. J. Li, L. Y. Sun, and C. Y. Pang, \u201cSynergistic protection of N-acetylcysteine and ascorbic acid 2-phosphate on human adipose-derived mesenchymal stem cells against mitoptosis, necroptosis and apoptosis,\u201d Scientific Reports, vol. 5, p. 9819, 2015.\n[17] J. Y. Peng, C. C. Lin, Y. J. Chen et al., \u201cAutomatic morphological subtyping reveals new roles of caspases in mitochondrial dynamics,\u201d PLoS Computational Biology, vol. 7, no. 10, article e1002212, 2011.\n[18] W. Bleazard, M. C. JM, E. J. King et al., \u201cThe dynamin-related GTPase Dnm1 regulates mitochondrial fission in yeast,\u201d Nature Cell Biology, vol. 1, no. 5, pp. 298\u2013304, 1999.\n[19] E. Smirnova, L. Griparic, D. L. Shurland, and A. M. van der Bliek, \u201cDynamin-related protein Drp1 is required for mitochondrial division in mammalian cells,\u201d Molecular Biology of the Cell, vol. 12, no. 8, pp. 2245\u20132256, 2001.\n[20] R. J. Youle and D. P. Narendra, \u201cMechanisms of mitophagy,\u201d Nature Reviews. Molecular Cell Biology, vol. 12, no. 1, p. 9, 2011.\n[21] S. J. Forbes and N. Rosenthal, \u201cPreparing the ground for tissue regeneration: from mechanism to therapy,\u201d Nature Medicine, vol. 20, no. 8, pp. 857\u2013869, 2014.\n[22] S. Lee, E. Choi, M. J. Cha, and K. C. Hwang, \u201cCell adhesion and long-term survival of transplanted mesenchymal stem cells: a prerequisite for cell therapy,\u201d Oxidative Medicine and Cellular Longevity, vol. 2015, Article ID 632902, p. 9, 2015.\n[23] A. M. Dimarino, A. I. Caplan, and T. L. Bon\ufb01eld, \u201cMesenchymal stem cells in tissue repair,\u201d Frontiers in Immunology, vol. 4, p. 201, 2013.\n[24] X. Hu, S. P. Yu, J. L. Fraser et al., \u201cTransplantation of hypoxia-preconditioned mesenchymal stem cells improves infarcted heart function via enhanced survival of implanted cells and angiogenesis,\u201d The Journal of Thoracic and Cardiovascular Surgery, vol. 135, no. 4, pp. 799\u2013808, 2008.\n[25] S. M. Chacko, S. Ahmed, K. Selvendiran, M. L. Kuppusamy, M. Khan, and P. Kuppusamy, \u201cHypoxic preconditioning induces the expression of prosurvival and proangiogenic markers in mesenchymal stem cells,\u201d American Journal of Physiology-Cell Physiology, vol. 299, no. 6, pp. C1562\u2013C1570, 2010.\n[26] C. P. Chang, C. C. Chio, C. U. Cheong, C. M. Chao, B. C. Cheng, and M. T. Lin, \u201cHypoxic preconditioning enhances the therapeutic potential of the secretome from cultured human mesenchymal stem cells in experimental traumatic brain injury,\u201d Clinical Science, vol. 124, no. 3, pp. 165\u2013176, 2010.\n[27] R. P. Herrmann and M. J. Sturm, \u201cAdult human mesenchymal stromal cells and the treatment of graft versus host disease,\u201d Stem Cells Cloning, vol. 7, pp. 45\u201352, 2014.\n[28] D. Jiang, F. Gao, Y. Zhang et al., \u201cMitochondrial transfer of mesenchymal stem cells effectively protects corneal epithelial cells from mitochondrial damage,\u201d Cell Death & Disease, vol. 7, no. 11, article e2467, 2016.\n[29] T. Ahmad, S. Mukherjee, B. Pattnaik et al., \u201cMiro1 regulates intercellular mitochondrial transport & enhances mesenchymal stem cell rescue e\ufb03cacy,\u201d The EMBO Journal, vol. 33, no. 9, pp. 994\u20131010, 2014.\n[30] J. Adler and I. Parmryd, \u201cColocalization analysis in fluorescence microscopy,\u201d in Cell Imaging Techniques: Methods and Protocols, D. J. Taatjes and J. Roth, Eds., Humana Press, New York, 2012."
+      }
+    ],
+    "figures": [
+      {
+        "id": "Figure 1",
+        "caption": "Figure 1: MCA improved mitochondrial biogenesis and bioenergetics in hMSCs. Mitochondrial dehydrogenase activity (a) and mitochondrial mass (b) of hMSCs treated with or without MCA for 24 h was assessed by CCK-8 assay and flow cytometric analysis of MitoTracker Red-labeled mitochondria, respectively. (c) The cell density of hMSCs with or without MCA treatment for 24 h was assessed by counting the harvested cells and normalized to the area of the culture flask. (d) The mitochondria of the hMSCs with or without MCA treatment were labeled with MitoTracker Red and subjected to confocal microscopy. The mitochondria were classified using MicroP software according to their morphology: small globules, linear tubules, loops, branched tubules, and twisted tubules. Three major types of mitochondria were quantified: globular, tubular, and branched ((e), upper panel), as well as their total length ((e), lower panel). (f) Mitochondrial bioenergetics of the indicated cells was determined by oxygen consumption rate (OCR) using Oroboros Oxygraph-2k analyzer. The MCA consisted of 2 mM NAC and 0.2 mM AAP. The concentrations of NAC and AAP were 2 mM and 0.2 mM, respectively, in monotreatments. OCR measured at basal respiration (upper left), maximal respiration (upper right), ATP-coupled respiration (lower left), and spare capacity (lower right) were shown. \u2217 p < 0 05, \u2217\u2217 p < 0 01, \u2217\u2217\u2217 p < 0 001, as compared to the control (Ctrl); n.s., not significant."
+      },
+      {
+        "id": "Figure 2",
+        "caption": "Figure 2: Mitochondria transfer was enhanced in hMSCs after MCA treatment. (a) Representative images of mitochondria transfer to H2O2-treated hMSCs from hMSCs with (right panel) or without (left panel) MCA treatment. The MitoTracker Red-labeled mitochondria from the healthy hMSCs were also clearly seen in TNT formed between the recipient and donor (inset i). Both MitoTracker Red- and Green-labeled mitochondria were found in the recipient cells (inset ii). The Pearson correlation coefficient are also shown to demonstrate the colocalization of the MitoTracker Red and Green labelled mitochondria after coculture [30]. The results showed that the colocalization coefficient in the (ii) of upper panel (24 h coculture of control hMSCs and H2O2-treated hMSCs) is 0.594, while that in the (ii) of lower panel (24 h coculture of MCA-treated hMSCs and H2O2-treated hMSCs) is 0.908. The colocalization coefficient can be further represented as pseudocolor changes: orange dots represent highly overlapping, while purple dots represent no overlapping. A 2.5-dimensional fluorescence reconstruction analysis of the respective images in (a) further confirmed that the red fluorescence was predominantly found in the TNT form between MCA-treated hMSCs and H2O2-treated hMSCs (b). Scale bar: 20 \u03bcm."
+      },
+      {
+        "id": "Figure 3",
+        "caption": "Figure 3: MCA enhanced TNT formation after coculture. TNTs decreased when microtubule-disrupting agent nocodazole (50 \u03bcM) was included in the coculture system (a). The number of TNTs were enumerated and classified per 100 cells, and the proportion of TNTs that connected multiple cells increased from 34% to 44% after MCA treatment (b). Nocodazole almost disrupted multiple connected-TNTs in the coculture system. A representative image of long TNT after MCA treatment in the coculture system is shown in (c). The average length of TNTs formed in coculture containing H2O2-treated hMSCs and hMSCs with or without MCA were 53.5 \u03bcm and 28.5 \u03bcm, respectively (d). TNTs that were more than 50 \u03bcm in length was 35.7% in the coculture containing MCA-treated and H2O2-treated hMSCs as compared to only 8.6% in the non-MCA-treated hMSCs coculture (e). \u2217 p < 0 05, as compared to the non-MCA-treated hMSCs coculture. Scale bar: 20 \u03bcm."
+      },
+      {
+        "id": "Figure 4",
+        "caption": "Figure 4: MCA enhanced mitochondria transfer to the injured hMSCs. (a) The MitoTracker Red-labeled mitochondria from the MCA-treated hMSCs were longer than the non-MCA-treated hMSCs in the coculture, as well as the numbers of TNTs formed (see enlarged insets). The actin was stained with phalloidin (blue fluorescence) in both coculture. (b) The MitoTracker Red-labeled mitochondria that resided along the TNTs were also longer in coculture containing MCA-treated hMSCs (right panel and inset) as compared to the one with non MCA-treated hMSCs (left panel and inset). (c) Healthy hMSCs with or without MCA treatment were labeled with CFDA and MitoTracker Red before coculture. After 24 h coculture with H2O2-treated hMSCs, all cells were harvested and subjected to flow cytometric analysis. The CFDA-unlabeled cells were gated and the MitoTracker Red fluorescence was quantitated. The proportion of cells containing red fluorescence was 30.5% in coculture containing MCA-treated hMSCs as compared to the 16.3% in the control hMSCs coculture. \u2217\u2217 p < 0 01."
+      },
+      {
+        "id": "Figure 5",
+        "caption": "Figure 5: MCA-hMSCs rescued injured cells by reducing oxidative stress. (a) Healthy hMSCs with or without MCA treatment were labeled with CFDA before coculture. After 24 h coculture with H2O2-treated hMSCs, all cells were harvested, stained with and MitoSOX Red, and subjected to flow cytometric analysis. The fluorescence of MitoSOX Red was determined separately in the CFDA-labeled and CFDA-unlabeled cells. The proportion of injured cells (CFDA-unlabeled) with MitoSOX Red in coculture containing MCA-treated hMSCs was 24.4% as compared to the 37.1% in the control hMSCs coculture (b). However, the proportion of MitoSOX Red cells in the CFDA-labeled healthy cells did not differ much (c). The viability of injured cells increased after coculture (d). \u2217\u2217 p < 0 01, as compared with the control."
+      },
+      {
+        "id": "Figure 6",
+        "caption": "Figure 6: Maintenance of mitochondrial membrane potential (\u0394\u03a8m) after coculture with MCA-hMSCs. (a) The \u0394\u03a8m was measured using JC-1 in hMSCs coculture system. The JC-1 was mostly red (indicating higher \u0394\u03a8m) in coculture containing MCA-treated hMSCs (right panel), and the mitochondria appeared to be longer as compared to the control hMSCs coculture (comparing the enlarged insets from the right and left panels). (b) The cocultured cells were analyzed with flow cytometry. The proportion of cells with lower \u0394\u03a8m (green fluorescence) decreased in coculture containing MCA-treated hMSCs. The rescue of \u0394\u03a8m in the coculture decreased significantly in coculture medium containing nocodazole (c). \u2217 p < 0 05."
+      },
+      {
+        "id": "Figure 7",
+        "caption": "Figure 7: MCA reduced mitochondrial fragmentation. (a) Representative images of mitochondrial morphology after cocultured. The mitochondria can be classified into small globular, linear tubular, branched tubular, twisted tubular, and looped types, using MicroP software. The two major types of mitochondria, the globular and tubular, were enumerated and the results were shown in (b). In coculture containing MCA-treated hMSCs, the proportion of globular mitochondria decreased, while the proportion of the healthier tubular mitochondria increased significantly. (c) The length of the mitochondria in the coculture containing MCA-treated hMSCs was longer than that in the control hMSCs coculture. The width of the mitochondria from both coculture did not differ. (d) Western blot analysis of Drp1 S616 and Mfn2. The fold ratios of lanes 2 and 3 were obtained after comparing to lane 1, while that of lane 5 were obtained after comparing to lane 4. \u2217 p < 0 05, \u2217\u2217 p < 0 01, \u2217\u2217\u2217 p < 0 001, n.s., not significant. Scale bar: 20 \u03bcm."
+      },
+      {
+        "id": "Figure 8",
+        "caption": "Figure 8: Mitochondria transfer helped regulating mitochondria quality in the injured hMSCs. (a) The mitochondria from the H2O2-hMSCs were labeled with MitoTracker Green, while the mitochondria from the healthy hMSCs were labeled with MitoTracker Red, respectively, before 6 h coculture. The number of MitoTracker Red-labeled mitochondria in the recipients increased in coculture containing MCA-treated hMSCs, while the MitoTracker Green-labeled mitochondria were shorter and tended to form aggregates (arrowheads in the enlarged insets). (b) Both cocultured cells were stained with MitoTracker Green and LysoRed to identify the fate of the short mitochondria. Many mitochondrial aggregates in the coculture containing MCA-treated hMSCs colocalized with LysoRed-labeled lysosomes (arrowheads in the enlarged insets of the right panel). (c) Fluorescence intensity analysis of the respective insets in (b) confirmed that the green fluorescence was in the same plane of the red fluorescence. Scale bar: 20 \u03bcm."
+      },
+      {
+        "id": "Figure 9",
+        "caption": "Figure 9: A schematic diagram showing TNT formation between injury and MCA-treated hMSCs. MCA can energize mitochondria and increase the number of TNTs in hMSCs. These healthy mitochondria can be transferred to the injured cells via TNTs and subsequently ameliorate oxidative stress, decrease mitochondrial damage/fragmentation/fission, and increase the turnover of damaged mitochondria by mitophagy."
+      }
+    ],
+    "tables": [],
+    "equations": [
+      {
+        "id": "Eq1",
+        "latex": "OCR = f( substrates, inhibitors, FCCP )"
+      }
+    ],
+    "experimental_setup": {
+      "description": "Details of coculture experiments, TNT visualization, mitochondrial labeling, and pharmacological interventions used to study mitochondrial transfer between MCA-treated and H2O2-treated hMSCs."
+    },
+    "experimental_results": {
+      "summary": "MCA pretreatment promoted mitochondrial biogenesis and mass, increased respiration capacity, and enhanced TNT formation. MCA-treated healthy hMSCs transferred mitochondria to H2O2-treated hMSCs via TNTs, reducing ROS, stabilizing \u0394\u03a8m, and reducing mitochondrial fragmentation. In cocultures, MCA-derived mitochondria were longer and more numerous along TNTs, and TNT formation was essential for mitochondrial transfer and rescue. Mitophagy was upregulated, and damaged mitochondria were eliminated to maintain cell physiology."
+    },
+    "data_availability": {
+      "statement": "Not provided in the article."
+    },
+    "code_availability": {
+      "repository_url": "Not provided."
+    }
+  },
+  "references": [
+    {
+      "id": "[1]",
+      "title": "Mesenchymal stem cells",
+      "authors": [
+        "A. Caplan"
+      ]
+    },
+    {
+      "id": "[2]",
+      "title": "Human adipose tissue is a source of multipotent stem cells",
+      "authors": [
+        "P. A. Zuk",
+        "M. Zhu",
+        "P. Ashjian"
+      ]
+    },
+    {
+      "id": "[3]",
+      "title": "Isolation of multipotent mesenchymal stem cells from umbilical cord blood",
+      "authors": [
+        "O. K. Lee",
+        "T. K. Kuo",
+        "W. M. Chen",
+        "K. D. Lee",
+        "S. L. Hsieh",
+        "T. H. Chen"
+      ]
+    },
+    {
+      "id": "[4]",
+      "title": "Ischemia-reperfusion injury: bene\ufb01cial effects of mesenchymal stromal cells",
+      "authors": [
+        "N. Souidi",
+        "M. Stolk",
+        "M. Seifert"
+      ]
+    },
+    {
+      "id": "[5]",
+      "title": "Ischemia and reperfusion\u2014from mechanism to translation",
+      "authors": [
+        "H. K. Eltzschig",
+        "T. Eckle"
+      ]
+    },
+    {
+      "id": "[6]",
+      "title": "Mesenchymal stem cell treatment for ischemic kidney disease",
+      "authors": [
+        "X. Y. Zhu",
+        "A. Lerman",
+        "L. O. Lerman"
+      ]
+    },
+    {
+      "id": "[7]",
+      "title": "Mitochondria, oxidative stress and cell death",
+      "authors": [
+        "M. Ott",
+        "M. Ott",
+        "V. Gogvadze",
+        "S. Orrenius",
+        "B. Zhivotovsky"
+      ]
+    },
+    {
+      "id": "[8]",
+      "title": "Autophagy prevents irradiation injury and maintains stemness through decreasing ROS generation in mesenchymal stem cells",
+      "authors": [
+        "J. Hou",
+        "Z. P. Han",
+        "Y. Y. Jing"
+      ]
+    },
+    {
+      "id": "[9]",
+      "title": "Nanotubular highways for intercellular organelle transport",
+      "authors": [
+        "A. Rustom",
+        "R. Saffrich",
+        "I. Markovic",
+        "P. Walther",
+        "H. H. Gerdes"
+      ]
+    },
+    {
+      "id": "[10]",
+      "title": "Tunneling nanotubes, an emerging intercellular communication route in development",
+      "authors": [
+        "H. H. Gerdes",
+        "A. Rustom",
+        "X. Wang"
+      ]
+    },
+    {
+      "id": "[11]",
+      "title": "Mitochondria know no boundaries: mechanisms and functions of intercellular mitochondrial transfer",
+      "authors": [
+        "D. Torralba",
+        "F. Baixauli",
+        "F. S\u00e1n ch e z-Madrid"
+      ]
+    },
+    {
+      "id": "[12]",
+      "title": "MIRO GTPases in mitochondrial transport. Homeostasis and pathology",
+      "authors": [
+        "B. L. Tang"
+      ]
+    },
+    {
+      "id": "[13]",
+      "title": "Preferential transfer of mitochondria from endothelial to cancer cells through tunneling nanotubes modulates chemoresistance",
+      "authors": [
+        "J. Pasquier",
+        "B. S. Guerrouahen",
+        "H. Al Thawadi"
+      ]
+    },
+    {
+      "id": "[14]",
+      "title": "Cytoplasm and organelle transfer between mesenchymal multipotent stromal cells and renal tubular cells in coculture",
+      "authors": [
+        "E. Y. Plotnikov",
+        "T. G. Khryapenkova",
+        "S. I. Galkina",
+        "G. T. Sukhikh",
+        "D. B. Zorov"
+      ]
+    },
+    {
+      "id": "[15]",
+      "title": "Antioxidants cause rapid expansion of human adipose-derived mesenchymal stem cells into S phase",
+      "authors": [
+        "L. Y. Sun",
+        "C. Y. Pang",
+        "D. K. Li",
+        "et al."
+      ]
+    },
+    {
+      "id": "[16]",
+      "title": "Synergistic protection of N-acetylcysteine and ascorbic acid 2-phosphate on human adipose-derived mesenchymal stem cells against mitoptosis, necroptosis and apoptosis",
+      "authors": [
+        "C. J. Li",
+        "L. Y. Sun",
+        "C. Y. Pang"
+      ]
+    },
+    {
+      "id": "[17]",
+      "title": "Automatic morphological subtyping reveals new roles of caspases in mitochondrial dynamics",
+      "authors": [
+        "J. Y. Peng",
+        "C. C. Lin",
+        "Y. J. Chen",
+        "et al."
+      ]
+    },
+    {
+      "id": "[18]",
+      "title": "The dynamin-related GTPase Dnm1 regulates mitochondrial fission in yeast",
+      "authors": [
+        "W. Bleazard",
+        "M. C. JM",
+        "E. J. King",
+        "et al."
+      ]
+    },
+    {
+      "id": "[19]",
+      "title": "Dynamin-related protein Drp1 is required for mitochondrial division in mammalian cells",
+      "authors": [
+        "E. Smirnova",
+        "L. Griparic",
+        "D. L. Shurland",
+        "A. M. van der Bliek"
+      ]
+    },
+    {
+      "id": "[20]",
+      "title": "Mechanisms of mitophagy",
+      "authors": [
+        "R. J. Youle",
+        "D. P. Narendra"
+      ]
+    },
+    {
+      "id": "[21]",
+      "title": "Preparing the ground for tissue regeneration: from mechanism to therapy",
+      "authors": [
+        "S. J. Forbes",
+        "N. Rosenthal"
+      ]
+    },
+    {
+      "id": "[22]",
+      "title": "Cell adhesion and long-term survival of transplanted mesenchymal stem cells: a prerequisite for cell therapy",
+      "authors": [
+        "S. Lee",
+        "E. Choi",
+        "M. J. Cha",
+        "K. C. Hwang"
+      ]
+    },
+    {
+      "id": "[23]",
+      "title": "Mesenchymal stem cells in tissue repair",
+      "authors": [
+        "A. M. Dimarino",
+        "A. I. Caplan",
+        "T. L. Bon\ufb01eld"
+      ]
+    },
+    {
+      "id": "[24]",
+      "title": "Transplantation of hypoxia-preconditioned mesenchymal stem cells improves infarcted heart function via enhanced survival of implanted cells and angiogenesis",
+      "authors": [
+        "X. Hu",
+        "S. P. Yu",
+        "J. L. Fraser",
+        "et al."
+      ]
+    },
+    {
+      "id": "[25]",
+      "title": "Hypoxic preconditioning induces the expression of prosurvival and proangiogenic markers in mesenchymal stem cells",
+      "authors": [
+        "S. M. Chacko",
+        "S. Ahmed",
+        "K. Selvendiran",
+        "M. L. Kuppusamy",
+        "M. Khan",
+        "P. Kuppusamy"
+      ]
+    },
+    {
+      "id": "[26]",
+      "title": "Hypoxic preconditioning enhances the therapeutic potential of the secretome from cultured human mesenchymal stem cells in experimental traumatic brain injury",
+      "authors": [
+        "C. P. Chang",
+        "C. C. Chio",
+        "C. U. Cheong",
+        "C. M. Chao",
+        "M. T. Lin"
+      ]
+    },
+    {
+      "id": "[27]",
+      "title": "Adult human mesenchymal stromal cells and the treatment of graft versus host disease",
+      "authors": [
+        "R. P. Herrmann",
+        "M. J. Sturm"
+      ]
+    },
+    {
+      "id": "[28]",
+      "title": "Mitochondrial transfer of mesenchymal stem cells effectively protects corneal epithelial cells from mitochondrial damage",
+      "authors": [
+        "D. Jiang",
+        "F. Gao",
+        "Y. Zhang",
+        "et al."
+      ]
+    },
+    {
+      "id": "[29]",
+      "title": "Miro1 regulates intercellular mitochondrial transport & enhances mesenchymal stem cell rescue efficacy",
+      "authors": [
+        "T. Ahmad",
+        "S. Mukherjee",
+        "B. Pattnaik",
+        "et al."
+      ]
+    },
+    {
+      "id": "[30]",
+      "title": "Colocalization analysis in fluorescence microscopy",
+      "authors": [
+        "J. Adler",
+        "I. Parmryd"
+      ]
+    }
+  ]
+}

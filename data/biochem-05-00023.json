@@ -1,0 +1,994 @@
+{
+  "metadata": {
+    "title": "Enhancing Mitochondrial Maturation in iPSC-Derived Cardiomyocytes: Strategies for Metabolic Optimization",
+    "authors": [
+      {
+        "name": "Dhienda C. Shahannaz"
+      },
+      {
+        "name": "Tadahisa Sugiura"
+      },
+      {
+        "name": "Brandon E. Ferrell"
+      }
+    ],
+    "abstract": "Background: Induced pluripotent stem cell-derived cardiomyocytes (iPSC-CMs) hold transformative potential for cardiovascular regenerative medicine, yet their clinical application is hindered by suboptimal mitochondrial maturation and metabolic inefficiencies. This systematic review evaluates targeted strategies for optimizing mitochondrial function, integrating metabolic preconditioning, substrate selection, and pathway modulation to enhance energy production and cellular resilience. Additionally, we examine the role of extracellular matrix stiffness and mechanical stimulation in mitochondrial adaptation, given their influence on metabolism and maturation. Methods: A comprehensive analysis of recent advancements in iPSC-CM maturation was conducted, focusing on metabolic interventions that enhance mitochondrial structure and function. Studies employing metabolic preconditioning, lipid and amino acid supplementation, and modulation of key signaling pathways, including PGC-1\u03b1, AMPK, and mTOR, were reviewed. Computational modeling approaches predicting optimal metabolic shifts were assessed, alongside insights into reactive oxygen species (ROS) signaling, calcium handling, and the impact of electrical pacing on energy metabolism. Results: Evidence indicates that metabolic preconditioning with fatty acids and oxidative phosphorylation enhancers improves mitochondrial architecture, cristae density, and ATP production. Substrate manipulation fosters a shift toward adult-like metabolism, while pathway modulation refines mitochondrial biogenesis. Academic Editors: Buyong Ma and Manuel Aureliano. Computational models enhance precision, predicting interventions that best align iPSC-CM metabolism with native cardiomyocytes. The synergy between metabolic and biomechanical cues offers new avenues for accelerating maturation, bridging the gap between in vitro models and functional cardiac tissues. Conclusions: Strategic metabolic optimization is essential for overcoming mitochondrial immaturity in iPSC-CMs. By integrating biochemical engineering, predictive modeling, and biomechanical conditioning, a robust framework emerges for advancing iPSC-CM applications in regenerative therapy and disease modeling. These findings pave the way for more physiologically relevant cell models, addressing key translational challenges in cardiovascular medicine.",
+    "tags": [
+      "mitochondrial maturation",
+      "iPSC-derived cardiomyocytes",
+      "oxidative phosphorylation",
+      "mitochondrial biogenesis",
+      "fatty acid oxidation",
+      "metabolic preconditioning",
+      "energy metabolism",
+      "cardiac regeneration",
+      "regenerative medicine",
+      "metabolic engineering",
+      "substrate optimization",
+      "biomechanics",
+      "extracellular matrix",
+      "ECM stiffness",
+      "mechanical stimulation",
+      "electrical pacing",
+      "PGC-1\u03b1",
+      "AMPK",
+      "mTOR",
+      "ROS",
+      "SOD2",
+      "calcium handling",
+      "mitochondrial dynamics",
+      "multomics",
+      "computational modeling",
+      "systems biology",
+      "engineered heart tissue",
+      "drug screening",
+      "clinical translation",
+      "GMP manufacturing",
+      "bioreactors",
+      "scalable differentiation"
+    ]
+  },
+  "content": {
+    "sections": [
+      {
+        "title": "1. Introduction",
+        "content": "Cardiovascular disease (CVD) remains the leading cause of death worldwide, with ischemic heart disease alone accounting for 9 million deaths annually. The burden is especially significant in Indonesia, Japan, and the United States, where aging populations and lifestyle-related risk factors contribute to escalating heart failure (HF), myocardial infarction (MI), and congenital heart disorders. iPSC-CMs offer a promising solution, but their metabolic immaturity presents significant challenges that must be overcome for clinical success. In native human cardiac development, the metabolic landscape shifts from a glycolytic fetal profile to an oxidative, fatty acid-dependent phenotype postnatally. Recreating this transition in vitro is central to engineering functional iPSC-CMs that mimic adult-like cardiac physiology. Table 1 summarizes key features of mitochondrial maturation across developmental stages (fetal CMs, iPSC-CMs at various maturation points, and adult CMs). This matrix translates domain-specific maturation data into a unified evaluative index, providing a quantitative lens to assess maturation relative to adult cardiomyocytes. Mitochondria play a pivotal role in CM function, ATP generation, calcium homeostasis, and ROS regulation; dysfunction can contribute to HF, arrhythmias, and ischemia-reperfusion injury. Thus, bridging the metabolic gap is crucial for translational iPSC-CM applications in regenerative medicine and disease modeling."
+      },
+      {
+        "title": "1.1. Current Knowledge and Limitations",
+        "content": "Recent studies have explored biochemical, genetic, and environmental strategies to enhance mitochondrial maturation in iPSC-CMs, including metabolic preconditioning with fatty acids, biophysical conditioning (electrical stimulation, substrate stiffness modulation), and genetic overexpression of PGC-1\u03b1. Despite these advances, limitations persist: most studies are in vitro with heterogeneous iPSC-CM populations; long-term effects on arrhythmogenic potential and functional stability are underexplored; and there is a paucity of large-scale transcriptomic and proteomic analyses. Computational modeling to optimize metabolic interventions remains in its infancy, underscoring the need for data-driven approaches to tailor mitochondrial enhancement."
+      },
+      {
+        "title": "1.2. Need for a Comprehensive Systematic Review",
+        "content": "There is a critical need for an integrated, multidisciplinary synthesis spanning metabolic engineering, bioinformatics-driven modeling, and advanced in vitro methodologies to establish a framework for mitochondrial maturation in iPSC-CMs. This review aims to evaluate intervention efficacy, scalability, and translational potential, and to define a roadmap for standardizing protocols and identifying combinatorial strategies that accelerate maturation. We also explore the role of computational biology in guiding rational interventions and the translational implications for myocardial infarction repair, disease modeling, and tissue engineering."
+      },
+      {
+        "title": "1.3. Objectives and Methodological Framework",
+        "content": "The primary objective is to evaluate and synthesize metabolic enhancement strategies for mitochondrial maturation in iPSC-CMs, with emphasis on translational viability. The review covers: (1) Metabolic Preconditioning Approaches (substrate optimization, fatty acid supplementation, hypoxia/reoxygenation cycles); (2) Genetic and Pharmacological Modulation (PGC-1\u03b1 overexpression, AMPK activation, mTOR inhibition, other mitochondrial biogenesis inducers); (3) Biophysical and Electrical Stimulation (mechanical stress, ECM composition, electrical pacing); (4) Computational and Systems Biology (multi-omics profiling, predictive modeling). The study follows PRISMA guidelines with data sourced from PubMed, Embase, Google Scholar, and clinical trial repositories. Risk of bias is evaluated using ROBINS-I and Cochrane tools."
+      },
+      {
+        "title": "2. Methods",
+        "content": "Data compilation and extraction followed a systematic, interdisciplinary framework. We searched PubMed, Scopus, Web of Science, Medline, Embase, IEEE Xplore, Cochrane Library, Europe PMC, ScienceDirect, SpringerLink, DOAJ, and Google Scholar for peer-reviewed articles and preprints published between January 2006 and January 2025. Inclusion criteria encompassed original research articles, systematic reviews, or meta-analyses focusing on iPSC-CM mitochondrial maturation, metabolic reprogramming, or bioenergetic enhancement with quantitative measures of mitochondrial structure or function. Exclusion criteria included non-cardiac cell types or studies lacking experimental validation. Data extraction emphasized metabolic flux assays (e.g., Seahorse), mitochondrial morphology and function (EM, ROS, ATP), in vivo engraftment models, transcriptomic/proteomic analyses, and computational modeling. Integration with clinical translation considerations included preprint repositories, clinical trial databases, and regulatory frameworks. PRISMA-guided screening and Robins-I risk-of-bias assessment were applied."
+      },
+      {
+        "title": "2.1. Data Compilation",
+        "content": "A comprehensive search across databases (PubMed, Scopus, Web of Science, Medline, Embase, IEEE Xplore, Cochrane Library, Europe PMC, ScienceDirect, SpringerLink, DOAJ, Google Scholar) identified 1273 articles. After deduplication and screening, 25 studies were included for qualitative synthesis. Search terms encompassed iPSC-CM maturation, mitochondrial biogenesis, FAO, oxidative phosphorylation, metabolic reprogramming, biophysical conditioning, and computational approaches."
+      },
+      {
+        "title": "2.2. Data Extraction and Analysis",
+        "content": "Full-text evaluation prioritized studies with robust methodologies, focusing on metabolic flux assays, mitochondrial morphology and function, in vivo engraftment, multi-omics analyses, and computational modeling. Citation tracking and AI-driven bibliometrics were used to identify high-impact work. Risk of bias was assessed using ROBINS-I for observational studies and RoB 2 for randomized trials where applicable."
+      },
+      {
+        "title": "2.2.1. Integration of Bioinformatics and Computational Modeling",
+        "content": "Given limited prior application of computational models in iPSC-CM metabolism, studies employing machine learning, metabolic flux balance analysis, and predictive modeling were included to guide targeted metabolic interventions."
+      },
+      {
+        "title": "2.2.2. Clinical Translation Considerations",
+        "content": "We integrated insights from preprint repositories (bioRxiv, medRxiv), ClinicalTrials.gov, and regulatory bodies (FDA, EMA, PMDA) to frame GMP-compliant manufacturing considerations and translational barriers."
+      },
+      {
+        "title": "3. Results",
+        "content": "3.1. Pooled Findings from Eligible Studies; 3.1.1. Study Selection Overview; 3.1.2. Study Characteristics; 3.1.3. Thematic Synthesis of Findings."
+      },
+      {
+        "title": "3.1.1. Study Selection Overview",
+        "content": "From an initial pool of 1273 articles across 13 databases, 122 full texts were reviewed, and 25 studies met inclusion criteria for qualitative synthesis."
+      },
+      {
+        "title": "3.1.2. Study Characteristics",
+        "content": "Table 2 summarizes included studies, detailing model, intervention, metabolic assays, key findings, and maturation markers."
+      },
+      {
+        "title": "3.1.3. Thematic Synthesis of Findings",
+        "content": "Metabolic Preconditioning, FAO Activation, Hypoxia/Reoxygenation, Biophysical Conditioning, ECM Signaling, and Computational Modeling emerged as core themes. Substrate optimization and FAO activation consistently promoted mitochondrial biogenesis and respiratory capacity; hypoxia-reoxygenation cycles augmented mtDNA content and complex activity; ECM and mechanical/electrical cues supported maturation; computational approaches offered precision-guided pathways to optimize metabolism. Baseline iPSC-CMs display fetal-like energy profiles (glycolysis-dominant, low cristae density, immature ETC) with ATP generation far below adult CMs, highlighting the need for integrated, multimodal maturation strategies."
+      },
+      {
+        "title": "4. Discussion",
+        "content": "Integrated discussion of metabolic maturation strategies highlights the need for multi-modal, systems-level approaches that recapitulate developmental transitions. The translational potential hinges on achieving mature FAO/OXPHOS balance, improved mitochondrial architecture, and robust redox control. While substantial progress has been made with metabolic and biomechanical conditioning, a fully mature iPSC-CM phenotype remains elusive. Computational and multi-omics strategies show promise for guiding culture conditions and targeting gene-regulatory networks (e.g., PGC-1\u03b1/NRF1/TFAM) to drive maturation, but in vivo validation in large-animal models remains essential."
+      },
+      {
+        "title": "4.1. Metabolic Maturity as a Prerequisite for Effective Regeneration",
+        "content": "Metabolic maturation is a prerequisite for functional regeneration. iPSC-CMs remain glycolytic with limited mitochondrial content (~7\u201310% of cell volume) and only ~16\u201330% of adult OXPHOS capacity. The postnatal FAO transition and mitochondrial biogenesis are crucial benchmarks. Without maturation, iPSC-CMs fail to provide sustained contractile and electrophysiological performance in vivo."
+      },
+      {
+        "title": "4.2. Experimental Approaches and Limitations in iPSC-CM Maturation",
+        "content": "Fatty acid supplementation, glucose restriction, hypoxia-reoxygenation, and modulation of PPAR\u03b1/PGC-1\u03b1 signaling increase FAO and mitochondrial function but can perturb redox balance or mitochondrial integrity if mis-timed or poorly controlled. ECM composition and mechanical/electrical conditioning further improve maturation, yet line-to-line variability and platform differences hinder reproducibility."
+      },
+      {
+        "title": "4.3. Advancing iPSC-CM Translation: Computational and Multi-Omics Approaches",
+        "content": "Multi-omics analyses reveal persistent fetal-like expression patterns that limit maturation. Computational modeling (ML, FBA, network analyses) integrates transcriptomics, proteomics, and metabolomics to predict effective metabolic interventions. Current models predict high fidelity maturation with combinatorial strategies, but extensive in vivo validation is required."
+      },
+      {
+        "title": "4.3.1. Challenges in Translating In Vitro Advances to In Vivo Applications",
+        "content": "Even with optimized metabolism, iPSC-CMs show reduced contractile force and longer APD in large-animal contexts, highlighting barriers to electrophysiological integration and graft survival."
+      },
+      {
+        "title": "4.3.2. Future Directions for Enhancing iPSC-CM Maturation",
+        "content": "Future directions include electrical pacing at physiological frequencies, cyclic mechanical loading, integrative gene targeting (e.g., CRISPR-based PGC-1\u03b1), and scaffold-based biomechanical priming, potentially achieving high levels of maturation when combined with metabolic interventions."
+      },
+      {
+        "title": "4.4. Bridging Bench to Bedside: Translational Roadmap for Clinical Applications",
+        "content": "Translational roadmaps require standardized maturation benchmarks, GMP-compatible production, and multi-omics-informed quality controls. Large-animal studies are essential to align substrate preferences, metabolic rates, and redox regulation with human iPSC-CMs. A clear framework for regulatory approval and safety assessment remains to be established."
+      },
+      {
+        "title": "5. Limitations",
+        "content": "Limitations include gaps in quantitative datasets, in vitro model constraints, species-specific biases, incomplete integration of multi-omics data, and translational challenges. The lack of standardized metabolic benchmarks hinders cross-laboratory comparability, and there is a need for human-specific metabolic reference standards. The review notes gaps in integration of single-cell omics and proteomics for deeper mechanistic insight."
+      },
+      {
+        "title": "6. Conclusions",
+        "content": "Metabolic immaturity in iPSC-CMs remains a major bottleneck for cardiac regeneration. While FAO induction, glucose restriction, and electrical pacing have yielded meaningful improvements, maturation toward adult-like energetics and contractile function remains incomplete. The convergence of metabolic reprogramming, biomechanical conditioning, and bioelectrical stimulation, guided by computational and multi-omics analyses, offers a path forward to clinically viable iPSC-CM maturation. Standardized maturation indices and integrative approaches will be key to translating iPSC-CMs from bench to bedside."
+      }
+    ],
+    "figures": [
+      {
+        "id": "Figure 1",
+        "caption": "Systematic flow chart of pooled journals."
+      },
+      {
+        "id": "Figure 2",
+        "caption": "Real-time energy production shift in iPSC-CMs: glycolysis to oxidative phosphorylation transition map."
+      },
+      {
+        "id": "Figure 3",
+        "caption": "Summary flow of mitochondrial immaturity in iPSC-CMs: bridging cellular challenges to translational potentials."
+      }
+    ],
+    "tables": [
+      {
+        "id": "Table 2",
+        "caption": "Characteristics of included studies on mitochondrial maturation strategies in iPSC-CM (2006\u20132025).",
+        "data": {
+          "headers": [
+            "No.",
+            "Intervention",
+            "Model Used",
+            "Metabolic Assay",
+            "Key Findings",
+            "Maturation Markers"
+          ],
+          "rows": [
+            [
+              "1",
+              "Dai et al. (2017)",
+              "Human iPSC-CM",
+              "OCR; EM",
+              "\u2191 ETC complex activity",
+              "\u2191 PGC-1\u03b1; \u2191 ATP"
+            ],
+            [
+              "2",
+              "Ye et al. (2021)",
+              "iPSC-CM + AMPK activator",
+              "ATP assay; qPCR",
+              "\u2191 mitochondrial biogenesis",
+              "\u2191 CPT-1\u03b1; \u2191 ATP; \u2191 OCR"
+            ],
+            [
+              "3",
+              "Yang et al. (2019)",
+              "iPSC-CM + Palmitate + oleic acid",
+              "Seahorse XF96 assay; EM; RNA sequencing",
+              "\u2191 FAO; \u2191 mtDNA; \u2191 mitochondrial area; \u2191 cristae structure",
+              "\u2191 OCR; \u2191 PDK4"
+            ],
+            [
+              "4",
+              "Rana et al. (2012)",
+              "iPSC-CM + Palmitate + L-carnitine",
+              "Seahorse XF; metabolomics",
+              "\u2193 glycolysis; \u2191 FAO",
+              "\u2191 CPT1B; \u2191 FAO; \u2191 cristae density"
+            ],
+            [
+              "5",
+              "Horikoshi et al. (2019)",
+              "iPSC-CM + FA-rich, PPPAR/PGC-1\u03b1 activation",
+              "Metabolic media; (PGC-1\u03b1 activation)",
+              "\u2191 OXPHOS; \u2191 force generation; \u2191 calcium handling",
+              "\u2191 COX5B; \u2191 mitochondrial density"
+            ],
+            [
+              "6",
+              "Correia et al. (2017)",
+              "iPSC-CM + Palmitate + Galactose; metabolic media",
+              "Seahorse XF; qPCR",
+              "\u2191 OXPHOS; \u2191 respiratory capacity",
+              "\u2191 CPT1A; \u2191 SDHB"
+            ],
+            [
+              "7",
+              "Feyen et al. (2020)",
+              "Metabolic maturation media (glucose deprivation; FAO stimulation)",
+              "Seahorse XF; AP duration",
+              "\u2191 FAO; \u2193 glycolysis",
+              "\u2191 CPT1B; \u2191 PGC-1\u03b1"
+            ],
+            [
+              "8",
+              "Canfield et al. (2016)",
+              "Glucose challenge",
+              "Glucose assay",
+              "ROS and ATP changes under glucose perturbation",
+              "\u2193 mitochondrial fusion (under low glucose)"
+            ],
+            [
+              "9",
+              "Miklas (2019)",
+              "HADHA knockdown + FAO activation",
+              "Seahorse XF; metabolomics",
+              "HADHA necessary for FAO and cardiolipin remodeling",
+              "\u2193 FAO genes (CPT1, ACADVL)"
+            ],
+            [
+              "10",
+              "Vuckovi\u0107 (2022)",
+              "Long-term culture; metabolic substrate; hormonal stimulation",
+              "Seahorse XF; metabolomics",
+              "\u2191 FAO; altered metabolism in disease model",
+              "\u2191 CPT1B; \u2191 C0X4; \u2193 glycolytic shift"
+            ],
+            [
+              "11",
+              "Uche et al. (2023)",
+              "Carvedilol preconditioning + hypoxia",
+              "Seahorse XF; immunostaining",
+              "PGC-1\u03b1\u2013driven biogenesis; preserved ETC activity",
+              "PGC-1\u03b1; ERR\u03b1; TFAM; complex I\u2013IV activity"
+            ],
+            [
+              "12",
+              "Peters et al. (2022)",
+              "Hypoxia + FAO media",
+              "LDH release; glucose/lactate measurements",
+              "\u2191 OCR in normoxia; \u2193 glycolysis",
+              "\u2191 mitochondrial density; \u2191 FAO enzymes"
+            ],
+            [
+              "13",
+              "Chirico et al. (2022)",
+              "mTOR inhibition (Asiatic acid/GW501516)",
+              "Extracellular Flux Analyzer; qPCR",
+              "\u2191 OXPHOS; \u2191 TCA cycle utilization",
+              "\u2191 ATP synthase subunits; \u2191 ETC components"
+            ],
+            [
+              "14",
+              "Ulmer et al. (2019)",
+              "ECM composition + cyclic stretch + FA",
+              "RNA-seq; ATP assays",
+              "\u2191 mitochondrial density; \u2191 CPT1B; \u2191 PPAR\u03b1",
+              "\u2191 ETFDH; \u2191 mtDNA content"
+            ],
+            [
+              "15",
+              "Ronaldson-Bouchard et al. (2018)",
+              "3D iPSC-CM tissue; mechanical stretch",
+              "Seahorse XF24; EM",
+              "\u2191 mitochondrial maturation; \u2191 cristae structure",
+              "\u2191 ATP; \u2191 T-tubules"
+            ],
+            [
+              "16",
+              "Xu et al. (2022)",
+              "PGC-1\u03b1 overexpression during differentiation; HIF-1\u03b1 inhibition+PPAR\u03b1 agonist",
+              "Seahorse XF; TEM",
+              "\u2191 OXPHOS; \u2191 TFAM",
+              "\u2191 PGC-1\u03b1; \u2191 OCR"
+            ],
+            [
+              "17",
+              "Zhou et al. (2021)",
+              "PGC-1\u03b1 overexpression",
+              "qPCR; Western blot",
+              "\u2191 OXPHOS; \u2191 ATP; \u2191 calcium handling",
+              "\u2191 NRF1; \u2191 mtDNA"
+            ],
+            [
+              "18",
+              "Gentillon et al. (2019)",
+              "NRF2 inhibition; HIF-1\u03b1 modulation",
+              "Seahorse; TEM",
+              "\u2191 Cristae complexity; \u2191 mitochondrial maturation",
+              "\u2191 TFAM; \u2191 PGC-1\u03b1"
+            ],
+            [
+              "19",
+              "Zhang et al. (2021)",
+              "NRF2 overexpression/knockdown",
+              "TMRM; ATP; TEM",
+              "\u2191 mitochondrial structure and function",
+              "\u2191 OCR; \u2191 mito density"
+            ],
+            [
+              "20",
+              "Nunes (2013)",
+              "Electrical pacing (Biowire)",
+              "Seahorse XF; Mitotracker",
+              "Pacing improved respiration and ATP; sarcomere alignment",
+              "\u2191 Mitochondrial density; \u2191 calcium handling"
+            ],
+            [
+              "21",
+              "Vacek et al. (2011)",
+              "Electrical stimulation",
+              "Zymography; EM",
+              "Mitochondrial remodeling; effects on MMP",
+              "\u2191 remodeling; changes in cristae integrity"
+            ],
+            [
+              "22",
+              "Ozcebe et al. (2025)",
+              "Adult heart ECM signals",
+              "Seahorse; ATP; TEM; TMRM",
+              "ECM improves mitochondrial maturation",
+              "\u2191 MMP; \u2191 OCR"
+            ],
+            [
+              "23",
+              "Yang et al. (2024)",
+              "Cell-specific computational models from optical experiments",
+              "Multi-omics profiling; computational modeling",
+              "Predictive models of bioenergetics state; maturation benchmarks",
+              "\u2191 Complex I/II activity; \u2191 ATP"
+            ],
+            [
+              "24",
+              "Nam et al. (2024)",
+              "Mitochondrial delivery for CiCM maturation",
+              "qPCR; Western blot; TEM; OCR; glycolytic assay",
+              "Maturation via mitochondrial transfer",
+              "\u2191 PGC-1\u03b1; \u2191 TFAM"
+            ],
+            [
+              "25",
+              "Jiang et al. (2024)",
+              "Metabolic assessment methodologies in hiPSC-CMs",
+              "Not specified",
+              "Limitations in metabolism assessment; need for integrated approaches",
+              "Not specified"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "Table 3",
+        "caption": "Mitochondrial developmental transition in fetal, iPSC-CM, and adult cardiomyocytes.",
+        "data": {
+          "headers": [
+            "Feature",
+            "Fetal CMs",
+            "iPSC-CMs",
+            "Adult CMs"
+          ],
+          "rows": [
+            [
+              "ATP Source",
+              ">50\u201380% Glycolysis",
+              "~50\u201380% Glycolysis [26,56]",
+              "70\u201390% OXPHOS [23,78,80,84]"
+            ],
+            [
+              "OXPHOS-derived ATP (% of Adult)",
+              "~20\u201330%",
+              "~16.3\u201330%",
+              "100%"
+            ],
+            [
+              "Mitochondrial Volume (% Cell)",
+              "~5\u20138%",
+              "7\u201310%",
+              "~30%"
+            ],
+            [
+              "Cristae Morphology",
+              "Sparse/immature",
+              "Sparse/immature",
+              "Dense/complex"
+            ],
+            [
+              "ROS Levels",
+              "Low",
+              "High",
+              "Moderate"
+            ],
+            [
+              "Antioxidant Genes (SOD1, SOD2, PRDX3)",
+              "Low",
+              "Low",
+              "High"
+            ],
+            [
+              "Maturation Genes (PGC-1\u03b1, SIRT1)",
+              "Low",
+              "Low",
+              "High"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "Table 4",
+        "caption": "Translational benchmarking: current iPSC-CM maturation strategies vs. clinical viability thresholds.",
+        "data": {
+          "headers": [
+            "Parameter",
+            "Current iPSC-CMs",
+            "Clinical Viability Threshold",
+            "Deficit",
+            "Urgency",
+            "Benchmark"
+          ],
+          "rows": [
+            [
+              "FAO Substrate Utilization",
+              "10\u201320%",
+              "~60\u201370%",
+              "\u221240\u201360%",
+              "High",
+              "Adult human CMs"
+            ],
+            [
+              "ATP-linked Respiration",
+              "~50%",
+              "~85%",
+              "\u221235%",
+              "High",
+              "Engineered Heart Tissue (EHT)"
+            ],
+            [
+              "Engraftment Survival",
+              "10\u201320%",
+              ">50%",
+              "\u221240%",
+              "High",
+              "Animal graft studies"
+            ],
+            [
+              "Electrophysiological Stability",
+              "~70%",
+              ">95%",
+              "\u221225%",
+              "Medium",
+              "Optical pacing with EHT"
+            ],
+            [
+              "ROS Burden",
+              "~2.5\u00d7",
+              "1\u00d7",
+              "\u22121.5\u00d7",
+              "High",
+              "Antioxidant patches and metabolic control"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "Table 5",
+        "caption": "Quantification of mitochondrial reprogramming success rates: AMPK, PPAR\u03b4, and hypoxia-reoxygenation interventions.",
+        "data": {
+          "headers": [
+            "Intervention",
+            "Cristae Expansion",
+            "Engraftment Survival",
+            "ATP Increase (%)",
+            "FAO Gene Upregulation",
+            "ROS Reduction (%)",
+            "Rate (Qualitative)"
+          ],
+          "rows": [
+            [
+              "AMPK Activation",
+              "+40\u201370%",
+              "\u2191 30%",
+              "+40\u201370%",
+              "+40\u201370%",
+              "\u221250%",
+              "\u2191"
+            ],
+            [
+              "PPAR\u03b4 Agonist",
+              "+55%",
+              "\u2191 40%",
+              "+40\u201370%",
+              "+80%",
+              "\u221245%",
+              "\u2191"
+            ],
+            [
+              "Hypoxia-Reoxygenation",
+              "+35%",
+              "~+20%",
+              "+35%",
+              "+50%",
+              "\u221230%",
+              "\u2191"
+            ],
+            [
+              "Combined Strategy",
+              "+75%",
+              "+",
+              "+75%",
+              "+90%",
+              "+50%",
+              "\u2191"
+            ]
+          ]
+        }
+      },
+      {
+        "id": "Table 6",
+        "caption": "Translational mitochondrial maturation metrics: from iPSC-CMs to adult cardiomyocytes.",
+        "data": {
+          "headers": [
+            "Parameter",
+            "iPSC-CMs",
+            "Adult CMs",
+            "Translational Relevance"
+          ],
+          "rows": [
+            [
+              "Cristae Morphology",
+              "Sparse/immature",
+              "Dense, organized",
+              "Essential for ATP production"
+            ],
+            [
+              "Mitochondrial Density",
+              "7\u201310%",
+              "~30%",
+              "Critical for energy supply"
+            ],
+            [
+              "Substrate Preference (Glycolysis vs. FAO)",
+              "Glycolysis-dominant",
+              "Predominant FAO",
+              "Maturation toward adult metabolism"
+            ],
+            [
+              "ATP Generation Efficiency",
+              "Low (glycolytic)",
+              "High (OXPHOS)",
+              "Energy demands of mature CMs"
+            ],
+            [
+              "OXPHOS Enzyme Expression",
+              "Immature",
+              "Robust",
+              "Needed for mitochondrial function"
+            ],
+            [
+              "ROS Handling/Redox Balance",
+              "High ROS",
+              "Balanced ROS",
+              "Prevents oxidative damage"
+            ]
+          ]
+        }
+      }
+    ],
+    "equations": [
+      {
+        "id": "Theorem 1",
+        "latex": "MiPSC-CM/MAdult-CM = (0.07 to 0.10)/(0.30) \u2248 0.23;\\, ATP_{OXPHOS}(iPSC-CM) \u2248 0.20 \\times ATP_{OXPHOS}(Adult)."
+      }
+    ],
+    "experimental_setup": {
+      "description": "Systematic review protocol following PRISMA guidelines. Data sources included PubMed, Scopus, Web of Science, Medline, Embase, IEEE Xplore, Cochrane Library, Europe PMC, ScienceDirect, SpringerLink, DOAJ, and Google Scholar. Included studies ranged from January 2006 to January 2025 and focused on metabolic interventions, bioengineering approaches, and computational strategies for iPSC-CM mitochondrial maturation. Inclusion criteria emphasized original research, systematic reviews, or meta-analyses with quantitative mitochondrial structure or function metrics; exclusion criteria filtered out unrelated stem cell types or studies lacking experimental validation. Data extraction prioritized metabolic flux assays, mitochondrial morphology and function, in vivo engraftment, bioinformatics analyses, and computational modeling. Data synthesis integrated qualitative and quantitative findings, with bias assessment via ROBINS-I and RoB 2 where applicable."
+    },
+    "experimental_results": {
+      "summary": "From 25 included studies, metabolic preconditioning (notably fatty acid supplementation and FAO activation) improved mitochondrial architecture, cristae density, and ATP production; substrate manipulation shifted iPSC-CM metabolism toward adult-like FAO/OXPHOS balance; pathway modulation (PGC-1\u03b1, AMPK, mTOR) refined mitochondrial biogenesis and respiratory capacity. Biophysical conditioning (electrical pacing, ECM cues, mechanical load) enhanced mitochondrial density and oxidative gene expression. Computational and multi-omics approaches augmented predictive power for maturation trajectories and identified master regulators. Baseline iPSC-CMs exhibit fetal-like metabolism with limited cristae density and mitochondrial content, driving energy inefficiency; thus integrated strategies are required to achieve clinically relevant maturity."
+    },
+    "data_availability": {
+      "statement": "The article is open access and distributed under the Creative Commons Attribution license (CC BY). Data sources are within the article and its references."
+    },
+    "code_availability": {
+      "repository_url": "N/A"
+    }
+  },
+  "references": [
+    {
+      "id": "1",
+      "title": "The heart of the world",
+      "authors": [
+        "Di Cesare",
+        "Perel",
+        "Taylor",
+        "Kabudula",
+        "Bixby",
+        "Gaziano",
+        "McGhie",
+        "Mwangi",
+        "Pervan",
+        "Narula",
+        "et al."
+      ]
+    },
+    {
+      "id": "2",
+      "title": "The 30 years of Shifting in the Indonesian Cardiovascular Burden\u2014Analysis of the Global Burden of Disease Study",
+      "authors": [
+        "Muharram",
+        "Multazam",
+        "Mustofa",
+        "Socha",
+        "Andrianto",
+        "Martini",
+        "Aminde",
+        "Yi-Li",
+        "Ch"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Development and validation of a cardiovascular disease risk prediction model for the Japanese working population: The Japan Epidemiology Collaboration on Occupational Health Study",
+      "authors": [
+        "Hu",
+        "Nakagawa",
+        "Honda",
+        "Yamamoto",
+        "Kochi",
+        "Okazaki",
+        "Miyamoto",
+        "Ogasawara",
+        "Gommori",
+        "Yamamoto",
+        "et al."
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Cardiovascular disease in the Americas: The epidemiology of cardiovascular disease and its risk factors",
+      "authors": [
+        "Joseph",
+        "Lanas",
+        "Roth",
+        "Lopez-Jaramillo",
+        "Lonn",
+        "Miller",
+        "Mente",
+        "Leong",
+        "Schwalm",
+        "Yusuf",
+        "et al."
+      ]
+    },
+    {
+      "id": "5",
+      "title": "The 30 years of Shifting in the Indonesian Cardiovascular Burden\u2014Analysis of the Global Burden of Disease Study",
+      "authors": [
+        "Alfian",
+        "Permata",
+        "Griselda",
+        "Puspitasari",
+        "Abdulah"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Mitochondrial maturation in human pluripotent stem cell derived cardiomyocytes",
+      "authors": [
+        "Dai",
+        "Danoviz",
+        "Wiczer",
+        "Laflamme",
+        "Tian"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Structural Analysis of Mitochondria in Cardiomyocytes: Insights into Bioenergetics and Membrane Remodeling",
+      "authors": [
+        "Adams",
+        "Liu",
+        "Hsieh",
+        "Marko",
+        "Lederer",
+        "Jafri",
+        "Mannella"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Metabolic gene expression in fetal and failing human heart",
+      "authors": [
+        "Razeghi",
+        "Young",
+        "Alcorn",
+        "Moravec",
+        "Frazier",
+        "Taegtmeyer"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "Characterization of cardiac metabolism in iPSC-derived cardiomyocytes",
+      "authors": [
+        "Vuc\u030ckovic\u0301",
+        "Dinani",
+        "Nollet",
+        "Kuster",
+        "Buikema",
+        "Goversen",
+        "Nabben",
+        "van der Velden",
+        "Goversen"
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Fatty acid metabolism and cardiolipin remodeling in human cardiomyocytes",
+      "authors": [
+        "Miklas",
+        "Clark",
+        "Levy",
+        "Detraux",
+        "Leonard",
+        "Beussman",
+        "Showalter",
+        "Smith",
+        "Hofsteen",
+        "Yang"
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Metabolic maturation media improve physiological function of human iPSC-Derived cardiomyocytes",
+      "authors": [
+        "Feyen",
+        "McKeithan",
+        "Bruyneel",
+        "Spiering",
+        "Hegyi",
+        "Ulmer",
+        "Zhang",
+        "Briganti",
+        "Schweizer",
+        "Hegyi",
+        "et al."
+      ]
+    },
+    {
+      "id": "12",
+      "title": "High glucose attenuates anesthetic cardioprotection in Stem-Cell\u2013Derived cardiomyocytes: The role of ROS",
+      "authors": [
+        "Canfield",
+        "Zaja",
+        "Godshaw",
+        "Twaroski",
+        "Bai",
+        "Bosnjak",
+        "Z.J.",
+        "Ch"
+      ]
+    },
+    {
+      "id": "13",
+      "title": "TFPa/HADHA is required for fatty acid beta-oxidation and cardiolipin remodeling in human cardiomyocytes",
+      "authors": [
+        "Miklas",
+        "Clark",
+        "Levy",
+        "Detraux",
+        "Leonard",
+        "Beussman",
+        "Showalter",
+        "Smith",
+        "Hofsteen",
+        "Yang"
+      ]
+    },
+    {
+      "id": "14",
+      "title": "Carvedilol phenocopies PGC-1A overexpression to alleviate oxidative stress in iPSC-derived cardiomyocytes",
+      "authors": [
+        "Uche",
+        "Dai",
+        "Lai",
+        "Kolander",
+        "Thao",
+        "Schibly",
+        "Sendaydiego",
+        "Zielonka",
+        "Benjamin",
+        "I.J."
+      ]
+    },
+    {
+      "id": "15",
+      "title": "Maturation of human iPSC-derived cardiomyocytes via multi-omics approaches",
+      "authors": [
+        "Gentillon",
+        "Li",
+        "Duan",
+        "Yu",
+        "Rampoldi",
+        "Saraf",
+        "Gibson",
+        "Qu",
+        "K.",
+        "et al."
+      ]
+    },
+    {
+      "id": "16",
+      "title": "NRF2 is required for structural and metabolic maturation of human iPSC-derived cardiomyocytes",
+      "authors": [
+        "Zhang",
+        "Ye",
+        "Xu",
+        "Zhou",
+        "Tan",
+        "Yi",
+        "Tian",
+        "Zhu"
+      ]
+    },
+    {
+      "id": "17",
+      "title": "Maturation of iPSC-derived cardiomyocytes: Limitations and challenges from metabolic aspects",
+      "authors": [
+        "Jiang",
+        "Lian",
+        "Wei",
+        "Zhang",
+        "Yu",
+        "Li",
+        "Ma",
+        "Cai",
+        "Pang",
+        "Li"
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Activation of AMPK promotes maturation of cardiomyocytes derived from human induced pluripotent stem cells",
+      "authors": [
+        "Ye",
+        "Zhang",
+        "Zhou",
+        "Tan",
+        "Xu",
+        "Yi",
+        "Yan",
+        "Xie",
+        "Zhang",
+        "Tian"
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Fatty Acids Enhance the Maturation of Cardiomyocytes Derived from Human Pluripotent Stem Cells",
+      "authors": [
+        "Yang",
+        "Rodriguez",
+        "Leonard",
+        "Sun",
+        "Fischer",
+        "Wang",
+        "Ritterhoff",
+        "Zhao",
+        "Kolwicz",
+        "Pabon",
+        "et al."
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Metabolic maturation of iPSC-derived cardiomyocytes by inhibition of HIF1\u03b1 and LDHA",
+      "authors": [
+        "Correia",
+        "Koshkin",
+        "Duarte",
+        "Hu",
+        "Teixeira",
+        "Domian",
+        "Serra",
+        "Alves"
+      ]
+    },
+    {
+      "id": "21",
+      "title": "Advanced maturation of human cardiac tissue grown from pluripotent stem cells",
+      "authors": [
+        "Ronaldson-Bouchard",
+        "Ma",
+        "Yeager",
+        "Chen",
+        "Song",
+        "Sirabella",
+        "Morikawa",
+        "Teles",
+        "Yazawa",
+        "Vunjak-Novakovic"
+      ]
+    },
+    {
+      "id": "22",
+      "title": "Biowire: A platform for maturation of human pluripotent stem cell\u2013derived cardiomyocytes",
+      "authors": [
+        "Nunes",
+        "Miklas",
+        "Liu",
+        "Aschar-Sobbi",
+        "Xiao",
+        "Zhang",
+        "Jiang",
+        "Mass\u00e9",
+        "Gagliardi",
+        "Hsieh",
+        "et al."
+      ]
+    },
+    {
+      "id": "23",
+      "title": "Metabolic reprogramming via mitochondrial delivery for enhanced maturation of chemically induced cardiomyocyte-like cells",
+      "authors": [
+        "Nam",
+        "Song",
+        "Seo",
+        "Ko",
+        "Lee",
+        "Cha",
+        "Kwak",
+        "Kim",
+        "Shin",
+        "Jin",
+        "et al."
+      ]
+    },
+    {
+      "id": "24",
+      "title": "Contractile work contributes to maturation of energy metabolism in hiPSC-derived cardiomyocytes",
+      "authors": [
+        "Ulmer",
+        "Stoehr",
+        "Schulze",
+        "Patel",
+        "Gucek",
+        "Mannhardt",
+        "Funcke",
+        "Murphy",
+        "Eschenhagen",
+        "Hansen",
+        "et al."
+      ]
+    },
+    {
+      "id": "25",
+      "title": "Mitochondrial dynamics and maturation in hiPSC-derived cardiomyocytes",
+      "authors": [
+        "Spurlock",
+        "Xie",
+        "Song",
+        "Ricketts",
+        "Hua",
+        "Chi",
+        "Nishtala",
+        "Salmenov",
+        "Liu",
+        "Qian",
+        "et al."
+      ]
+    }
+  ]
+}

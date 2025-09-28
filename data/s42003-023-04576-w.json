@@ -1,0 +1,715 @@
+{
+  "metadata": {
+    "title": "Enhanced mitochondrial biogenesis promotes neuroprotection in human pluripotent stem cell derived retinal ganglion cells",
+    "authors": [
+      {
+        "name": "Michelle Surma"
+      },
+      {
+        "name": "Kavitha Anbarasu"
+      },
+      {
+        "name": "Sayanta Dutta"
+      },
+      {
+        "name": "Leonardo J. Olivera Perez"
+      },
+      {
+        "name": "Kang-Chieh Huang"
+      },
+      {
+        "name": "Jason S. Meyer"
+      },
+      {
+        "name": "Arupratan Das"
+      }
+    ],
+    "abstract": "Mitochondrial dysfunctions are widely affl icted in central nervous system (CNS) disorders with minimal understanding on how to improve mitochondrial homeostasis to promote neuroprotection. Here we have used human stem cell differentiated retinal ganglion cells (hRGCs) of the CNS, which are highly sensitive towards mitochondrial dysfunctions due to their unique structure and function, to identify mechanisms for improving mitochondrial quality control (MQC). We show that hRGCs are efficient in maintaining mitochondrial homeostasis through rapid degradation and biogenesis of mitochondria under acute damage. Using a glaucomatous Optineurin mutant (E50K) stem cell line, we show that at basal level mutant hRGCs possess less mitochondrial mass and suffer mitochondrial swelling due to excess ATP production load. Activation of mitochondrial biogenesis through pharmacological inhibition of the Tank binding kinase 1 (TBK1) restores energy homeostasis, mitigates mitochondrial swelling with neuroprotection against acute mitochondrial damage for glaucomatous E50K hRGCs, revealing a novel neuroprotection mechanism.",
+    "tags": [
+      "mitochondrial biogenesis",
+      "mitochondrial quality control",
+      "MQC",
+      "mitophagy",
+      "AMPK",
+      "PGC1\u03b1",
+      "NRF1",
+      "NRF2",
+      "TFAM",
+      "PGC1\u03b2",
+      "PRC",
+      "AMPK\u03b1",
+      "TBK1",
+      "BX795",
+      "Optineurin",
+      "OPTN E50K",
+      "glaucoma",
+      "retinal ganglion cells",
+      "RGCs",
+      "hRGCs",
+      "human pluripotent stem cells",
+      "CRISPR",
+      "iPSC",
+      "hESC",
+      "mitochondrial dynamics",
+      "OXPHOS",
+      "ATP",
+      "energy homeostasis",
+      "seahorse",
+      "JC-1",
+      "MitoTracker Deep Red (MTDR)",
+      "mitochondrial DNA copy number",
+      "mitochondrial swelling",
+      "neuroprotection",
+      "optic neuropathies",
+      "neurodegeneration",
+      "drug modulation",
+      "TBK1 inhibition",
+      "mitochondrial mass",
+      "mitochondrial ultrastructure",
+      "TEM",
+      "Retinal disease",
+      "energy sensing",
+      "pharmacology",
+      "experimental stem cell model",
+      "granular respiration",
+      "optineurin aggregates"
+    ]
+  },
+  "content": {
+    "sections": [
+      {
+        "title": "Abstract and Introduction",
+        "content": "Mitochondrial dysfunctions are widely affl icted in CNS disorders with minimal understanding on how to improve mitochondrial homeostasis to promote neuroprotection. Here we have used human stem cell differentiated retinal ganglion cells (hRGCs) of the CNS, which are highly sensitive towards mitochondrial dysfunctions due to their unique structure and function, to identify mechanisms for improving mitochondrial quality control (MQC). We show that hRGCs are efficient in maintaining mitochondrial homeostasis through rapid degradation and biogenesis of mitochondria under acute damage. Using a glaucomatous Optineurin mutant (E50K) stem cell line, we show that at basal level mutant hRGCs possess less mitochondrial mass and suffer mitochondrial swelling due to excess ATP production load. Activation of mitochondrial biogenesis through pharmacological inhibition of the Tank binding kinase 1 (TBK1) restores energy homeostasis, mitigates mitochondrial swelling with neuroprotection against acute mitochondrial damage for glaucomatous E50K hRGCs, revealing a novel neuroprotection mechanism."
+      },
+      {
+        "title": "RGCs and mitochondrial homeostasis under acute damage",
+        "content": "Neurons require an increased supply of ATP compared to other cells in order to establish membrane potential for neurotransmission and synaptic activity. Oxidative phosphorylation (OXPHOS) in mitochondria is the primary source for cellular ATP, thus mitochondrial dysfunction often associates with neurodegenerative diseases. Retinal ganglion cells (RGCs) of the optic nerve require a steady source of ATP for their firing and long axons make them particularly vulnerable. Differentiated hRGCs used here are well characterized and show hallmark features of human RGCs, including neuronal markers, RGC-specific markers, and electrophysiological properties. To investigate MQC in human RGCs, we used a glaucoma-associated OPTN E50K mutation in human stem cells to model disease in a dish. We asked if hRGCs can maintain mitochondrial homeostasis under acute damage and found that under CCCP-induced acute mitochondrial damage, hRGCs activate the mitochondrial biogenesis pathway to sustain mitochondrial homeostasis."
+      },
+      {
+        "title": "Measurement of mitochondrial turnover and biogenesis",
+        "content": "To directly measure degradation and biogenesis, we used mitochondria-specific dyes and flow cytometry. MTDR retention reflects active membrane potential and amino-reactive covalent binding to mitochondria; the loss of MTDR signal after CCCP indicates degradation of labeled mitochondria, while recovery after CCCP wash indicates biogenesis of newly synthesized mitochondria. We used MTDR labeling followed by a CCCP treatment and measured labeled mitochondrial mass at multiple time points to track degradation. For biogenesis, we pre-label mitochondria with MTDR, apply CCCP to induce damage, wash, and then re-label with MTDR to detect newly synthesized mitochondria, allowing separation of degraded versus newly formed mitochondria in single cells."
+      },
+      {
+        "title": "Biogenesis signaling via AMPK\u2013PGC1\u03b1 axis under mitochondrial damage",
+        "content": "AMP-activated protein kinase (AMPK) is the master energy sensor that activates mitochondrial biogenesis via PGC1\u03b1. TBK1 normally inhibits AMPK activity by phosphorylation to reduce energy expenditure; TBK1 inhibition has been shown to increase energy expenditure and promote biogenesis. We hypothesized that CCCP-induced damage would activate AMPK\u2013PGC1\u03b1 axis in hRGCs to drive biogenesis. The AMPK\u2013PGC1\u03b1 axis leads to transcriptional activation of NRF transcription factors and mitochondrial biogenesis genes such as NRF1, NRF2, PRC, and TFAM, enabling replication and maintenance of mtDNA."
+      },
+      {
+        "title": "Biogenesis signaling activation in WT and E50K hRGCs",
+        "content": "We observed significant increases in biogenesis genes (PGC1\u03b1, PGC1\u03b2, NRF2, NRF1, PRC) in both WT and E50K hRGCs upon CCCP-induced damage. Biochemical activation showed an early increase in p-AMPK\u03b1Thr172 and p-PGC1\u03b1Ser571, with a more pronounced PGC1\u03b1 activation in E50K hRGCs, indicating stronger biogenesis signaling is invoked to compensate for damaged mitochondria."
+      },
+      {
+        "title": "TBK1 inhibition promotes mitochondrial biogenesis in hRGCs",
+        "content": "TBK1 inhibition with BX795 increased mitochondrial mass in both WT and E50K hRGCs, with a robust response in E50K hRGCs. TBK1 inhibition also increased mtDNA copy number, and induced AMPK\u2013PGC1\u03b1 signaling in WT cells; however, in E50K cells, activation of AMPK\u2013PGC1\u03b1 was less clear for some timepoints, suggesting alternative or additional TBK1-dependent biogenesis pathways may operate in glaucomatous hRGCs. PGC1\u03b2 was upregulated in response to BX795, especially in E50K cells, suggesting a PGC1\u03b1-independent biogenesis route as well."
+      },
+      {
+        "title": "Mitochondrial ultrastructure reveals TBK1 inhibition improves mitochondrial coverage and swelling in E50K hRGCs",
+        "content": "Transmission electron microscopy showed lower mitochondrial coverage in E50K hRGCs at baseline, with increased perimeter and axis lengths indicative of swelling. BX795 treatment increased mitochondrial coverage and altered ultrastructure in both WT and E50K hRGCs, including changes in perimeter and major/minor axes consistent with enhanced mitochondrial remodeling and potential ATP production capacity."
+      },
+      {
+        "title": "TBK1 inhibition restores energy homeostasis and provides neuroprotection for E50K hRGCs",
+        "content": "Metabolic analyses using Seahorse demonstrated that BX795 increased mitoATP production rates in E50K hRGCs, and reduced the mitoOCR/glycoPER ratio, indicating less reliance on oxidative phosphorylation per mitochondrion after biogenesis. Under basal and CCCP conditions, BX795 improved spare respiratory capacity, enabling higher ATP production during stress. BX795 also reduced caspase-3/7 activity, indicating reduced apoptosis, and dissolution of OPTN E50K aggregates was observed with TBK1 inhibition, contributing to neuroprotection."
+      },
+      {
+        "title": "Discussion",
+        "content": "The study identifies mitochondrial biogenesis as a critical MQC step that can be pharmacologically activated to promote neuronal survival in both WT and glaucomatous hRGCs. Activation of the AMPK\u2013PGC1\u03b1 axis under mitochondrial damage drives biogenesis, while TBK1 inhibition via BX795 augments mitochondrial biogenesis and improves energy homeostasis, reducing swelling and apoptosis in E50K hRGCs. These findings point to TBK1 as a potential therapeutic target for optic neuropathies characterized by mitochondrial dysfunction, with potential applicability to other CNS disorders where mitochondrial homeostasis is compromised. The data suggest a dual mechanism: (i) restoration of energy balance via increased biogenesis and (ii) dissolution of OPTN aggregates that contribute to neuroprotection. Further work is needed to delineate TBK1\u2013PGC1\u03b2\u2013NRF pathways and their contributions to biogenesis in glaucomatous cells."
+      }
+    ],
+    "figures": [
+      {
+        "id": "Figure 1",
+        "caption": "Fig. 1 hRGCs maintain mitochondrial mass by simultaneous degradation and biogenesis of mitochondria under damage. a, b Representative confocal immunofluorescence images of H7-hRGCs against mitochondrial Tom20, tdTomato, and DAPI after indicated 10 \u03bcM CCCP treatment timepoints. Scale bars are 5 \u03bcm. c, d Quantification of Tom20 intensity per cell area from sum projections of confocal z-stacks, normalized to corresponding DMSO. n = 14\u201342 cells per condition. e, f Mitochondrial DNA copy number analyzed by qPCR for mitochondrial ND1 gene relative to nuclear RNase P. Results shown as \u0394\u0394Ct fold changes relative to DMSO control for different times points of 10 \u03bcM CCCP treatment. n = 3, 3 technical repeats averaged for each biological repeat. g Schematic of MTDR flow experiments for tracking degrading versus newly synthesized mitochondria. h Mitochondrial mass in single cells at different CCCP (10 \u03bcM) treatment time points for degradation or m different timepoints post CCCP (10 \u03bcM) wash for biogenesis were measured by flow cytometer, and the average fluorescence intensity normalized to DMSO was plotted. n = 3. i, k Representative western blot images of LC3B and actin from i hRGCWT and k hRGCE50K treated with CCCP (10 \u03bcM) for the indicated timepoints. j, l Quantification of the ratio of LC3B-II to corresponding LC3B-I for each condition. n = 3. "
+      },
+      {
+        "id": "Figure 2",
+        "caption": "Fig. 2 Under acute damage hRGCs possess efficient mitochondrial turnover mechanisms. a Schematic of JC1 experiment to monitor mitochondrial degradation and biogenesis under CCCP stress. b Representative confocal images of JC1 labeled mitochondria in hRGCs before and after 10 min CCCP (10 \u03bcM) treatment. JC1 dye was added 30 min before CCCP and was present during treatments. Scale bars are 5 \u03bcm. c Quantification of the red-to-green fluorescence intensity ratios from the sum projections of confocal z-stacks, normalized to the corresponding before treatment values. n = 17-42 hRGCs. d Schematic of JC1 experimental design to study restoration of mitochondrial homeostasis after CCCP washout. e Representative confocal images of JC1 labeled mitochondria in hRGCs treated with DMSO or CCCP (10 \u03bcM) for 30 min, washed, labeled with JC1 dye, washed again, and then imaged without JC1 dye. f Quantification of the red-to-green fluorescence intensity ratios from sum projections, normalized to respective DMSO control. n = 32-43 hRGCs."
+      },
+      {
+        "id": "Figure 3",
+        "caption": "Fig. 3 Mitochondrial damage activates the AMPK\u03b1-PGC1\u03b1 biogenesis axis in hRGCs. Mitochondrial biogenesis gene expressions in a H7-hRGCWT, b H7-hRGCE50K, c iPSC-hRGCE50K-corr, and d iPSC-hRGCE50K after 24 h CCCP (10 \u03bcM) treatment. \u0394\u0394Ct fold changes were measured relative to GAPDH, and then DMSO. n = 3, 3 technical repeats averaged for each biological repeat. e Representative western blot images of H7-hRGCs treated with 10 \u03bcM CCCP for the indicated timepoints. f\u2013i For each protein, band intensities were quantified and first normalized to corresponding actin loading control, then to its DMSO values, f, g ratio between p-AMPK\u03b1Thr172 to AMPK\u03b1, and h, i ratio between p-PGC1\u03b1Ser571 to PGC1\u03b1. n = 3. "
+      },
+      {
+        "id": "Figure 4",
+        "caption": "Fig. 4 TBK1 inhibition activates mitochondrial biogenesis in hRGCs. a Representative confocal immunofluorescence images of mitochondria (Tom20), tdTomato, and DAPI after 1 \u03bcg/ml BX795 or equivalent DMSO treatment for the indicated time. Scale bars are 10 \u03bcm. b Quantification of Tom20 intensity per cell area from the sum projections of confocal z-stacks. n = 10 cells per condition. c, d Mitochondrial DNA copy number analyzed by qPCR for mitochondrial ND1 gene normalized to nuclear RNase P gene. Results shown as \u0394\u0394Ct fold change normalized to DMSO control for different times points of 1 \u03bcg/ml BX795 treatment. n = 3, 3 technical repeats averaged for each biological repeat. e Representative western blot images of H7-hRGCs treated with 1 \u03bcg/ml BX795 for indicated timepoints. f\u2013i For each protein, band intensities were quantified and first normalized to corresponding GAPDH loading control, then to its DMSO values, f, g ratio between p-AMPK\u03b1Thr172 to AMPK\u03b1, and h, i ratio between p-PGC1\u03b1Ser571 to PGC1\u03b1. n = 3-4."
+      },
+      {
+        "id": "Figure 5",
+        "caption": "Fig. 5 TBK1 inhibition improves mitochondrial coverage and mitigates swelling in E50K hRGCs. a TEM images of H7-hRGCWT and H7-hRGCE50K after 24 h DMSO or BX795 (1 \u03bcg/ml) treatment, at 49000X magnification. Asterisks represent mitochondria. Scale bar = 200 nm. b Quantification of mitochondrial coverage (mitochondrial area/cytoplasm area) for each image. c perimeter length, d major axis length, and e minor axis length for each mitochondrion. b Unpaired t-test or c\u2013e Mann\u2013Whitney U test between independent datasets, p-values < 0.05 to < 0.0001; n = 15\u201324."
+      },
+      {
+        "id": "Figure 6",
+        "caption": "Fig. 6 BX795 mediated TBK1 inhibition restores energy homeostasis and provides neuroprotection in glaucomatous hRGCs. a Measurements of cell area normalized OCR from the ATP rate assay of hRGCs treated with DMSO or BX795 for 24 h. b Calculated total-, mito-, and glyco- ATP production rates from the ATP rate assay. c, d Measurements of cell area normalized OCR and PER from the glycolytic rate assay. e Calculated mitoOCR/glycoPER from the glycolytic rate assay. f, g Measurements of cell area normalized OCR from the Mito Stress Test of WT and E50K with BX795. h Spare respiratory capacity after 24 h treatment with BX795. i\u2013l Caspase-3/7 activity measured under various treatments. j, l show WT and E50K responses; l also shows basal Caspase activity in E50K with BX795. n values show biological replicates; statistical significance indicated as in the figure legends."
+      }
+    ],
+    "tables": [],
+    "equations": [],
+    "experimental_setup": {
+      "description": "Cell lines and differentiation: Human embryonic stem cell (H7-hESC) lines with CRISPR-engineered BRN3B-P2A-tdTomato-P2A-Thy1.2 reporter to label RGCs and glaucomatous OPTN E50K mutant (H7-E50K); patient-derived iPSCs with E50K mutation (iPSC-E50K) and corrected isogenic controls (iPSC-E50Kcorr). Cells were maintained in mTeSR1 on Matrigel and differentiated to hRGCs per published protocols with MACS-based purification of BRN3B+ RGCs. TBK1 inhibitor BX795 (1 \u03bcg/ml) and vehicle controls (DMSO) were used to modulate biogenesis pathways. CCCP (10 \u03bcM) was used to induce acute mitochondrial damage. Mitochondrial turnover was assessed using MTDR and JC1 dyes in flow cytometry and live imaging, respectively. Mitochondrial biogenesis signaling was monitored by qPCR for PGC1\u03b1, PGC1\u03b2, NRF1, NRF2, PRC, and TFAM; protein activation states were assessed by Western blot for p-AMPK\u03b1Thr172 and p-PGC1\u03b1Ser571. Mitochondrial ultrastructure was examined by TEM. Mitochondrial function was evaluated using Seahorse XFe96 Analyzer (ATP rate assay, glycolytic rate assay, Mito Stress Test), ATP measurement, caspase-3/7 activity, and OPTN aggregate visualization. Data availability and supplementary materials were provided."
+    },
+    "experimental_results": {
+      "summary": "Key findings: hRGCs rapidly degrade damaged mitochondria via mitophagy and simultaneously initiate biogenesis to maintain mitochondrial mass under acute CCCP damage. AMPK\u03b1\u2013PGC1\u03b1 signaling is activated by mitochondrial damage to drive biogenesis; E50K hRGCs show reduced basal mitochondrial mass and heightened swelling under stress. TBK1 inhibition with BX795 increases mitochondrial biogenesis and mass in both WT and E50K hRGCs, with PGC1\u03b2 upregulation particularly in E50K cells. BX795 also reduces mitochondrial swelling, decreases basal and damage-induced Caspase activity, and increases spare respiratory capacity, indicating improved energy homeostasis. In WT cells, BX795 robustly activates AMPK\u2013PGC1\u03b1 signaling; in E50K cells, biogenesis appears partially AMPK\u2013PGC1\u03b1-independent but still results in increased mitochondrial mass. OPTN E50K aggregates are reduced upon BX795 treatment, contributing to neuroprotection. These results demonstrate that pharmacological TBK1 inhibition can promote MQC and protect hRGCs from acute mitochondrial damage, offering a potential therapeutic strategy for glaucoma-linked optic neuropathies."
+    },
+    "data_availability": {
+      "statement": "The data used to create all figure graphs is provided in Supplementary Data 1. All uncropped western blots are presented in Supplementary Fig. 6. All cell lines and data used during the current study are available from the corresponding author upon reasonable request."
+    },
+    "code_availability": {
+      "repository_url": ""
+    }
+  },
+  "references": [
+    {
+      "id": "1",
+      "title": "Mitochondria and neuronal activity",
+      "authors": [
+        "Kann",
+        "Kov\u00e1cs"
+      ]
+    },
+    {
+      "id": "2",
+      "title": "Mitochondrial optic neuropathies - Disease mechanisms and therapeutic strategies",
+      "authors": [
+        "Yu-Wai-Man",
+        "Griffiths",
+        "Chinnery"
+      ]
+    },
+    {
+      "id": "3",
+      "title": "Mitochondrial dysfunction within the synapses of substantia nigra neurons in Parkinson\u2019s disease",
+      "authors": [
+        "Reeve",
+        "et al."
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Massive mitochondrial degeneration in motor neurons triggers the onset of amyotrophic lateral sclerosis in mice expressing a mutant SOD1",
+      "authors": [
+        "Kong",
+        "Xu"
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Drug discovery strategies for inherited retinal degenerations",
+      "authors": [
+        "Das",
+        "Imanishi"
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Understanding glaucomatous optic neuropathy: the synergy between clinical observation and investigation",
+      "authors": [
+        "Quigley"
+      ]
+    },
+    {
+      "id": "7",
+      "title": "Saltatory conduction in unmyelinated axons: clustering of Na+ channels on lipid rafts enables micro-saltatory conduction in C-fibers",
+      "authors": [
+        "Neishabouri",
+        "Faisal"
+      ]
+    },
+    {
+      "id": "8",
+      "title": "Leber hereditary optic neuropathy",
+      "authors": [
+        "Man",
+        "Turnbull",
+        "Chinnery"
+      ]
+    },
+    {
+      "id": "9",
+      "title": "OPA1 mutations associated with dominant optic atrophy impair oxidative phosphorylation and mitochondrial fusion",
+      "authors": [
+        "Zanna",
+        "et al."
+      ]
+    },
+    {
+      "id": "10",
+      "title": "Evaluation of nine candidate genes in patients with normal tension glaucoma: a case control study",
+      "authors": [
+        "Wolf",
+        "et al."
+      ]
+    },
+    {
+      "id": "11",
+      "title": "Adult-onset primary open-angle glaucoma caused by mutations in optineurin",
+      "authors": [
+        "Rezaie",
+        "et al."
+      ]
+    },
+    {
+      "id": "12",
+      "title": "Variation in optineurin (OPTN) allele frequencies between and within populations",
+      "authors": [
+        "Ayala-Lugo",
+        "et al."
+      ]
+    },
+    {
+      "id": "13",
+      "title": "AMPP-activated protein kinase (AMPK): mechanisms of cellular energy sensing and restoration of metabolic balance",
+      "authors": [
+        "Garcia",
+        "Shaw"
+      ]
+    },
+    {
+      "id": "14",
+      "title": "AMP-activated protein kinase (AMPK) controls the aging process via an integrated signaling network",
+      "authors": [
+        "Salminen",
+        "Kaarniranta"
+      ]
+    },
+    {
+      "id": "15",
+      "title": "TBK1 at the crossroads of inflammation and energy homeostasis in adipose tissue",
+      "authors": [
+        "Zhao",
+        "et al."
+      ]
+    },
+    {
+      "id": "16",
+      "title": "Hallmarks of brain aging: adaptive and pathological modification by metabolic states",
+      "authors": [
+        "Mattson",
+        "Arumugam"
+      ]
+    },
+    {
+      "id": "17",
+      "title": "AMP-activated protein kinase (AMPK) action in skeletal muscle via direct phosphorylation of PGC-1\u03b1",
+      "authors": [
+        "J\u00e4er",
+        "Handschin",
+        "St-Pierre",
+        "Spiegelman"
+      ]
+    },
+    {
+      "id": "18",
+      "title": "Interaction of adipocyte metabolic and immune functions through TBK1",
+      "authors": [
+        "Zhao",
+        "Saltiel"
+      ]
+    },
+    {
+      "id": "19",
+      "title": "Molecular classification and comparative taxonomics of foveal and peripheral cells in primate retina",
+      "authors": [
+        "Peng",
+        "et al."
+      ]
+    },
+    {
+      "id": "20",
+      "title": "Enhanced stem cell differentiation and immunopurification of genome engineered human retinal ganglion cells",
+      "authors": [
+        "Sluch",
+        "et al."
+      ]
+    },
+    {
+      "id": "21",
+      "title": "Differentiation of human ESCs to retinal ganglion cells using a CRISPR engineered reporter cell line",
+      "authors": [
+        "Sluch",
+        "et al."
+      ]
+    },
+    {
+      "id": "22",
+      "title": "Role of the internal limiting membrane in structural engraftment and topographic spacing of transplanted human stem cell-derived retinal ganglion cells",
+      "authors": [
+        "Zhang",
+        "et al."
+      ]
+    },
+    {
+      "id": "23",
+      "title": "Drug discovery strategies for inherited retinal degenerations",
+      "authors": [
+        "Das",
+        "et al."
+      ]
+    },
+    {
+      "id": "24",
+      "title": "Stepwise differentiation of retinal ganglion cells from human pluripotent stem cells enables analysis of glaucomatous neurodegeneration",
+      "authors": [
+        "Ohlemacher",
+        "et al."
+      ]
+    },
+    {
+      "id": "25",
+      "title": "Retinal ganglion cells with a glaucoma OPTN(E50K) mutation exhibit neurodegenerative phenotypes when derived from three-dimensional retinal organoids",
+      "authors": [
+        "VanderWall",
+        "et al."
+      ]
+    },
+    {
+      "id": "26",
+      "title": "The protonophore CCCP interferes with lysosomal degradation of autophagic cargo in yeast and mammalian cells",
+      "authors": [
+        "Padman",
+        "Bach",
+        "Lucarelli",
+        "Prescott",
+        "Ramm"
+      ]
+    },
+    {
+      "id": "27",
+      "title": "Uncoupled mitochondria quickly shorten along their long axis to form indented spheroids, instead of rings, in a fission-independent manner",
+      "authors": [
+        "Miyazono",
+        "et al."
+      ]
+    },
+    {
+      "id": "28",
+      "title": "Flow cytometry-based assessment of mitophagy using mitotracker",
+      "authors": [
+        "Xiao",
+        "Deng",
+        "Zhou",
+        "Tan"
+      ]
+    },
+    {
+      "id": "29",
+      "title": "No Parkin zone: mitophagy without Parkin",
+      "authors": [
+        "Villa",
+        "Marchetti",
+        "Ricci"
+      ]
+    },
+    {
+      "id": "30",
+      "title": "An Atg4B mutant hampers the lipidation of LC3 paralogues and causes defects in autophagosome closure",
+      "authors": [
+        "Fujita",
+        "et al."
+      ]
+    },
+    {
+      "id": "31",
+      "title": "Analysis of the mitochondrial membrane potential using JC-1 dye as a sensitive fluorescent probe",
+      "authors": [
+        "Sivandzade",
+        "Bhalerao",
+        "Cucullo"
+      ]
+    },
+    {
+      "id": "32",
+      "title": "Spontaneous changes in mitochondrial membrane potential in cultured neurons",
+      "authors": [
+        "Buckman",
+        "Reynolds"
+      ]
+    },
+    {
+      "id": "33",
+      "title": "Regulation of mitochondrial biogenesis and GLUT4 expression by exercise",
+      "authors": [
+        "Holloszy"
+      ]
+    },
+    {
+      "id": "34",
+      "title": "Intermittent metabolic switching, neuroplasticity and brain health",
+      "authors": [
+        "Mattson",
+        "Moehl",
+        "Ghena",
+        "Schmaedick",
+        "Cheng"
+      ]
+    },
+    {
+      "id": "35",
+      "title": "AMP-activated protein kinase-an energy sensor that regulates all aspects of cell function",
+      "authors": [
+        "Hardie",
+        "G."
+      ]
+    },
+    {
+      "id": "36",
+      "title": "The tumor suppressor LKB1 kinase directly activates AMP-activated kinase and regulates apoptosis in response to energy stress",
+      "authors": [
+        "Shaw",
+        "et al."
+      ]
+    },
+    {
+      "id": "37",
+      "title": "Mechanisms controlling mitochondrial biogenesis and respiration through PGC-1 signaling",
+      "authors": [
+        "Wu",
+        "et al."
+      ]
+    },
+    {
+      "id": "38",
+      "title": "Regulation of mitochondrial biogenesis as a way for active longevity: Interaction between Nrf2 and PGC-1\u03b1 signaling pathways",
+      "authors": [
+        "Gureev",
+        "Shaforostova",
+        "Popov"
+      ]
+    },
+    {
+      "id": "39",
+      "title": "Transcriptional integration of mitochondrial biogenesis",
+      "authors": [
+        "Scarpulla",
+        "Vega",
+        "Kelly"
+      ]
+    },
+    {
+      "id": "40",
+      "title": "Use of BX795 to study the regulation and physiological roles of TBK1 and I\u03baB Kinase \u03b5",
+      "authors": [
+        "Clark",
+        "Plater",
+        "Peggie",
+        "Cohen"
+      ]
+    },
+    {
+      "id": "41",
+      "title": "Significance of optineurin mutations in glaucoma and other diseases",
+      "authors": [
+        "Minegishi",
+        "et al."
+      ]
+    },
+    {
+      "id": "42",
+      "title": "Mitochondrial morphology and function impaired by dimethyl sulfoxide and dimethyl formamide",
+      "authors": [
+        "Ma",
+        "et al."
+      ]
+    },
+    {
+      "id": "43",
+      "title": "PGC-1\u03b2-Regulated mitochondrial biogenesis and function in myotubes is mediated by NRF-1 and ERR\u03b1",
+      "authors": [
+        "Shao",
+        "et al."
+      ]
+    },
+    {
+      "id": "44",
+      "title": "The regulation of the matrix volume of mammalian mitochondria in vivo and in vitro and its role in the control of mitochondrial metabolism",
+      "authors": [
+        "Halestrap",
+        "P. A."
+      ]
+    },
+    {
+      "id": "45",
+      "title": "Structural alterations of the inner mitochondrial membrane in ischemic liver cell injury",
+      "authors": [
+        "Okayasu",
+        "Curtis",
+        "Farber"
+      ]
+    },
+    {
+      "id": "46",
+      "title": "Modeling analysis of mitochondrial swelling",
+      "authors": [
+        "Javadov",
+        "Chapa-Dubocq",
+        "Makarov"
+      ]
+    },
+    {
+      "id": "47",
+      "title": "Mitochondrial dynamics maintain muscle stem cell regenerative competence by regulating metabolism and mitophagy",
+      "authors": [
+        "Hong",
+        "et al."
+      ]
+    },
+    {
+      "id": "48",
+      "title": "Mitochondrial reserve respiratory capacity and aging",
+      "authors": [
+        "Desler",
+        "et al."
+      ]
+    },
+    {
+      "id": "49",
+      "title": "Aerobic glycolysis: beyond proliferation",
+      "authors": [
+        "Jones",
+        "Bianchi"
+      ]
+    },
+    {
+      "id": "50",
+      "title": "Is there a link between mitochondrial reserve respiratory capacity and aging?",
+      "authors": [
+        "Desler",
+        "et al. \u2013 2012"
+      ]
+    },
+    {
+      "id": "51",
+      "title": "Mechanisms of retinal ganglion cell injury and defense in glaucoma",
+      "authors": [
+        "Qu",
+        "Wang",
+        "Grosskreutz"
+      ]
+    },
+    {
+      "id": "52",
+      "title": "Protein aggregation and neurodegenerative disease",
+      "authors": [
+        "Ross",
+        "Poirier"
+      ]
+    },
+    {
+      "id": "53",
+      "title": "Enhanced optineurin E50k-TBK1 interaction evokes protein insolubility and initiates familial primary open-angle glaucoma",
+      "authors": [
+        "Minegishi",
+        "et al."
+      ]
+    },
+    {
+      "id": "54",
+      "title": "Structural insights into optineurin\u2013TBK1 interaction in disease",
+      "authors": [
+        "Li",
+        "et al."
+      ]
+    },
+    {
+      "id": "55",
+      "title": "Retinal ganglion cells: energetics, compartmentation, axonal transport, cytoskeletons and vulnerability",
+      "authors": [
+        "Yu",
+        "et al."
+      ]
+    },
+    {
+      "id": "56",
+      "title": "AMPP-activated protein kinase (AMPK): a nutrient and energy sensor that maintains energy homeostasis",
+      "authors": [
+        "Hardie",
+        "et al."
+      ]
+    },
+    {
+      "id": "57",
+      "title": "Functions of AMPK in adipose tissue",
+      "authors": [
+        "Daval",
+        "Foufelle",
+        "Ferr\u00e9"
+      ]
+    },
+    {
+      "id": "58",
+      "title": "AMP-activated protein kinase: the current landscape for drug development",
+      "authors": [
+        "Steinberg",
+        "Carling"
+      ]
+    },
+    {
+      "id": "59",
+      "title": "The role of AMPK in controlling metabolism and mitochondrial biogenesis during exercise",
+      "authors": [
+        "Marcinko",
+        "Steinberg"
+      ]
+    },
+    {
+      "id": "60",
+      "title": "AMPK-dependent and -independent coordination of mitochondrial function and muscle fiber type",
+      "authors": [
+        "Xiao",
+        "et al."
+      ]
+    },
+    {
+      "id": "61",
+      "title": "Mitochondrial dysfunction in the aging retina",
+      "authors": [
+        "Eells"
+      ]
+    },
+    {
+      "id": "62",
+      "title": "TBK1 gene duplication and normal-tension glaucoma",
+      "authors": [
+        "Ritch",
+        "et al."
+      ]
+    },
+    {
+      "id": "63",
+      "title": "Human TBK1 deficiency leads to autoinflammation driven by TNF-induced cell death",
+      "authors": [
+        "Taft",
+        "et al."
+      ]
+    },
+    {
+      "id": "64",
+      "title": "An inhibitor of TBK1 and IKK-\u03b5 improves obesity-related metabolic dysfunctions in mice",
+      "authors": [
+        "Reilly",
+        "et al."
+      ]
+    },
+    {
+      "id": "65",
+      "title": "Phosphorylation of OPTN by TBK1 enhances its binding to Ub chains and promotes selective autophagy of damaged mitochondria",
+      "authors": [
+        "Richter",
+        "et al."
+      ]
+    },
+    {
+      "id": "66",
+      "title": "Mitophagy in Alzheimer\u2019s disease and other age-related neurodegenerative diseases",
+      "authors": [
+        "Cai",
+        "Jeong"
+      ]
+    },
+    {
+      "id": "67",
+      "title": "ALS- and FTD-associated missense mutations in TBK1 differentially disrupt mitophagy",
+      "authors": [
+        "Harding",
+        "et al."
+      ]
+    }
+  ]
+}
