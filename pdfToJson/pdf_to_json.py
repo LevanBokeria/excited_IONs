@@ -114,7 +114,13 @@ def main(filename: str, schema: str = '../schemas/basic_schema_openai.json',
         print("\n" + "="*50)
         print("FINAL RESULT:")
         print("="*50)
-        print(json.dumps(parsed_json, indent=2))
+        js = json.dumps(parsed_json, indent=2)
+        print(js)
+
+        # now write to file
+        outfile = filename.replace(".pdf", ".json")
+        with open(outfile, "w") as f:
+            f.write(js)
     except json.JSONDecodeError as e:
         print(f"\n❌ Error parsing JSON response: {e}")
         print("Raw response:")
