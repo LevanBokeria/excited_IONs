@@ -65,8 +65,6 @@ def pdf_to_mardown(pdf_path: str) -> str:
         capture_output=True,
         text=True,
     )
-    raise Exception(result.stdout)
-
     if result.returncode != 0:
         logger.error(f"Error running docling: {result.stderr}")
         print("Error running docling:", result.stderr)
