@@ -1,0 +1,68 @@
+{
+  "metadata": {
+    "title": "Enhancement of Mitochondrial Transfer by Antioxidants in Human Mesenchymal Stem Cells via Tunneling Nanotubes",
+    "authors": [
+      {
+        "name": "Chia-Jung Li"
+      },
+      {
+        "name": "Po-Kong Chen"
+      },
+      {
+        "name": "Li-Yi Sun"
+      },
+      {
+        "name": "Cheng-Yoong Pang"
+      }
+    ],
+    "abstract": "Excessive reactive oxygen species is the major component of a harsh microenvironment after ischemia/reperfusion injury in human tissues. Combined treatment of N-acetyl-L-cysteine (NAC) and L-ascorbic acid 2-phosphate (AAP) promoted the growth of human mesenchymal stem cells (hMSCs) and suppressed oxidative stress-induced cell death by enhancing mitochondrial integrity and function in vitro. In this study, we aimed to determine whether NAC and AAP (termed MCA) could enhance the therapeutic potential of hMSCs. We established a coculture system consisting of MCA-treated and H2O2-treated hMSCs and investigated the role of tunneling nanotubes (TNTs) in the exchange of mitochondria between the 2 cell populations. The consequences of mitochondria exchange were assessed by fluorescence confocal microscopy and flow cytometry. The results showed that MCA could increase the mitochondrial mass, respiratory capacity, and numbers of TNTs in hMSCs. The 'energized' mitochondria were transferred to the injured hMSCs via TNTs, the oxidative stress was decreased, and the mitochondrial membrane potential of the H2O2-treated hMSCs was stabilized. The transfer of mitochondria decreased the expression of S616-phosphorylated dynamin-related protein 1, a protein that dictates the fragmentation/fission of mitochondria. Concurrently, MCA also enhanced mitophagy in the coculture system, implicating that damaged mitochondria were eliminated in order to maintain cell physiology."
+  },
+  "figures": [
+    {
+      "id": "Figure 1",
+      "caption": "MCA improved mitochondrial biogenesis and bioenergetics in hMSCs. Mitochondrial dehydrogenase activity (a) and mitochondrial mass (b) of hMSCs treated with or without MCA for 24 h was assessed by CCK-8 assay and flow cytometric analysis of MitoTracker Red-labeled mitochondria, respectively. (c) The cell density of hMSCs with or without MCA treatment for 24 h was assessed by counting the harvested cells and normalized to the area of the culture flask. (d) The mitochondria of the hMSCs with or without MCA treatment were labeled with MitoTracker Red and subjected to confocal microscopy. The mitochondria were classified using MicroP software according to their morphology: small globules, linear tubules, loops, branched tubules, and twisted tubules. Three major types of mitochondria were quantified: globular, tubular, and branched ((e), upper panel), as well as their total length ((e), lower panel). (f) Mitochondrial bioenergetics of the indicated cells was determined by oxygen consumption rate (OCR) using Oroboros Oxygraph-2k analyzer. The MCA consisted of 2 mM NAC and 0.2 mM AAP. The concentrations of NAC and AAP were 2 mM and 0.2 mM, respectively, in monotreatments. OCR measured at basal respiration (upper left), maximal respiration (upper right), ATP-coupled respiration (lower left), and spare capacity (lower right) were shown. * p < 0 05 , ** p < 0 01 , *** p < 0 001 , as compared to the control (Ctrl); n.s., not significant."
+    },
+    {
+      "id": "Figure 2",
+      "caption": "Mitochondria transfer was enhanced in hMSCs after MCA treatment. (a) Representative images of mitochondria transfer to H2O2 treated hMSCs from hMSCs with (right panel) or without (left panel) MCA treatment. The MitoTracker Red-labeled mitochondria from the healthy hMSCs were also clearly seen in TNT formed between the recipient and donor (inset i). Both MitoTracker Red- and Green-labeled mitochondria were found in the recipient cells (inset ii). The Pearson correlation coefficient are also shown to demonstrate the colocalization of the MitoTracker Red and Green labelled mitochondria after coculture [30]. The results showed that the colocalization coefficient in the (ii) of upper panel (24 h coculture of control hMSCs and H2O2-treated hMSCs) is 0.594, while that in the (ii) of lower panel (24 h coculture of MCA-treated hMSCs and H2O2-treated hMSCs) is 0.908. The colocalization coefficient can be further represented as pseudocolor changes: orange dots represent highly overlapping, while purple dots represent no overlapping. A 2.5-dimensional fluorescence reconstruction analysis of the respective images in (a) further confirmed that the red fluorescence was predominantly found in the TNT form between MCA-treated hMSCs and H2O2-treated hMSCs (b). Scale bar: 20 \u03bcm."
+    },
+    {
+      "id": "Figure 3",
+      "caption": "MCA enhanced TNT formation after coculture. TNTs decreased when microtubule-disrupting agent nocodazole (50 \u03bc M) was included in the coculture system (a). The number of TNTs were enumerated and classified per 100 cells, and the proportion of TNTs that connected multiple cells increased from 34% to 44% after MCA treatment (b). Nocodazole almost disrupted multiple connected-TNTs in the coculture system. A representative image of long TNT after MCA treatment in the coculture system is shown in (c). The average length of TNTs formed in coculture containing H2O2-treated hMSCs and hMSCs with or without MCA were 53.5 \u03bc m and 28.5 \u03bc m, respectively (d). TNTs that were more than 50 \u03bc m in length was 35.7% in the coculture containing MCA-treated and H2O2-treated hMSCs as compared to only 8.6% in the non-MCA-treated hMSCs coculture (e). * p < 0 05 , as compared to the non-MCA-treated hMSCs coculture. Scale bar: 20 \u03bc m."
+    },
+    {
+      "id": "Figure 4",
+      "caption": "MCA enhanced mitochondria transfer to the injured hMSCs. (a) The MitoTracker Red-labeled mitochondria from the MCAtreated hMSCs were longer than the non-MCA-treated hMSCs in the coculture, as well as the numbers of TNTs formed (see enlarged insets). The actin was stained with phalloidin (blue fluorescence) in both coculture. (b) The MitoTracker Red-labeled mitochondria that resided along the TNTs were also longer in coculture containing MCA-treated hMSCs (right panel and inset) as compared to the one with non MCA-treated hMSCs (left panel and inset). (c) Healthy hMSCs with or without MCA treatment were labeled with CFDA and MitoTracker Red before coculture. After 24 h coculture with H2O2-treated hMSCs, all cells were harvested and subjected to flow cytometric analysis. The CFDA-unlabeled cells were gated and the MitoTracker Red fluorescence was quantitated. The proportion of cells containing red fluorescence was 30.5% in coculture containing MCA-treated hMSCs as compared to the 16.3% in the control hMSCs coculture. ** p < 0 01 ."
+    },
+    {
+      "id": "Figure 5",
+      "caption": "MCA-hMSCs rescued injured cells by reducing oxidative stress. (a) Healthy hMSCs with or without MCA treatment were labeled with CFDA before coculture. After 24 h coculture with H2O2-treated hMSCs, all cells were harvested, stained with and MitoSOX Red, and subjected to flow cytometric analysis. The fluorescence of MitoSOX Red was determined separately in the CFDA-labeled and CFDAunlabeled cells. The proportion of injured cells (CFDA-unlabeled) with MitoSOX Red in coculture containing MCA-treated hMSCs was 24.4% as compared to the 37.1% in the control hMSCs coculture (b). However, the proportion of MitoSOX Red cells in the CFDA-labeled healthy cells did not differ much (c). The viability of injured cells increased after coculture (d). ** p < 0 01 , as compared with the control."
+    },
+    {
+      "id": "Figure 6",
+      "caption": "Maintenance of mitochondrial membrane potential (\u0394\u03a8m) after coculture with MCA-hMSCs. (a) The \u0394\u03a8mwas measured using JC-1 in hMSCs coculture system. The JC-1 was mostly red (indicating higher \u0394\u03a8m) in coculture containing MCA-treated hMSCs (right panel), and the mitochondria appeared to be longer as compared to the control hMSCs coculture (comparing the enlarged insets from the right and left panels). (b) The cocultured cells were analyzed with flow cytometry. The proportion of cells with lower \u0394\u03a8m (green fluorescence) decreased in coculture containing MCA-treated hMSCs. The rescue of \u0394\u03a8m in the coculture decreased significantly in coculture medium containing nocodazole (c). * p < 0 05 ."
+    },
+    {
+      "id": "Figure 7",
+      "caption": "MCA reduced mitochondrial fragmentation. (a) Representative images of mitochondrial morphology after cocultured. The mitochondria can be classified into small globular, linear tubular, branched tubular, twisted tubular, and looped types, using MicroP software. The two major types of mitochondria, the globular and tubular, were enumerated and the results were shown in (b). In coculture containing MCA-treated hMSCs, the proportion of globular mitochondria decreased, while the proportion of the healthier tubular mitochondria increased significantly. (c) The length of the mitochondria in the coculture containing MCA-treated hMSCs was longer than that in the control hMSCs coculture. The width of the mitochondria from both coculture did not differ. (d) Western blot analysis of Drp1 S616 and Mfn2. The fold ratios of lanes 2 and 3 were obtained after comparing to lane 1, while that of lane 5 were obtained after comparing to lane 4. * p < 0 05 , ** p < 0 01 , *** p < 0 001 , n.s., not significant. Scale bar: 20 \u03bc m."
+    },
+    {
+      "id": "Figure 8",
+      "caption": "Mitochondria transfer helped regulating mitochondria quality in the injured hMSCs. (a) The mitochondria from the H2O-hMSCs were labeled with MitoTracker Green, while the mitochondria from the healthy hMSCs were labeled with MitoTracker Red, respectively, before 6 h coculture. The number of MitoTracker Red-labeled mitochondria in the recipients increased in coculture containing MCAtreated hMSCs, while the MitoTracker Green-labeled mitochondria were shorter and tended to form aggregates (arrowheads in the enlarge insets). (b) Both cocultured cells were stained with MitoTracker Green and LysoRed to identify the fate of the short mitochondria. Many mitochondrial aggregates in the coculture containing MCA-treated hMSCs colocalized with LysoRed-labeled lysosomes (arrowheads in the enlarged insets of the right panel). (c) Fluorescence intensity analysis of the respective insets in (b) confirmed that the green fluorescence was in the same plane of the red fluorescence. Scale bar: 20 \u03bc m."
+    },
+    {
+      "id": "Figure 9",
+      "caption": "A schematic diagram showing TNT formation between injury and MCA-treated hMSCs. MCA can energize mitochondria and increase the number of TNTs in hMSCs. These healthy mitochondria can be transferred to the injured cells via TNTs and subsequently ameliorate oxidative stress, decrease mitochondrial damage/fragmentation/fission, and increase the turnover of damaged mitochondria by mitophagy."
+    }
+  ],
+  "tables": null,
+  "equations": null,
+  "experimental_setup": {
+    "description": "Human adipose-derived MSCs were cultured in IMDM supplemented with 10% FBS, 10 ng/mL FGF-2, and 2 mM L-glutamine. Experiments were conducted using MSCs between passages 3 and 6. For MCA treatment, cells were incubated with 2 mM NAC and 0.2 mM AAP for 24 hours. Oxidative stress was induced by treating cells with 0.5 mM H2O2 for 4 hours. Coculture experiments involved mixing healthy and H2O2-treated hMSCs at a 1:1 ratio. Mitochondria were labeled with MitoTracker Red (healthy cells) or MitoTracker Green (injured cells). Cell viability and mitochondrial function were assessed using various assays, including oxygen consumption rate, mitochondrial dehydrogenase activity, JC-1 staining for mitochondrial membrane potential, MitoSOX Red for mitochondrial ROS, and flow cytometry for quantification of mitochondria transfer and ROS levels. Tunneling nanotube formation was quantified by phalloidin staining of actin. Protein expression, specifically phospho-Drp-1 Ser616, was analyzed by Western blotting."
+  },
+  "experimental_results": {
+    "summary": "Treatment with N-acetyl-L-cysteine (NAC) and L-ascorbic acid 2-phosphate (AAP), termed MCA, enhanced human mesenchymal stem cell (hMSC) growth and survival by improving mitochondrial function and integrity. In a coculture system of MCA-treated and H2O2-treated hMSCs, MCA increased mitochondrial mass, respiratory capacity, and the formation of tunneling nanotubes (TNTs). Healthy hMSCs transferred 'energized' mitochondria to injured hMSCs via TNTs, reducing oxidative stress and stabilizing mitochondrial membrane potential. This transfer also decreased the phosphorylation of dynamin-related protein 1 (Drp1 S616), a protein involved in mitochondrial fragmentation. Furthermore, MCA treatment enhanced mitophagy, promoting the elimination of damaged mitochondria. Overall, MCA pretreatment improved the therapeutic potential of hMSCs by enhancing mitochondrial transfer and quality control, offering a novel strategy for stem cell-based therapy."
+  },
+  "data_availability": null,
+  "code_availability": null
+}
