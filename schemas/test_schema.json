@@ -119,12 +119,36 @@
     },
     "experimental_results": {
       "type": "object",
-      "description": "Experimental results and findings",
-      "required": ["summary"],
+      "description": "Experimental results and findings, including quantitative and qualitiative data",
+      "required": ["quantitative_data_points, quantitative_data_points"],
       "properties": {
-        "summary": {
-          "type": "string",
-          "description": "Summary of key experimental results"
+        "quantitative_data_points": {
+          "type": "array",
+          "description": "A list of all of quantitative data related to the results",
+          "items": {
+            "type": "object",
+            "required": ["quantitative_data_point"],
+            "properties": {
+              "quantitative_data_point": {
+                "type": "string",
+                "description": "This is some concrete quantitative data from the results."
+              }
+            }
+          }
+        },
+        "qualitative_data_points": {
+          "type": "array",
+          "description": "A list of all of qualitative data related to the results",
+          "items": {
+            "type": "object",
+            "required": ["qualitative_data_point"],
+            "properties": {
+              "qualitative_data_point": {
+                "type": "string",
+                "description": "This is some concrete qualitative data from the results."
+              }
+            }
+          }
         }
       }
     },
