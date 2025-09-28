@@ -1,0 +1,17 @@
+[project]
+name = "json-to-db"
+version = "0.1.0"
+description = "Convert JSON files to PostgreSQL database with pgvector extension"
+authors = [
+    {name = "Excited IONs", email = "test@example.com"}
+]
+dependencies = [
+    #"psycopg2",
+    "psycopg2-binary",
+    "sentence_transformers",
+    "typer",
+]
+requires-python = ">=3.9"
+
+[project.scripts]
+json-to-db = "json_to_db:main"
