@@ -934,7 +934,7 @@ def _download_pdf(entry, dest_dir: Path) -> Path | None:
             except Exception as exc:
                 print(f"Nature Communications script failed: {exc}")
 
-    if lower_journal == "nature aging":
+    if "nature aging" in lower_journal:
 
         print(f"Nature Aging routine.")
         doi = _extract_doi(entry)
@@ -1005,7 +1005,7 @@ def _download_pdf(entry, dest_dir: Path) -> Path | None:
             except Exception as exc:
                 print(f"Aging Cell script failed: {exc}")
 
-    if lower_journal == "geroscience":
+    if "geroscience" in lower_journal:
 
         print(f"GeroScience routine.")
         doi = _extract_doi(entry)

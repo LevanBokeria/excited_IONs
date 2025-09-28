@@ -12,3 +12,4 @@ fpdf2
 fpdf
 brotli
 pytest
+dotenv
