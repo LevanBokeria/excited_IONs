@@ -1,0 +1,14 @@
+# Core dependencies
+pandas
+numpy
+pyyaml
+openai
+anthropic
+feedparser
+dill
+strip-ansi
+PyPDF2
+fpdf2
+fpdf
+brotli
+pytest
