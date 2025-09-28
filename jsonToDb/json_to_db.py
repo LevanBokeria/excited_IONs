@@ -722,7 +722,7 @@ def main(json_directory: str = "../data",
         result = db.vector_search(query, embedding_types, limit, similarity_threshold, max_chunks_per_paper)
 
         for r in result:
-            print(r)
+            print(json.dumps(r, indent=2))
 
 if __name__ == "__main__":
     typer.run(main)
