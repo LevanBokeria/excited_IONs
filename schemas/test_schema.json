@@ -119,9 +119,13 @@
     },
     "experimental_results": {
       "type": "object",
-      "description": "Experimental results and findings, including quantitative and qualitiative data",
+      "description": "Experimental results and findings, including quantitative (numeric data) and qualitative data (e.g., observations)",
       "required": [],
       "properties": {
+        "summary": {
+          "type": "string",
+          "description": "Summary of key experimental results"
+        },
         "quantitative_data_points": {
           "type": "array",
           "description": "A list of all of quantitative data related to the results",
