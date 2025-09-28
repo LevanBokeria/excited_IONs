@@ -120,7 +120,7 @@
     "experimental_results": {
       "type": "object",
       "description": "Experimental results and findings, including quantitative and qualitiative data",
-      "required": ["quantitative_data_points, quantitative_data_points"],
+      "required": [],
       "properties": {
         "quantitative_data_points": {
           "type": "array",
