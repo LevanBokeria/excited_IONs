@@ -51,32 +51,32 @@
         "name": "Hongwei Ouyang"
       }
     ],
-    "abstract": "Mitochondria are vital organelles whose impairment leads to numerous metabolic disorders. Mitochondrial transplantation serves as a promising clinical therapy. However, its widespread application is hindered by the limited availability of healthy mitochondria, with the dose required reaching up to 10 9 mitochondria per injection/patient. This necessitates sustainable and tractable approaches for producing high-quality human mitochondria. In this study, we demonstrated a highly ef /uniFB01 cient mitochondriaproducing strategy by manipulating mitobiogenesis and tuning organelle balance in human mesenchymal stem cells (MSCs). Utilizing an optimized culture medium (mito-condition) developed from our established formula, we achieved an 854-fold increase in mitochondria production compared to normal MSC culture within 15 days. These mitochondria were not only signi /uniFB01 cantly expanded but also exhibited superior function both before and after isolation, with ATP production levels reaching 5.71 times that of normal mitochondria. Mechanistically, we revealed activation of the AMPK pathway and the establishment of a novel cellular state ideal for mitochondrial fabrication, characterized by enhanced proliferation and mitobiogenesis while suppressing other energy-consuming activities. Furthermore, the in vivo function of these mitochondria was validated in the mitotherapy in a mouse osteoarthritis model, resulting in signi /uniFB01 cant cartilage regeneration over a 12-week period. Overall, this study presented a new strategy for the off-the-shelf fabrication of human mitochondria and provided insights into the molecular mechanisms governing organelle synthesis."
+    "abstract": "Mitochondria are vital organelles whose impairment leads to numerous metabolic disorders. Mitochondrial transplantation serves as a promising clinical therapy. However, its widespread application is hindered by the limited availability of healthy mitochondria, with the dose required reaching up to 10 9 mitochondria per injection/patient. This necessitates sustainable and tractable approaches for producing high-quality human mitochondria. In this study, we demonstrated a highly efficient mitochondriaproducing strategy by manipulating mitobiogenesis and tuning organelle balance in human mesenchymal stem cells (MSCs). Utilizing an optimized culture medium (mito-condition) developed from our established formula, we achieved an 854-fold increase in mitochondria production compared to normal MSC culture within 15 days. These mitochondria were not only significantly expanded but also exhibited superior function both before and after isolation, with ATP production levels reaching 5.71 times that of normal mitochondria. Mechanistically, we revealed activation of the AMPK pathway and the establishment of a novel cellular state ideal for mitochondrial fabrication, characterized by enhanced proliferation and mitobiogenesis while suppressing other energy-consuming activities. Furthermore, the in vivo function of these mitochondria was validated in the mitotherapy in a mouse osteoarthritis model, resulting in significant cartilage regeneration over a 12-week period. Overall, this study presented a new strategy for the off-the-shelf fabrication of human mitochondria and provided insights into the molecular mechanisms governing organelle synthesis."
   },
   "figures": [
     {
       "id": "Figure 1",
-      "caption": "A combinatorial phenotypic screen identifies mito-condition for robust mitochondria production. a Schematic illustration of mitochondrial production for cartilage regeneration. b Schematic illustration of the screening of the ingredients of the medium. c The relative cell viability of tc-MSCs and mc-MSCs (well = 4). d The relative mitochondrial intensity of tc-MSCs and mc-MSCs (well = 4). e Representative images of mitochondria in tc-MSCs and mc-MSCs. Scale bar, 5 \u03bc m. Yellow arrows: mitochondria. f Representative transmission electron microscope (TEM) images of tc-MSCs and mc-MSCs. Scale bar, 2 \u03bc m. Red arrows: mitochondria. g Sphericity ratio of mitochondria of tc-MSCs and mc-MSCs from TEM images (54 and 40 mitochondria were calculated for tc-MSCs and mc-MSCs group respectively). h Number of mitochondria tc-MSCs and mc-MSCs from TEM images (17 and 23 cells were calculated for tc-MSCs and mc-MSCs group respectively). i Quanti\ufb01cation of mitochondrial protein content (well = 3). j Quanti\ufb01cation of the copy number of mtDNA (well = 3). All data are presented as mean \u00b1 SEM. *** P < 0.001, **** P < 0.000 1. P values were determined using unpaired two-tailed t-test ( , c d g j , -)"
+      "caption": "A combinatorial phenotypic screen identi /uniFB01 es mito-condition for robust mitochondria production. a Schematic illustration of mitochondrial production for cartilage regeneration. b Schematic illustration of the screening of the ingredients of the medium. c The relative cell viability of tc-MSCs and mc-MSCs (well = 4). d The relative mitochondrial intensity of tc-MSCs and mc-MSCs (well = 4). e Representative images of mitochondria in tc-MSCs and mc-MSCs. Scale bar, 5 \u03bc m. Yellow arrows: mitochondria. f Representative transmission electron microscope (TEM) images of tc-MSCs and mc-MSCs. Scale bar, 2 \u03bc m. Red arrows: mitochondria. g Sphericity ratio of mitochondria of tc-MSCs and mc-MSCs from TEM images (54 and 40 mitochondria were calculated for tc-MSCs and mc-MSCs group respectively). h Number of mitochondria tc-MSCs and mc-MSCs from TEM images (17 and 23 cells were calculated for tc-MSCs and mc-MSCs group respectively). i Quanti /uniFB01 cation of mitochondrial protein content (well = 3). j Quanti /uniFB01 cation of the copy number of mtDNA (well = 3). All data are presented as mean \u00b1 SEM. *** P &lt; 0.001, **** P &lt; 0.000 1. P values were determined using unpaired two-tailed t-test ( , c d g j , -)"
     },
     {
-      "id": "Figure 2",
-      "caption": "The mito-condition maintains sustainable mitochondrial reproduction during stem cell passaging. a Representative bright \ufb01eld images of primary cells from 3 donors. Scale bar, 20 \u03bc m. b PDT of tc-MSCs and mc-MSCs at P1-P5 (sample = 3 from different donors). c Total cell number of tc-MSCs and mc-MSCs at P1-P5 (sample = 3 from different donors). d Representative images of phalloidin staining, immunostaining of Ki67 and EdU, and CFU. Scale bar, 100 \u03bc m (for Ki67 and EdU) and 1 mm (for CFU). e Relative cell size of tc-MSCs and mcMSCs (well = 3 for each group, 54 and 40 cells were calculated for tc-MSCs and mc-MSCs group respectively). f Percent of Ki67 positive cells in tc-MSCs and mc-MSCs (cells in 9 \ufb01elds of view from 3 wells were calculated). g Percent of EdU positive cells in tc-MSCs and mc-MSCs (cells in 11 \ufb01elds of view from 3 wells were calculated). h The number of colonies of tc-MSCs and mc-MSCs (well = 3). i Representative images of MitoTracker labeled mitochondria in tc-MSCs and mc-MSCs at P1, P3, and P5. Scale bar, 20 \u03bc m. j Relative total MitoTracker \ufb02uorescence intensity in tc-MSCs and mc-MSCs at P1, P3, and P5 (well = 5). Cells at different passages were seeded with the same initial density and compared after a 3-day culture. k Relative mitochondrial number change of mc-MSCs/tc-MSCs at different passages (sample = 3 from different donors). All data are presented as mean \u00b1 SEM. * P < 0.05, ** P < 0.01, *** P < 0.001, **** P < 0.000 1. P values were determined using unpaired two-tailed t -test ( b c , , e h -, j )"
+      "id": "Fig. 2",
+      "caption": "The mito-condition maintains sustainable mitochondrial reproduction during stem cell passaging. a Representative bright /uniFB01 eld images of primary cells from 3 donors. Scale bar, 20 \u03bc m. b PDT of tc-MSCs and mc-MSCs at P1-P5 (sample = 3 from different donors). c Total cell number of tc-MSCs and mc-MSCs at P1-P5 (sample = 3 from different donors). d Representative images of phalloidin staining, immunostaining of Ki67 and EdU, and CFU. Scale bar, 100 \u03bc m (for Ki67 and EdU) and 1 mm (for CFU). e Relative cell size of tc-MSCs and mcMSCs (well = 3 for each group, 54 and 40 cells were calculated for tc-MSCs and mc-MSCs group respectively). f Percent of Ki67 positive cells in tc-MSCs and mc-MSCs (cells in 9 /uniFB01 elds of view from 3 wells were calculated). g Percent of EdU positive cells in tc-MSCs and mc-MSCs (cells in 11 /uniFB01 elds of view from 3 wells were calculated). h The number of colonies of tc-MSCs and mc-MSCs (well = 3). i Representative images of MitoTracker labeled mitochondria in tc-MSCs and mc-MSCs at P1, P3, and P5. Scale bar, 20 \u03bc m. j Relative total MitoTracker /uniFB02 uorescence intensity in tc-MSCs and mc-MSCs at P1, P3, and P5 (well = 5). Cells at different passages were seeded with the same initial density and compared after a 3-day culture. k Relative mitochondrial number change of mc-MSCs/tc-MSCs at different passages (sample = 3 from different donors). All data are presented as mean \u00b1 SEM. * P &lt; 0.05, ** P &lt; 0.01, *** P &lt; 0.001, **** P &lt; 0.000 1. P values were determined using unpaired two-tailed t -test ( b c , , e h -, j )"
     },
     {
       "id": "Fig. 3",
-      "caption": "The mito-condition produces energetic mitochondria for a robust energy supply. a OCR assay of tc-MSCs and mc-MSCs (replicate = 4). b Quantitative analysis of mitochondrial respiration pro\ufb01les (well = 4). c ATP content in tc-MSCs and mc-MSCs (well = 3). d JC-1 staining followed by \ufb02ow cytometric analysis and depolarization ratio of tc-MSCs and mc-MSCs (well = 3). e Analysis of ROS intensity through \ufb02ow cytometry and quanti\ufb01cation in tc-MSCs and mc-MSCs (replicate = 3). f Gene expression anylysis of OXPHOS-related genes ( ATP5A1 UQCRC1 , , and SDHB ) in tc-MSCs and mc-MSCs (well = 3). g Western blot (WB) analysis of OXPHOS-related proteins (ATP5A1, UQCRC1, SDHB, and MTCO2) expression in tc-MSCs and mc-MSCs. h Schematic diagram of mitochondria isolated from tc-MSCs and mc-MSCs. i ATP content of tc-Mito and mc-Mito (well = 3). j Quanti\ufb01cation of the JC-1 \ufb02uorescence ratio of tc-Mito and mc-Mito (well = 3). k OCR assay of tc-Mito and mc-Mito (well = 12). l Schematic illustration of the transplantation of tc-Mito and mc-Mito into MSCs. m Relative cell viability of MSCs after mitochondrial transplantation (well = 3). n ATP content of MSCs after (well = 3). All data are presented as mean \u00b1 SEM. * P < 0.05, ** P < 0.01, *** P < 0.001, **** P < 0.000 1. P values were determined using unpaired two-tailed t -test ( b f -, i , j ) or one-way ANOVA ( , f m n , )"
+      "caption": "The mito-condition produces energetic mitochondria for a robust energy supply. a OCR assay of tc-MSCs and mc-MSCs (replicate = 4). b Quantitative analysis of mitochondrial respiration pro /uniFB01 les (well = 4). c ATP content in tc-MSCs and mc-MSCs (well = 3). d JC-1 staining followed by /uniFB02 ow cytometric analysis and depolarization ratio of tc-MSCs and mc-MSCs (well = 3). e Analysis of ROS intensity through /uniFB02 ow cytometry and quanti /uniFB01 cation in tc-MSCs and mc-MSCs (replicate = 3). f Gene expression anylysis of OXPHOS-related genes ( ATP5A1 UQCRC1 , , and SDHB ) in tc-MSCs and mc-MSCs (well = 3). g Western blot (WB) analysis of OXPHOS-related proteins (ATP5A1, UQCRC1, SDHB, and MTCO2) expression in tc-MSCs and mc-MSCs. h Schematic diagram of mitochondria isolated from tc-MSCs and mc-MSCs. i ATP content of tc-Mito and mc-Mito (well = 3). j Quanti /uniFB01 cation of the JC-1 /uniFB02 uorescence ratio of tc-Mito and mc-Mito (well = 3). k OCR assay of tc-Mito and mc-Mito (well = 12). l Schematic illustration of the transplantation of tc-Mito and mc-Mito into MSCs. m Relative cell viability of MSCs after mitochondrial transplantation (well = 3). n ATP content of MSCs after (well = 3). All data are presented as mean \u00b1 SEM. * P &lt; 0.05, ** P &lt; 0.01, *** P &lt; 0.001, **** P &lt; 0.000 1. P values were determined using unpaired two-tailed t -test ( b f -, i , j ) or one-way ANOVA ( , f m n , )"
     },
     {
       "id": "Fig. 4",
-      "caption": "The mito-condition creates a sustainable energy-generating homeostasis by activating the AMPK pathway. a Volcano plots showing differently expressed genes between tc-MSCs and mc-MSCs. b Up-regulated GO terms. c Down-regulated GO terms. d Relative mRNA expression of mitobiogenesis-related genes from RNA-seq data. e Upregulated KEGG pathways. f The GSEA analysis of the AMPK signaling pathway. g Western blot (WB) analysis of AMPK and p-AMPK expression in tc-MSCs and mc-MSCs. h WB analysis of TFAM and TOMM20 expression in tc-MSCs and mc-MSCs. i Quanti\ufb01cation of WB results in ( h ) (well = 3). j The relative mitochondrial intensity of MSCs after being treated with CC (well = 3). k Schematic diagram showing the mito-condition promotes mitochondrial biogenesis by the AMPK pathway. All data are presented as mean \u00b1 SEM. * P < 0.05, ** P < 0.01, *** P < 0.001, **** P < 0.000 1. P values were determined using unpaired two-tailed t -test ( d i , ) or one-way ANOVA ( ). CC Compound C j"
+      "caption": "The mito-condition creates a sustainable energy-generating homeostasis by activating the AMPK pathway. a Volcano plots showing differently expressed genes between tc-MSCs and mc-MSCs. b Up-regulated GO terms. c Down-regulated GO terms. d Relative mRNA expression of mitobiogenesis-related genes from RNA-seq data. e Upregulated KEGG pathways. f The GSEA analysis of the AMPK signaling pathway. g Western blot (WB) analysis of AMPK and p-AMPK expression in tc-MSCs and mc-MSCs. h WB analysis of TFAM and TOMM20 expression in tc-MSCs and mc-MSCs. i Quanti /uniFB01 cation of WB results in ( h ) (well = 3). j The relative mitochondrial intensity of MSCs after being treated with CC (well = 3). k Schematic diagram showing the mito-condition promotes mitochondrial biogenesis by the AMPK pathway. All data are presented as mean \u00b1 SEM. * P &lt; 0.05, ** P &lt; 0.01, *** P &lt; 0.001, **** P &lt; 0.000 1. P values were determined using unpaired two-tailed t -test ( d i , ) or one-way ANOVA ( ). CC Compound C j"
     },
     {
       "id": "Fig. 5",
-      "caption": "The mito-condition tunes energy balance by compromising other energy-consuming processes. a Flow cytometry of lyso-Tracker labeled tc-MSCs and mc-MSCs. b Lysosomal intensity of tc-MSCs and mc-MSCs (well = 3). c Representative images of lysosomes in tc-MSCs and mcMSCs. Scale bar, 20 \u03bc m. d Representative transmission electron microscope (TEM) images of tc-MSCs and mc-MSCs. Scale bar, 2 \u03bc m. Red arrows: lysosomes. e Relative lysosomal intensity of tc-MSCs and mc-MSCs (observed cell = 14 for each group). f Number of lysosomes of tc-MSCs and mc-MSCs from TEM images (17 and 23 cells were calculated for tc-MSCs and mc-MSCs group respectively). g Schematic diagram of extracellular vesicles (EVs) secretion by MSCs. h Number of EVs in tc-MSCs and mc-MSCs (well = 9 in tc-MSCs group; well = 7 in mc-MSCs group). i Cell scratch migration assay of tc-MSCs and mc-MSCs. Scale bar, 200 \u03bc m. j Cell adhesion assay of tc-MSCs and mc-MSCs. Scale bar, 200 \u03bc m. k Migration ratio of tc-MSCs and mc-MSCs (well = 4). l Adhesion ratio of tc-MSCs and mc-MSCs (well = 4). m Schematic diagram showing the mito-condition was specialized to generate and reproduce mitochondria by increasing the energy-generating process and restricting other unnecessary energy-consuming processes. All data are presented as mean \u00b1 SEM. * P <0.05, ** P <0.01, **** P <0.000 1. P values were determined using unpaired two-tailed t -test ( b e f , , , h k l , , )"
+      "caption": "The mito-condition tunes energy balance by compromising other energy-consuming processes. a Flow cytometry of lyso-Tracker labeled tc-MSCs and mc-MSCs. b Lysosomal intensity of tc-MSCs and mc-MSCs (well = 3). c Representative images of lysosomes in tc-MSCs and mcMSCs. Scale bar, 20 \u03bc m. d Representative transmission electron microscope (TEM) images of tc-MSCs and mc-MSCs. Scale bar, 2 \u03bc m. Red arrows: lysosomes. e Relative lysosomal intensity of tc-MSCs and mc-MSCs (observed cell = 14 for each group). f Number of lysosomes of tc-MSCs and mc-MSCs from TEM images (17 and 23 cells were calculated for tc-MSCs and mc-MSCs group respectively). g Schematic diagram of extracellular vesicles (EVs) secretion by MSCs. h Number of EVs in tc-MSCs and mc-MSCs (well = 9 in tc-MSCs group; well = 7 in mc-MSCs group). i Cell scratch migration assay of tc-MSCs and mc-MSCs. Scale bar, 200 \u03bc m. j Cell adhesion assay of tc-MSCs and mc-MSCs. Scale bar, 200 \u03bc m. k Migration ratio of tc-MSCs and mc-MSCs (well = 4). l Adhesion ratio of tc-MSCs and mc-MSCs (well = 4). m Schematic diagram showing the mito-condition was specialized to generate and reproduce mitochondria by increasing the energy-generating process and restricting other unnecessary energy-consuming processes. All data are presented as mean \u00b1 SEM. * P &lt;0.05, ** P &lt;0.01, **** P &lt;0.000 1. P values were determined using unpaired two-tailed t -test ( b e f , , , h k l , , )"
     },
     {
       "id": "Fig. 6",
-      "caption": "Mc-mitochondria exhibit superior performance for in vivo mitotherapy. a Schematic illustration of the establishment of the mouse OA model and the experimental design to evaluate the value of mitochondrial ampli\ufb01cation for in vivo applications. b Safranin-O/Fast green staining of joint sections at 12 weeks. Scale bar, 50 \u03bc m. c Modi\ufb01ed and maximum OARSI scoring system (sample \ufb01 = 6 for each group). d Immunohistochemical staining (COL2, ACAN) of joint sections at 12 weeks. Scale bar, 50 \u03bc m. e Quanti\ufb01cation of COL2 and ACAN in cartilage tissues at 12 weeks (sample = 6 for each group). All data are presented as mean \u00b1 SEM. * P < 0.05, ** P < 0.01, *** P < 0.001. P values were determined using one-way ANOVA ( , c e ). OARSI Osteoarthritis Research Society International"
+      "caption": "Mc-mitochondria exhibit superior performance for in vivo mitotherapy. a Schematic illustration of the establishment of the mouse OA model and the experimental design to evaluate the value of mitochondrial ampli /uniFB01 cation for in vivo applications. b Safranin-O/Fast green staining of joint sections at 12 weeks. Scale bar, 50 \u03bc m. c Modi ed and maximum OARSI scoring system (sample /uniFB01 = 6 for each group). d Immunohistochemical staining (COL2, ACAN) of joint sections at 12 weeks. Scale bar, 50 \u03bc m. e Quanti /uniFB01 cation of COL2 and ACAN in cartilage tissues at 12 weeks (sample = 6 for each group). All data are presented as mean \u00b1 SEM. * P &lt; 0.05, ** P &lt; 0.01, *** P &lt; 0.001. P values were determined using one-way ANOVA ( , c e ). OARSI Osteoarthritis Research Society International"
     }
   ],
   "tables": [
@@ -202,52 +202,52 @@
           [
             "Rabbit anti-AMPK",
             "Abcam, ab32047",
-            "1:3 000 (WB)"
+            "1:3000 (WB)"
           ],
           [
-            "Rabbit anti-phospho- AMPK",
+            "Rabbit anti-phospho-AMPK",
             "Cell Signaling Technology, 2535",
-            "1:1 000 (WB)"
+            "1:1000 (WB)"
           ],
           [
             "Rabbit anti-ATP5A1",
             "Proteintech, 14676-1-AP",
-            "1:2 000 (WB)"
+            "1:2000 (WB)"
           ],
           [
             "Rabbit anti-UQCRC1",
             "Proteintech, 21705-1-AP",
-            "1:2 000 (WB)"
+            "1:2000 (WB)"
           ],
           [
             "Rabbit anti-SDHB",
             "Proteintech, 10620-1-AP",
-            "1:2 000 (WB)"
+            "1:2000 (WB)"
           ],
           [
             "Rabbit anti-MTCO2",
             "Proteintech, 55070-1-AP",
-            "1:2 000 (WB)"
+            "1:2000 (WB)"
           ],
           [
             "Rabbit anti-TFAM",
             "Proteintech, 22586-1-AP",
-            "1:5 000 (WB)"
+            "1:5000 (WB)"
           ],
           [
             "Rabbit anti-TOMM20",
             "Proteintech, 11802-1-AP",
-            "1:5 000 (WB)"
+            "1:5000 (WB)"
           ],
           [
             "Rabbit anti-LC3",
             "Proteintech, 81004-1-RR",
-            "1:2 000 (WB)"
+            "1:2000 (WB)"
           ],
           [
-            "Mouse anti- \u03b2 -Actin",
+            "Mouse anti-\u03b2-Actin",
             "Proteintech, 66009-1-Ig",
-            "1:5 000 (WB)"
+            "1:5000 (WB)"
           ],
           [
             "Mouse anti-GAPDH",
@@ -282,12 +282,12 @@
           [
             "Goat anti-Rabbit HRP",
             "Jackson, 111-035-003",
-            "1:500 (IHC); 1:3 000 (WB)"
+            "1:500 (IHC); 1:3000 (WB)"
           ],
           [
             "Goat anti-Mouse HRP",
             "Jackson, 115-035-003",
-            "1:500 (IHC); 1:3 000 (WB)"
+            "1:500 (IHC); 1:3000 (WB)"
           ]
         ]
       }
@@ -337,180 +337,311 @@
       }
     }
   ],
-  "equations": [
-    {
-      "id": "PDT_calculation",
-      "latex": "\\text{PDT} = \\text{culture time} \\times \\frac{\\log{2}}{\\log{\\left(\\frac{\\text{final cell numbers}}{\\text{initial cell numbers}}\\right)}}}"
-    }
-  ],
+  "equations": null,
   "experimental_setup": {
-    "description": "Human adipose-derived MSCs were cultured in a standard medium (DMEM supplemented with 10% FBS) or a customized medium (mito-condition: DMEM/F12 supplemented with bFGF, NaHCO3, lipid concentrate, ITS, progesterone, hydrocortisone, Vitamin C, heparin sodium, and HPL). Mitochondria were isolated using a cell mitochondria isolation kit. Cell viability was assessed using CCK-8 assay. Cell proliferation was evaluated by population doubling time (PDT), cell cycle analysis, EdU assay, and colony formation unit (CFU) assay. Mitochondrial content was analyzed by MitoTracker staining, TEM, and quantification of mitochondrial protein and mtDNA. Mitochondrial function was assessed by Seahorse XF96 analyzer for oxygen consumption rate (OCR), ATP assay, JC-1 assay for mitochondrial membrane potential (MMP), and ROS assay. Gene expression of oxidative phosphorylation (OXPHOS) related genes was analyzed by RT-qPCR. Protein expression of OXPHOS-related proteins was assessed by Western blot. Transcriptomic analysis was performed using bulk RNA-seq. For in vivo studies, a mouse osteoarthritis (OA) model was established by medial meniscectomy (MMx). Mitochondria were injected intra-articularly. Histological analysis (Safranin-O/Fast green staining, immunohistochemistry for COL2 and ACAN), OARSI scoring, and micro-CT analysis were performed to evaluate cartilage regeneration and OA progression. DiR-labeled mitochondria were used for in vivo tracking."
+    "description": "Mesenchymal stem cells (MSCs) were cultured under standard conditions (tc-MSCs) or a specialized \"mito-condition\" medium (mc-MSCs) optimized for mitochondrial production. This mito-condition medium contained a specific combination of nine factors: basic fibroblast growth factor (bFGF), sodium bicarbonate (NaHCO3), lipid concentrate, Insulin-Transferrin-Selenium (ITS), progesterone (Prog), hydrocortisone (Hc), Vitamin C (Vc), heparin sodium (HS), and human platelet lysate (HPL). The study involved comparing the characteristics of mc-MSCs and tc-MSCs, including cell proliferation, mitochondrial quantity and quality, gene expression, and functional assays. Isolated mitochondria from both culture conditions (tc-Mito and mc-Mito) were also compared. In vivo studies involved using a mouse osteoarthritis (OA) model, where mc-mitochondria and tc-mitochondria were injected into the joints to assess their therapeutic effects on cartilage regeneration. Various analytical techniques were employed, including high-resolution imaging, transmission electron microscopy (TEM), Seahorse extracellular flux analysis, ATP assays, JC-1 assay for mitochondrial membrane potential (MMP), reactive oxygen species (ROS) assay, flow cytometry, quantitative real-time PCR (RT-qPCR), bulk RNA sequencing (RNA-seq), Western blot analysis, cell scratch migration assay, cell adhesion assay, isolation of extracellular vesicles (EVs), micro-computed tomography (micro-CT), histological analysis (Safranin-O/Fast green staining), immunohistochemistry (IHC) for COL2 and ACAN, and bioluminescence imaging (BLI). Animal experiments were conducted following ethical approval and involved surgical induction of OA followed by intra-articular injections of mitochondria."
   },
   "experimental_results": {
+    "summary": "A novel strategy for fabricating human mitochondria involves manipulating mitogenesis and organelle balance in human mesenchymal stem cells (MSCs) using an optimized culture medium (mito-condition). This approach resulted in an 854-fold increase in mitochondria production within 15 days, with significantly enhanced mitochondrial function, including a 5.71-fold increase in ATP production compared to normal mitochondria. Mechanistically, the strategy activates the AMPK pathway and creates a cellular state favoring proliferation and mitogenesis while suppressing other energy-consuming activities. In vivo studies demonstrated the efficacy of these mitochondria in promoting cartilage regeneration in a mouse osteoarthritis model over 12 weeks.",
     "quantitative_data_points": [
       {
-        "quantitative_data_point": "854-fold increase in mitochondria production compared to normal MSC culture within 15 days"
+        "quantitative_data_point": "854-fold increase in mitochondria production within 15 days compared to normal MSC culture."
       },
       {
-        "quantitative_data_point": "ATP production levels reaching 5.71 times that of normal mitochondria"
+        "quantitative_data_point": "ATP production levels 5.71 times that of normal mitochondria."
       },
       {
-        "quantitative_data_point": "mc-MSCs contained significantly increased amounts of mitochondria (2.83-fold), mitochondrial proteins (1.70-fold), and mtDNAs copies (8.69-fold) per cell on average compared to tc-MSCs"
+        "quantitative_data_point": "mc-MSCs exhibited 2.83-fold increased amounts of mitochondria per cell on average compared to tc-MSCs."
       },
       {
-        "quantitative_data_point": "The population doubling time (PDT) of mc-MSCs was 21.23 h, markedly shorter than the 38.45 h observed for tc-MSCs"
+        "quantitative_data_point": "mc-MSCs exhibited 1.70-fold increased mitochondrial proteins per cell on average compared to tc-MSCs."
       },
       {
-        "quantitative_data_point": "After 5 passages (~15 days) of expansion, the total number of mc-MSCs was 302 times greater than that of tc-MSCs"
+        "quantitative_data_point": "mc-MSCs exhibited 8.69-fold increased mtDNA copies per cell on average compared to tc-MSCs."
       },
       {
-        "quantitative_data_point": "Ki67: 81.29% vs. 63.88% positive cells in mc-MSCs compared to tc-MSCs"
+        "quantitative_data_point": "Population doubling time (PDT) of mcMSCs was 21.23 h, compared to 38.45 h for tc-MSCs."
       },
       {
-        "quantitative_data_point": "EdU: 30.20% vs. 8.24% positive cells in mc-MSCs compared to tc-MSCs"
+        "quantitative_data_point": "After 5 passages (~15 days), the total number of mc-MSCs was 302 times greater than that of tcMSCs."
       },
       {
-        "quantitative_data_point": "Flow cytometry for EdU: 28.35% vs. 7.86% in mc-MSCs compared to tc-MSCs"
+        "quantitative_data_point": "Ki67 positive cells in mc-MSCs: 81.29% vs. 63.88% in tc-MSCs."
       },
       {
-        "quantitative_data_point": "Relative MitoTracker intensity in mc-MSCs at passage 1, 3 and 5 were 1.36-fold, 1.58-fold and 1.23-fold higher, respectively, compared to tc-MSCs"
+        "quantitative_data_point": "EdU positive cells in mc-MSCs: 30.20% vs. 8.24% in tc-MSCs."
       },
       {
-        "quantitative_data_point": "The estimated total mitochondrial yield from mc-MSCs was at least 854-fold greater than that from tc-MSCs"
+        "quantitative_data_point": "EdU positive cells by flow cytometry in mc-MSCs: 28.35% vs. 7.86% in tc-MSCs."
       },
       {
-        "quantitative_data_point": "Basal respiration, ATP production, and spare respiration capacity were significantly increased in mc-MSCs"
+        "quantitative_data_point": "Relative MitoTracker intensity in mc-MSCs at passage 5 was 1.23-fold higher compared to tc-MSCs."
       },
       {
-        "quantitative_data_point": "mc-MSCs produced higher levels of total cellular ATP compared to tc-MSCs"
+        "quantitative_data_point": "Basal respiration levels in mc-MSCs were significantly increased."
       },
       {
-        "quantitative_data_point": "mc-MSCs displayed a decreased mitochondrial depolarization ratio (4.32% vs. 10.41%)"
+        "quantitative_data_point": "ATP production levels in mc-MSCs were significantly increased."
       },
       {
-        "quantitative_data_point": "mc-MSCs displayed reduced ROS accumulation (0.9 \u00d7 10^5 vs. 1.8 \u00d7 10^5)"
+        "quantitative_data_point": "Spare respiration capacity in mc-MSCs was significantly increased."
       },
       {
-        "quantitative_data_point": "Increased expression levels of representative functional genes (ATP5A1, UQCRC1, and SDHB) and proteins (ATP5A1, UQCRC1, SDHB, and MTCO2) involved in oxidative phosphorylation (OXPHOS) in mc-MSCs compared to tc-MSCs"
+        "quantitative_data_point": "Total cellular ATP in mc-MSCs was higher compared to tc-MSCs."
       },
       {
-        "quantitative_data_point": "Post-isolated, mc-mitochondria produced elevated levels of ATP and displayed higher mitochondrial membrane potential (MMP)"
+        "quantitative_data_point": "Mitochondrial depolarization ratio in mc-MSCs was 4.32% vs. 10.41% in tc-MSCs."
       },
       {
-        "quantitative_data_point": "A slight increase in the measured OCR of mc-Mito compared to tcMito"
+        "quantitative_data_point": "ROS accumulation in mc-MSCs was 0.9 \u00d7 10^5 vs. 1.8 \u00d7 10^5 in tc-MSCs."
       },
       {
-        "quantitative_data_point": "mc-mitochondria could boost both cell proliferation and ATP production in the recipient cells"
+        "quantitative_data_point": "mc-mitochondria produced elevated levels of ATP post-isolation."
       },
       {
-        "quantitative_data_point": "9,524 differentially expressed genes (mc-MSC/tc-MSCs, fold change \u2265 2)"
+        "quantitative_data_point": "mc-mitochondria displayed higher MMP post-isolation."
       },
       {
-        "quantitative_data_point": "Significant upregulation of key genes related to mitochondrial biogenesis such as TFAM, TFB2M, NRF1, and CYCS in mc-MSCs"
+        "quantitative_data_point": "9524 differentially expressed genes (mc-MSC/tc-MSCs, fold change \u2265 2)."
       },
       {
-        "quantitative_data_point": "The AMPK pathway was impressively activated in mc-MSCs"
+        "quantitative_data_point": "AMPK pathway was significantly activated in mc-MSCs."
       },
       {
-        "quantitative_data_point": "Notedable elevations of both AMPK and phosphorylated-AMPK (p-AMPK) in mcMSCs"
+        "quantitative_data_point": "p-AMPK levels were elevated in mcMSCs."
       },
       {
-        "quantitative_data_point": "Significant reduction of total mitochondrial intensity in mc-MSCs after treatment with AMPK inhibitor Compound C (CC)"
+        "quantitative_data_point": "TFAM was significantly up-regulated in mc-MSCs."
       },
       {
-        "quantitative_data_point": "Genes related to lysosome digestion, cell migration, adhesion, and secretion were inhibited under the mito-condition"
+        "quantitative_data_point": "TOMM20 expression was elevated in mc-MSCs."
       },
       {
-        "quantitative_data_point": "No evident changes in both the quantity and structure of the Golgi apparatus"
+        "quantitative_data_point": "Reduction in lysosome quantity in mc-MSCs compared to tc-MSCs."
       },
       {
-        "quantitative_data_point": "The quantity of the endoplasmic reticulum (ER) did not change significantly"
+        "quantitative_data_point": "Reduced autophagy biomarkers (Beclin1 and LC3-II/I ratio) in mc-MSCs."
       },
       {
-        "quantitative_data_point": "Obvious reduction of lysosome quantity in mc-MSCs"
+        "quantitative_data_point": "Attenuation of extracellular vesicle secretion in mc-MSCs."
       },
       {
-        "quantitative_data_point": "Beclin1 and the LC3-II/I ratio were significantly decreased in mc-MSCs"
+        "quantitative_data_point": "Attenuation of cell migration in mc-MSCs."
       },
       {
-        "quantitative_data_point": "Attenuation of extracellular vesicle secretion, cell migration, and cell adhesion in mc-MSCs"
+        "quantitative_data_point": "Attenuation of cell adhesion in mc-MSCs."
       },
       {
-        "quantitative_data_point": "mc-Mito transplantation effectively enhanced the expression of TFAM in chondrocytes"
+        "quantitative_data_point": "Mitochondrial transplantation (10 \u03bc g per injection, once a week) in a mouse OA model showed therapeutic effects."
       },
       {
-        "quantitative_data_point": "DiR labeled mitochondria fluorescence diminished by half after 7 days and completely vanished after more than 21 days in vivo"
+        "quantitative_data_point": "mc-mitochondria group showed superior outcome in cartilage repair in 12-week samples."
       },
       {
-        "quantitative_data_point": "Harvesting the same amount of mitochondria using mito-condition saved 44.66% of expansion time or 66.72% of initial cells relative to the typical method"
+        "quantitative_data_point": "Safranin-O staining showed a more intact cartilage surface in the mc-mitochondria group."
       },
       {
-        "quantitative_data_point": "To produce 140 \u03bcg of mitochondria, the mito-condition required only 4.18 days (PDT = 20.26 h at passage 3), whereas the typical condition needed 7.49 days (PDT = 36.61 h at passage 3) starting with 2 \u00d7 10^5 MSCs on day 1"
+        "quantitative_data_point": "OARSI scoring evaluation indicated better cartilage preservation with mc-mitochondria treatment."
       },
       {
-        "quantitative_data_point": "To produce mitochondria within 3 days, the mito-condition strategy demanded only 5.11 \u00d7 10^5 cells on the first day, which was 1/3 of the cell quantity required for typical culture"
+        "quantitative_data_point": "Immunostaining showed preserved expression of COL2 and ACAN with mc-mitochondria therapy."
       },
       {
-        "quantitative_data_point": "mc-mitochondria group showed a superior outcome in cartilage repair in the 12-week samples among the three groups"
+        "quantitative_data_point": "Micro-CT analysis showed alleviation of subchondral bone sclerosis at 8 weeks with both mc-mitochondria and tc-mitochondria."
       },
       {
-        "quantitative_data_point": "mc-mitochondria treatment resulted in a more intact cartilage surface (especially in the tibia) when compared to tc-mitochondria treatment"
+        "quantitative_data_point": "Only mc-mitochondria demonstrated the ability to reduce osteophyte formation at 8 weeks."
       },
       {
-        "quantitative_data_point": "mc-mitochondria therapy preserved the expression of cartilage functional markers collagen type II (COL2) and aggrecan (ACAN) at joint surfaces of 12-week samples"
+        "quantitative_data_point": "Cell viability measured using CCK-8 assay."
       },
       {
-        "quantitative_data_point": "Both mc-mitochondria and tc-mitochondria were capable of alleviating subchondral bone sclerosis at 8 weeks"
+        "quantitative_data_point": "Cell cycle assay showed an increased S phase proportion in mcMSCs."
       },
       {
-        "quantitative_data_point": "Only mc-mitochondria demonstrated the ability to reduce osteophyte formation at 8 weeks"
+        "quantitative_data_point": "Alizarin red staining for osteogenic differentiation."
+      },
+      {
+        "quantitative_data_point": "Alcian blue staining for chondrogenic differentiation."
+      },
+      {
+        "quantitative_data_point": "Oil red staining for adipogenic differentiation."
+      },
+      {
+        "quantitative_data_point": "Colony formation unit (CFU) assay showed more and larger colonies formed by mc-MSCs."
+      },
+      {
+        "quantitative_data_point": "Isolated mitochondria transplanted to MSCs by coculture."
+      },
+      {
+        "quantitative_data_point": "Isolated mitochondria transplanted to chondrocytes by centrifugation."
+      },
+      {
+        "quantitative_data_point": "ATP concentration measured using enhanced ATP assay kit."
+      },
+      {
+        "quantitative_data_point": "MMP measured using enhanced MMP assay kit with JC-1."
+      },
+      {
+        "quantitative_data_point": "Total intracellular ROS levels detected by ROS assay kit."
+      },
+      {
+        "quantitative_data_point": "Apoptosis of chondrocytes assessed using Annexin V-FITC apoptosis detection kit."
+      },
+      {
+        "quantitative_data_point": "EVs quantification assessed with NanoSight NS500 system."
+      },
+      {
+        "quantitative_data_point": "Micro-CT scanning of knee joint samples."
+      },
+      {
+        "quantitative_data_point": "Bone volume (BV) of calci ed meniscus and synovium measured using Imalytics Preclinical software."
+      },
+      {
+        "quantitative_data_point": "Trabecular separation (Tb.Sp) of subchondral bone measured using Imalytics Preclinical software."
       }
     ],
     "qualitative_data_points": [
       {
-        "qualitative_data_point": "Mitochondria in mc-MSCs predominantly exhibited a short and rounded morphology, in contrast to the elongated mitochondria in tc-MSCs"
+        "qualitative_data_point": "Mitochondria in mc-MSCs predominantly exhibited a short and rounded morphology, in contrast to the elongated mitochondria in tc-MSCs."
       },
       {
-        "qualitative_data_point": "mc-MSCs had a reduced cell size, consistent with their robust proliferative phenotype"
+        "qualitative_data_point": "TEM analyses confirmed the morphology features of mitochondria in mc-MSCs and tc-MSCs."
       },
       {
-        "qualitative_data_point": "mc-MSCs exhibited higher multi-lineage differentiation potential"
+        "qualitative_data_point": "mc-MSCs had a reduced cell size, consistent with their robust proliferative phenotype."
       },
       {
-        "qualitative_data_point": "mc-MSCs stably consistently maintained a higher mitochondrial quantity than tc-MSCs across different passages"
+        "qualitative_data_point": "mc-MSCs exhibited higher multi-lineage differentiation potential."
       },
       {
-        "qualitative_data_point": "mc-MSCs exhibited improved mitochondrial function under the mito-condition culture"
+        "qualitative_data_point": "mc-MSCs consistently maintained a higher mitochondrial quantity than tc-MSCs across different passages."
       },
       {
-        "qualitative_data_point": "Energetic mitochondria preserved their function during mitochondrial transplantation procedures"
+        "qualitative_data_point": "mc-MSCs exhibited improved mitochondrial function."
       },
       {
-        "qualitative_data_point": "Mc-MSCs showed significant upregulation of key genes related to mitochondrial biogenesis"
+        "qualitative_data_point": "The energetic mitochondria preserved their function during mitochondrial transplantation procedures."
       },
       {
-        "qualitative_data_point": "The mito-condition regulated cell mitobiogenesis by activating the AMPK pathway and modifying the balance between energy-generating and energy-consuming programs"
+        "qualitative_data_point": "The energetic mitochondria remained enhanced MMP after storage at 4\u00b0C or 37\u00b0C."
       },
       {
-        "qualitative_data_point": "Mc-MSCs acquired a proliferative and metabolic phenotype compared to tc-MSCs, with other cellular processes being relatively suppressed"
+        "qualitative_data_point": "The function of mc-mitochondria stored at 4\u00b0C was more stable than those stored at 37\u00b0C."
       },
       {
-        "qualitative_data_point": "The mito-condition was specialized to generate and reproduce mitochondria by restricting other unnecessary energy-consuming processes"
+        "qualitative_data_point": "Mc-mitochondria could boost both cell proliferation and ATP production in the recipient cells after transplantation."
       },
       {
-        "qualitative_data_point": "Mc-mitochondria exhibit superior performance for in vivo mitotherapy"
+        "qualitative_data_point": "Mc-MSCs showed distinct transcriptomic profiles compared to tc-MSCs."
       },
       {
-        "qualitative_data_point": "Mitochondrial transplantation exhibited therapeutic effects on OA"
+        "qualitative_data_point": "Mc-MSCs were enriched for genes involved in mRNA splicing, DNA replication, cell division, ribosome biogenesis, and mitochondrial translation."
       },
       {
-        "qualitative_data_point": "The proposed mito-condition culture showed advantages in mitochondria production and long-term cartilage surface protection"
+        "qualitative_data_point": "Tc-MSCs were enriched for terms including cell adhesion, extracellular matrix organization, cell migration, vesicle-mediated transport, and autophagy."
       },
       {
-        "qualitative_data_point": "Our organelle-tuning strategy demonstrated robust mitochondrial production under customized condition, which could be used to greatly promote in vivo tissue regeneration."
+        "qualitative_data_point": "Mc-MSCs acquired a proliferative and metabolic phenotype compared to tc-MSCs."
       },
       {
-        "qualitative_data_point": "This study provided new insights into the molecular regulation of intrinsic organelle biogenesis and energy balance, potentially informing the development of novel approaches in organelle therapy."
+        "qualitative_data_point": "Glycolysis was promoted in mc-MSCs."
+      },
+      {
+        "qualitative_data_point": "AMPK pathway activation was confirmed by western blot."
+      },
+      {
+        "qualitative_data_point": "mtDNA copy number and the expression of mitochondrial structural protein TOMM20 were elevated in mc-MSCs."
+      },
+      {
+        "qualitative_data_point": "Treatment with AMPK inhibitor Compound C (CC) resulted in a significant reduction of total mitochondrial intensity in mc-MSCs."
+      },
+      {
+        "qualitative_data_point": "Genes related to energy-consuming cellular activities, including lysosome digestion, cell migration, adhesion, and secretion, were inhibited under the mito-condition."
+      },
+      {
+        "qualitative_data_point": "No evident changes in both the quantity and structure of the Golgi apparatus."
+      },
+      {
+        "qualitative_data_point": "The quantity of the endoplasmic reticulum (ER) did not change significantly."
+      },
+      {
+        "qualitative_data_point": "TEM indicated amelioration of ER swelling under the mito-condition."
+      },
+      {
+        "qualitative_data_point": "Obvious reduction of lysosome quantity in mc-MSCs."
+      },
+      {
+        "qualitative_data_point": "Autophagy biomarkers were significantly decreased in mc-MSCs, confirming a reduced level of autophagy."
+      },
+      {
+        "qualitative_data_point": "Mc-MSCs demonstrated attenuation of other energy-consuming cellular activities."
+      },
+      {
+        "qualitative_data_point": "Mito-condition was specialized to generate and reproduce mitochondria by restricting other unnecessary energy-consuming processes."
+      },
+      {
+        "qualitative_data_point": "Mc-Mito transplantation effectively enhanced the expression of TFAM in chondrocytes."
+      },
+      {
+        "qualitative_data_point": "Co-cultured mitochondria attached to the cartilage surface in a mouse cartilage explant model."
+      },
+      {
+        "qualitative_data_point": "In vivo imaging revealed fluorescence diminished over time, suggesting mitochondria survival and function in vivo."
+      },
+      {
+        "qualitative_data_point": "Mc-mitochondria exhibited advantages in mitochondria production and long-term cartilage surface protection."
+      },
+      {
+        "qualitative_data_point": "Mc-MSCs showed robust proliferative phenotype."
+      },
+      {
+        "qualitative_data_point": "Mc-MSCs showed stemness and low immunogenicity."
+      },
+      {
+        "qualitative_data_point": "Mc-MSCs showed higher colony-forming efficiency."
+      },
+      {
+        "qualitative_data_point": "Mc-MSCs expressed standard MSC surface markers."
+      },
+      {
+        "qualitative_data_point": "Mc-MSCs exhibited improved mitochondrial function and robust energy supply."
+      },
+      {
+        "qualitative_data_point": "Mc-Mito produced higher levels of ATP before and after isolation."
+      },
+      {
+        "qualitative_data_point": "Mc-Mito demonstrated superior performance in assessments of mitochondrial membrane potential (MMP) and reactive oxygen species (ROS)."
+      },
+      {
+        "qualitative_data_point": "Mc-MSCs demonstrated superior performance in assessments of mitochondrial membrane potential (MMP) and reactive oxygen species (ROS)."
+      },
+      {
+        "qualitative_data_point": "Mc-MSCs showed increased expression levels of representative functional genes and proteins involved in oxidative phosphorylation (OXPHOS)."
+      },
+      {
+        "qualitative_data_point": "Mc-Mito demonstrated enhanced mitochondrial function in OA chondrocytes in vitro."
+      },
+      {
+        "qualitative_data_point": "Mc-Mito transplantation reduced the rate of cellular apoptosis in OA chondrocytes."
+      },
+      {
+        "qualitative_data_point": "Mc-mitochondria showed potential for rapid supply of high-functioning mitochondria for in vivo disease management."
+      },
+      {
+        "qualitative_data_point": "The mito-condition promotes mitochondrial biogenesis by the AMPK pathway."
+      },
+      {
+        "qualitative_data_point": "The mito-condition was specialized to generate and reproduce mitochondria by increasing the energy-generating process and restricting other unnecessary energy-consuming processes."
+      },
+      {
+        "qualitative_data_point": "Mitochondrial transplantation could act as an effective intervention for OA."
+      },
+      {
+        "qualitative_data_point": "Organelle-tuning strategy demonstrated robust mitochondrial production under customized condition."
+      },
+      {
+        "qualitative_data_point": "The strategy provided new insights into the molecular regulation of intrinsic organelle biogenesis and energy balance."
       }
     ]
   },
