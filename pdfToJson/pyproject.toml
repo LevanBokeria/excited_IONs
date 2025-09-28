@@ -7,8 +7,13 @@ authors = [
 ]
 dependencies = [
     "openai>=1.0.0",
+    "pydantic",
+    "google-genai>=1.16.1",
+    "pydantic[email]",
+    "typer",
 ]
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 
 [project.scripts]
 pdf-to-json = "pdf_to_json:main"
+document-to-structured-json = "document-to-structured-json:main"

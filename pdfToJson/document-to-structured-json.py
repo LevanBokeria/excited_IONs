@@ -3,6 +3,7 @@ from pydantic import BaseModel
 import os
 import json
 import copy
+import typer
 
 
 def resolve_refs(schema, root=None, seen=None):
@@ -109,6 +110,8 @@ def extract_field_from_section(field, section_text, field_schema, client):
         field,
         section_text[:80],
     )
+    ## XXX: I think it's probably wise to prefix the text of the section with some kind
+    ## of prompt here as well!
     response = client.models.generate_content(
         model="gemini-2.5-flash-lite",
         contents=section_text,
@@ -125,20 +128,18 @@ def extract_field_from_section(field, section_text, field_schema, client):
         logging.warning("Failed to extract field '%s': %s", field, e)
         return None
 
-
-def main():
-    api_key = os.getenv("OPENAI_API_KEY")
+def main(schema_path: str = "../schemas/test_schema.json",
+         paper: str = "../data/1-s2.0-S2352940721003279-main.md"):
+    api_key = os.getenv("GEMINI_API_KEY")
     client = genai.Client(api_key=api_key)
 
-    schema_path = "./schemas/test_schema.json"
     with open(schema_path, "r") as f:
         schema = json.load(f)
     schema = resolve_refs(schema)
     schema_keys = list(schema["properties"].keys())
     logging.info("Loaded schema keys: %r", schema_keys)
 
-    paper_path = "./data/1-s2.0-S2352940721003279-main.md"
-    with open(paper_path, "r") as f:
+    with open(paper, "r") as f:
         paper_text = f.read()
     logging.info("Loaded paper text (%d chars)", len(paper_text))
 
@@ -197,11 +198,12 @@ def main():
         else:
             output[key] = None
 
-    with open("output.json", "w") as f:
+    outfile = paper.replace(".pdf", ".json")
+    with open(outfile, "w") as f:
         json.dump(output, f, indent=2)
     logging.info("Structured output written to output.json")
     logging.info("Aggregate token usage (approx): %d", total_tokens)
 
 
 if __name__ == "__main__":
-    main()
+    typer.run(main)
