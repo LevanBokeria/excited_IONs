@@ -4,6 +4,68 @@ import os
 import json
 import copy
 import typer
+import subprocess
+
+import argparse
+
+# TODO: Implement this and test
+PROJECT_CONTEXT = """You are an expert in extracting structured data from scientific articles. You extract relevant information, do not skip anything"""
+
+
+def pdf_to_mardown(pdf_path: str) -> str:
+    """
+    This is a function that takes in a paper as PDF and converts it to markdown with docling
+    """
+    import logging
+
+    logger = logging.getLogger(__name__)
+
+    # Test to see that docling is installed
+    result = subprocess.run(["docling", "--version"], capture_output=True, text=True)
+    if result.returncode != 0:
+        logger.error(
+            "Docling is not installed or not found in PATH. Please install it https://github.com/docling-project/docling"
+        )
+        raise EnvironmentError(
+            "Docling is not installed or not found in PATH. Please install it https://github.com/docling-project/docling"
+        )
+
+    markdown_path = pdf_path.replace("pdf", "md")  # TODO: Fix edge case of .pdf.pdf lol
+
+    if os.path.exists(markdown_path):
+        logger.info(
+            f"Markdown file {markdown_path} already exists. Using existing file."
+        )
+        print(f"Markdown file {markdown_path} already exists. Using existing file.")
+        return markdown_path
+    logger.info(f"Running docling to convert {pdf_path} to markdown.")
+
+    num_threads = os.cpu_count() - 1 if os.cpu_count() else 2
+
+    result = subprocess.run(
+        [
+            "docling",
+            pdf_path,
+            "--from",
+            "pdf",
+            "--to",
+            "json",
+            "--image-export-mode",
+            "referenced",
+            "--num-threads",
+            str(num_threads),
+            "--output",
+            str(os.path.dirname(markdown_path)),
+        ],
+        capture_output=True,
+        text=True,
+    )
+    raise Exception(result.stdout)
+
+    if result.returncode != 0:
+        logger.error(f"Error running docling: {result.stderr}")
+        print("Error running docling:", result.stderr)
+        raise RuntimeError("Docling conversion failed")
 
 
 def resolve_refs(schema, root=None, seen=None):
@@ -128,9 +190,15 @@ def extract_field_from_section(field, section_text, field_schema, client):
         logging.warning("Failed to extract field '%s': %s", field, e)
         return None
 
-def main(schema_path: str = "../schemas/test_schema.json",
-         paper_md: str = "../data/1-s2.0-S2352940721003279-main.md"):
-    api_key = os.getenv("GEMINI_API_KEY")
+
+def main(schema_path: str, paper_path: str):
+    api_key = (
+        os.getenv("GEMINI_API_KEY")
+        if os.getenv("GEMINI_API_KEY")
+        else os.getenv("OPENAI_API_KEY")
+    )
+    if not api_key:
+        raise EnvironmentError("GEMINI_API_KEY environment variable not set")
     client = genai.Client(api_key=api_key)
 
     with open(schema_path, "r") as f:
@@ -139,8 +207,17 @@ def main(schema_path: str = "../schemas/test_schema.json",
     schema_keys = list(schema["properties"].keys())
     logging.info("Loaded schema keys: %r", schema_keys)
 
+    if paper_path.endswith(".pdf"):
+        paper_md = pdf_to_mardown(paper_path)
+    elif paper_path.endswith(".md"):
+        paper_md = paper_path
+    else:
+        # NOTE: This should never happen due to earlier checks
+        raise ValueError("Paper file must be .pdf or .md")
+
     with open(paper_md, "r") as f:
         paper_text = f.read()
+
     logging.info("Loaded paper text (%d chars)", len(paper_text))
 
     # Step 1: Split into sections
@@ -206,4 +283,21 @@ def main(schema_path: str = "../schemas/test_schema.json",
 
 
 if __name__ == "__main__":
-    typer.run(main)
+    parser = argparse.ArgumentParser(
+        description="Convert a scientific paper PDF to structured JSON using Gemini."
+    )
+    parser.add_argument("schema_path", type=str, help="Path to the JSON schema file.")
+    parser.add_argument(
+        "paper_path", type=str, help="Path to the paper file (pdf or markdown)."
+    )
+    args = parser.parse_args()
+    schema_path = args.schema_path
+    paper_path = args.paper_path
+    assert schema_path.endswith(".json"), "Schema file must be a .json file"
+
+    if not os.path.exists(schema_path):
+        raise FileNotFoundError(f"Schema file not found: {schema_path}")
+    if not os.path.exists(paper_path):
+        raise FileNotFoundError(f"Paper file not found: {paper_path}")
+
+    typer.run(main(schema_path, paper_path))
