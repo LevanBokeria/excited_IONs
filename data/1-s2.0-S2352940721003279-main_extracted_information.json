@@ -1,0 +1,131 @@
+{
+  "metadata": {
+    "title": "Human platelet lysate (hPL) alters the lineage commitment and paracrine functions of human mesenchymal stem cells via mitochondrial metabolism",
+    "authors": [
+      {
+        "name": "Ping Du"
+      },
+      {
+        "name": "Xuelian Tao"
+      },
+      {
+        "name": "Kun Liu"
+      },
+      {
+        "name": "Jiao Lin"
+      },
+      {
+        "name": "Yue Shi"
+      },
+      {
+        "name": "Kwideok Park"
+      },
+      {
+        "name": "Hsien-Yeh Chen"
+      },
+      {
+        "name": "Chao-Po Lin"
+      },
+      {
+        "name": "Junlei Chang"
+      },
+      {
+        "name": "Raymond CB Wong"
+      },
+      {
+        "name": "Haobo Pan"
+      },
+      {
+        "name": "Peng-Yuan Wang"
+      }
+    ],
+    "abstract": "Emerging evidence indicates that cellular bioenergetics is critical in determining the self-renewal and differentiation of stem cells. Human platelet lysate (hPL) contains abundant proteins, which has been shown to improve self-renewal and osteogenic differentiation of mesenchymal stem cells (MSCs). However, the detailed modulating effect of hPL on MSCs energy metabolism remains unexplored. This study showed that MSCs cultured in hPL displayed a reduced cell size and cell spreading, but an improved proliferation and osteogenic capability compared with cells maintained in fetal bovine serum (FBS). RNA sequencing revealed widespread transcriptome differences between hPL- and FBS-MSCs where the differential expressed genes (DEGs) were enriched mainly in the PI3K-Akt and metabolic signal pathways. We found a significant downregulation of HIF1A (hypoxia-inducible factor 1 alpha) and altered mitochondrial features in hPL-MSCs, indicating a metabolism switch of the hPL-treated cells from glycolysis towards mitochondrial oxidative phosphorylation (OxPhos). It was also demonstrated that hPL-MSCs tend to differentiate towards the aerobic metabolism-demanded osteocytes or adipocytes rather than the anaerobic metabolism-demanded chondrocytes using a differentiation medium. Finally, hPL-MSCs showed an impaired paracrine function where the secreted factors cannot stimulate M2 polarization of THP1 cells and angiogenesis of HUVECs. We concluded that the PI3K-Akt/HIF1A-mediated metabolic state dominated the physiological property and lineage commitment of MSCs in hPL. For the first time, this study demonstrates the molecular mechanism of hPL in the regulation of metabolism and functions of MSCs, which implies the potential of hPL as an efficient biological material for stem cell engineering and regenerative medicine."
+  },
+  "figures": [
+    {
+      "id": "Fig. 1",
+      "caption": "fBMSCs adhesion, proliferation, and morphology in hPL. (A) F-actin (green) staining images of fBMSCs. Scale bars are 200 (top) and 50 \u00b5m (bottom), respectively. Quantitative comparison of fBMSCs morphology in different media by spreading area (B), aspect ratio (C), as well as cell diameter in suspension (D). Cell proliferation assay by CCK-8 assay (E), DNA quantification (F), and cell number counting (G) at indicated time points. (H) Vinculin (green) and F-actin (red) staining images of fBMSCs in different media at 48 h. Scale bar is 50 \u00b5m. (I) Semi-quantitative comparison of vinculin puncta per cell based on the images in H. Statistical significances were expressed as \u2217 ( p < 0.05), \u2217\u2217 ( p < 0.01), or \u2217\u2217\u2217 ( p < 0.001), respectively."
+    },
+    {
+      "id": "Fig. 2",
+      "caption": "Osteogenic differentiation of fBMSCs in hPL. Staining (A) and quantitative examination (B) of ALP activity in fBMSCs after OI for 4- and 7-days, respectively. Photographs (D) and semi-quantitative analysis (E) of ARS staining of fBMSCs after OI for different periods. Transcriptional level examination of ALP (C), OCN (F), and COL1A1 (H) expressions. (G) COL1A1 staining (green) of fBMSCs in GM and OI media for 7-, and 14-days, respectively, and cell nuclei were stained with DAPI (blue). GM is growth media, and OI is osteogenic induction. Scale bars in A, D, and G are 500 \u00b5m, 1 cm, and 100 \u00b5m, respectively. Statistical significances among different test groups were expressed as \u2217 ( p < 0.05), \u2217\u2217 ( p < 0.01), or \u2217\u2217\u2217 ( p < 0.001), respectively."
+    },
+    {
+      "id": "Fig. 3",
+      "caption": "Osteogenic effect of hPL on MSCs from different origins . Photographs (A) and gross images (B) of ALP and ARS staining of MSCs after osteogenic induction for 3, 6, and 10 days, respectively. Scale bars in A and B are 500 \u00b5m and 1 cm, respectively. (C) Semi-quantitative analysis of ARS staining ( n is 3). Statistical significances were expressed as \u2217 ( p < 0.05) or \u2217\u2217\u2217 ( p < 0.001), respectively."
+    },
+    {
+      "id": "Fig. 4",
+      "caption": "Chondrogenic differentiation of fBMSCs in hPL. (A) Alcian blue staining of fBMSCs after chondrogenic induction (CI) for 4 weeks. Scale bar is 500 \u00b5m. (B) GAG assay (\u00b5g/\u00b5g DNA) showed the highest GAG secretion of fBMSCs in serum-free condition. (C) Transcriptional level examination of SOX9, ACAN, MMP13, COL1A1, COL2A1, and COL10A1 after CI for 2- and 4- weeks, respectively. n is 3 for all experiments. Statistical significances were expressed as \u2217 ( p < 0.05), \u2217\u2217 ( p < 0.01), or \u2217\u2217\u2217 ( p < 0.001), respectively."
+    },
+    {
+      "id": "Fig. 5",
+      "caption": "Transcriptome comparison of 5% hPL- and 10% FBS- fBMSCs after they cultured in growth media (GM) for 7 days ( n = 3), respectively. (A) Volcano plots the total number of genes identified by RNA sequencing. DEGs were defined as |log2(fold change)| > 1, and q value < 0.05 (the up- and down-regulated genes were indicated using red and green dots, respectively). (B) The top 20 enriched KEGG pathways. hPL significantly altered the transcriptional expression of the MSC property- (C) and lineage specification-associated markers (D)."
+    },
+    {
+      "id": "Fig. 6",
+      "caption": "hPL altered the PI3K-Akt/HIF-1 pathway and the mitochondrial features. (A) The bioactive factors and nutrients in hPL altered fBMSCs behaviors via the PI3K-Akt/HIF-1 signaling pathway and the downstream energy metabolism. Transcriptional (B) and protein (C) level expressions of HIF1A in 5% hPL- and 10% FBS-fBMSCs after 7-day culture in GM. (D) Mitochondrial morphology observation by mitotracker staining. Mitochondrial membrane potential was evaluated by JC-1 staining images (E) and flow cytometry assay (F). Scale bars in D and E are 500 \u00b5 m."
+    },
+    {
+      "id": "Fig. 7",
+      "caption": "Immunomodulatory and angiogenic properties of fBMSCs in hPL. (A) Heatmap image compared the relative expression of paracrine factors in 5% hPL- and 10% FBSfBMSCs. (B) Cell morphology of the resting macrophage (M0) and stimulated macrophage (M1) after the treatment with serum-free media, hPL-CM, and FBS-CM, respectively. Secretary-level of TNF\u03b1 (C) and IL-10 (D) by M0 and M1 macrophage determined by ELISA after the treatment for 24 h, respectively. (E) HUVECs morphology on Matrigelcoated substrates in different media at 16 h. Quantitative comparison of total segment length (F), and CCK-8 assay (G) of HUVECs after a 24 h-culture in different media. Scale bars in B and E are 50 and 500 \u00b5 m, respectively. Statistical significances were expressed as \u2217 ( p < 0.05), \u2217\u2217 ( p < 0.01), or \u2217\u2217\u2217 ( p < 0.001), respectively."
+    },
+    {
+      "id": "Fig. S2",
+      "caption": "The top 20 enriched KEGG pathways."
+    },
+    {
+      "id": "Fig. S1A",
+      "caption": ""
+    },
+    {
+      "id": "Fig. S3",
+      "caption": ""
+    },
+    {
+      "id": "Fig. S4",
+      "caption": ""
+    },
+    {
+      "id": "Fig. S5",
+      "caption": ""
+    },
+    {
+      "id": "Fig. S6",
+      "caption": ""
+    },
+    {
+      "id": "Fig. S7",
+      "caption": ""
+    },
+    {
+      "id": "Fig. S8",
+      "caption": ""
+    }
+  ],
+  "tables": [
+    {
+      "id": "Table S1",
+      "caption": "Target genes and designed primer sequences.",
+      "data": {
+        "headers": [
+          "Target genes",
+          "Forward primer (5'-3')",
+          "Reverse primer (5'-3')"
+        ],
+        "rows": []
+      }
+    }
+  ],
+  "equations": null,
+  "experimental_setup": {
+    "description": "Human fetal bone marrow mesenchymal stem cells (fBMSCs), human adult bone marrow mesenchymal stem cells (aBMSCs), and human adipose-MSCs (ASC) were cultured in standard media or MEM\u03b1 media supplemented with either 10% fetal bovine serum (FBS) or various concentrations (1-5%) of human platelet lysate (hPL). Specific experimental procedures included cell proliferation and activity assays (CCK-8, Quant-iT PicoGreen dsDNA Assay), osteogenic and chondrogenic differentiation studies, immunofluorescence staining (vinculin, F-actin, type I collagen), alkaline phosphatase (ALP) assay, Alizarin Red S staining, Alcian blue staining, glycosaminoglycan (GAG) assay, RNA sequencing, HIF1A expression analysis (qRT-PCR, ELISA), mitochondria characterization (Mito-Tracker Green, JC-1 assay), immunomodulatory capacity assessment (THP-1 cell differentiation, cytokine ELISA), angiogenic capacity assessment (HUVEC tube formation, CCK-8 assay), real-time RT-PCR, and statistical analysis (ANOVA, Tukey's post-hoc tests)."
+  },
+  "experimental_results": {
+    "summary": "Human platelet lysate (hPL) was found to improve mesenchymal stem cell (MSC) proliferation and osteogenic differentiation while reducing cell size and spreading. RNA sequencing revealed significant transcriptome differences, particularly in the PI3K-Akt and metabolic pathways. hPL treatment led to downregulation of HIF1A and altered mitochondrial features, suggesting a metabolic shift from glycolysis towards oxidative phosphorylation (OxPhos). This metabolic change favored differentiation towards osteocytes and adipocytes, which demand aerobic metabolism, over chondrocytes, which require anaerobic metabolism. Furthermore, hPL-cultured MSCs showed impaired paracrine function, including reduced ability to stimulate M2 polarization of THP1 cells and angiogenesis of HUVECs. The study concludes that the PI3K-Akt/HIF1A-mediated metabolic state is crucial for regulating MSC properties and lineage commitment in hPL. These findings highlight the potential of hPL for stem cell engineering and regenerative medicine, while also indicating limitations for applications requiring robust immunomodulatory and angiogenic functions."
+  },
+  "data_availability": {
+    "statement": "The data supporting the findings of this study are available within the paper and its Supplementary Information file. All the RNAseq raw data has been deposited at NCBI Sequence Read Archive (SRA) with the BioProject code PRJNA771770."
+  },
+  "code_availability": null
+}

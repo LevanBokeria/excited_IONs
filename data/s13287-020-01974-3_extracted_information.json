@@ -1,0 +1,64 @@
+{
+  "metadata": {
+    "title": "Ca2+-activated mitochondrial biogenesis and functions improve stem cell fate in Rg3-treated human mesenchymal stem cells",
+    "authors": [
+      {
+        "name": "Taeui Hong"
+      },
+      {
+        "name": "Moon Young Kim"
+      },
+      {
+        "name": "Dat Da Ly"
+      },
+      {
+        "name": "Su Jung Park"
+      },
+      {
+        "name": "Young Woo Eom"
+      },
+      {
+        "name": "Kyu-Sang Park"
+      },
+      {
+        "name": "Soon Koo Baik"
+      }
+    ],
+    "abstract": "Mitochondria are essential for energy metabolism, calcium homeostasis, cell survival, and apoptosis; however, their role in stem cell proliferation, differentiation, and senescence has not been fully elucidated. In a stem cell niche, quiescent cells have a low mitochondrial mass in a low oxygen environment [1]. These cells have less bioenergetic reliance on oxidative phosphorylation and more glycolytic activity. Furthermore, superoxide production from mitochondrial activities inhibits stemness, negatively affecting stem cell fate [2]. Nevertheless, counteracting evidences demonstrate mitochondrial metabolism exhibits an essential role in stem cell fate and defense against senescence [3]. Active mitochondrial respiration is required to maintain quiescence and the differentiation ability of stem cells [4]. After mitochondria transfer, recipient bone marrow-derived mesenchymal stem cells (BMSCs) displayed increased oxidative phosphorylation, which enhanced proliferation and osteogenic differentiation [5]. Conversely, mitochondrial DNA mutations, lower mitochondrial content, and impaired mitochondrial metabolism lead to stem cell senescence [6]. Rg3 isolated from Panax ginseng has various pharmacological actions, including antioxidant [7], antiinflammatory [8], anti-cancer [9], neuroprotective [10], and anti-aging activities [11]. Rg3 increases insulin sensitivity and inhibits adipogenic differentiation associated with AMP-activated protein kinase (AMPK) activation and peroxisome proliferator-activated receptor \u03b3 (PPAR \u03b3 ) inhibition, respectively [12, 13]. Rg3 inhibits oxidative stress by elevating catalase and superoxide dismutase (SOD) activities and decreasing xanthine oxidase activity [7]. Additionally, Rg3-related increases in mitochondrial biogenesis and respiration have been reported [14]. However, most of investigation about Rg3 actions had been performed in cancer cells, and little is known about its role in stem cells. In this study, we aimed to resolve the effect of Rg3-induced mitochondrial activation on the fate of human BMSCs."
+  },
+  "figures": [
+    {
+      "id": "Figure 1",
+      "caption": "Rg3 augments proliferation and reduces senescence in human BMSCs. a Increased proliferation of human BMSCs by Rg3 was estimated via the MTT absorbance and proliferation doubling time (PDT). b Transcriptional levels of stemness genes, OCT4 NANOG , , and SOX2 , were evaluated using quantitative real-time PCR. Attenuation of cellular senescence was estimated by the c percentage of \u03b2 -galactosidase staining positive cells and d expression of senescence markers, p21 p53 , , and p16 . Osteogenic differentiation was quantified via e the absorbance (optical density) of Alizarin Red S staining and f expression of osteogenic genes, RUNX2 and ALP . Adipogenic differentiation was quantified via g the absorbance of Oil Red O staining and h expression of lipogenic genes, PPAR \u03b3 and C/EBP \u03b1 . Data are presented as the means \u00b1 SEMs; * P &lt;0.05, ** P &lt;0.01, *** P &lt;0.001, and **** P &lt;0.0001"
+    },
+    {
+      "id": "Figure 2",
+      "caption": "Rg3 reduces oxidative stress and increases mitochondrial biogenesis and metabolism"
+    },
+    {
+      "id": "Figure 3",
+      "caption": "Rg3 induces mitochondrial biogenesis and activation mediated by Ca 2+ increase. a [Ca 2+ ] i measurement using a fluorescence imaging system after Fura-2-AM dye loading. b Rg3 induced sustained [Ca 2+ ] i elevation, as estimated by the area under the curve (AUC) above the baseline. c Mitochondrial oxygen consumption rate (OCR) was dose-dependently increased by 1-h incubation of Rg3. d f -Effects of extracellular Ca 2+ reduction by the addition of 0.4 mMEGTA on OCR ( d ), and protein levels of mitochondrial transcription factor (Tfam), phosphorylated p70S6 kinase (S6K), and electron transport chain complex II (SDHB) ( e f , ) following 5 days of Rg3 incubation. Data are presented as the means \u00b1 SEMs; * P &lt;0.05, ** P &lt;0.01, *** P &lt;0.001, and **** P &lt;0.0001"
+    }
+  ],
+  "tables": null,
+  "equations": [
+    {
+      "id": "2_delta_delta_ct",
+      "latex": "2^{-\\Delta\\Delta Ct}"
+    },
+    {
+      "id": "bhi",
+      "latex": "BHI = \\log_{10}[(\\text{ATP synthesis-linked}) \\times (\\text{Spare Respiratory capacity}) / (\\text{Proton leak}) \\times (\\text{Non-mitochondrial respiration})]"
+    }
+  ],
+  "experimental_setup": {
+    "description": "Human Bone Marrow Mesenchymal Stem Cells (BMSCs) were cultured in low-glucose Dulbecco's modified Eagle's medium supplemented with 10% fetal bovine serum and 1% penicillin/streptomycin at 37 \u00b0C in a 5% CO2 atmosphere. Cells at passages 3 or 4 were used for experiments. Treatments included ginsenoside Rg3 (Cayman Chemical) or 0.25% ethanol as a vehicle control.\n\nQuantitative Polymerase Chain Reaction (qPCR) was performed using RNA isolated from BMSCs, with cDNA synthesis followed by real-time PCR on a QuantStudio\u2122 6 Real-Time PCR System (Applied Biosystems). Primers were sequence-specific, and cycle threshold (Ct) values were normalized to peptidylprolyl isomerase A. Relative gene expression was calculated using the 2^-\u0394\u0394Ct method.\n\nWestern blot analysis involved lysing cells with RIPA buffer. Lysates were separated by SDS-PAGE (10-15% gels) and transferred to polyvinylidene fluoride membranes. Membranes were incubated overnight with primary antibodies, followed by incubation with horseradish peroxidase-conjugated secondary antibodies. Signals were detected using a developing solution (GE Healthcare) and a Chemi-Doc System (Bio-rad).\n\nSenescence-associated \u03b2-galactosidase (SA\u03b2-gal) staining was performed using a senescence \u03b2-gal staining kit (Cell Signaling Technologies) following the manufacturer's instructions.\n\nFor adipogenic and osteogenic differentiation, BMSCs were incubated with vehicle or Rg3 for 5 days. Subsequently, cells were cultured in osteogenic medium (10 mM \u03b2-glycerophosphate, 0.2 mM ascorbic acid-2-phosphate, 100 nM dexamethasone) for 2 weeks, followed by Alizarin Red staining and absorbance measurement at 540 nm. Alternatively, cells were cultured in adipogenic medium (1 mM dexamethasone, 0.5 mM 1-methyl-3-isobutylxanthine, 100 \u03bcM indomethacin, 10 \u03bcg/mL insulin) for 3 weeks, followed by Oil Red O staining and absorbance measurement at 520 nm.\n\nOxygen Consumption Rate (OCR) and Extracellular Acidification Rate (ECAR) were measured in BMSCs using the Seahorse XFe96 Analyzer (Agilent Technologies) with the XF Cell Mito Stress Test Kit or Glycolysis Stress Test Kit.\n\nCytosolic Reactive Oxygen Species (ROS) were measured by loading BMSCs with 5 \u03bcM DCFH2DA (Invitrogen) for 20 minutes at 37 \u00b0C. Fluorescence intensity was measured using a fluorescence-activated cell sorting system (FACSAria III, BD Biosciences) at excitation/emission wavelengths of 485/538 nm.\n\nLive-cell Ca2+ imaging was performed by loading BMSCs on coverslips with 5 \u03bcM Fura-2/AM (Thermo Fisher Scientific) for 30 minutes at 37 \u00b0C. Cells were then placed in a perfusion chamber on an inverted microscope (IX73, Olympus). Fluorescence images were captured, and the ratio of fluorescence intensities (F340/F380) reflecting intracellular Ca2+ was analyzed by MetaFluor 6.1 (Molecular Devices).\n\nStatistical analysis included Student's t-test for comparing two groups and one-way ANOVA for comparing two or more groups. Analyses were performed using Prism software (version 6.0, GraphPad Software). Data are presented as means \u00b1 SEMs, with P < 0.05 considered significant."
+  },
+  "experimental_results": {
+    "summary": "Ginsenoside Rg3 enhances proliferation and suppresses senescence in human bone marrow-derived mesenchymal stem cells (BMSCs). It facilitates osteogenic differentiation while inhibiting adipogenic differentiation. Rg3 reduces reactive oxygen species (ROS) production and upregulates mitochondrial biogenesis and antioxidant enzymes like superoxide dismutase (SOD2). Consequently, Rg3 significantly augments mitochondrial respiration, including basal and ATP synthesis-linked respiration, and increases spare respiratory capacity. The observed effects are mediated by an increase in cytosolic Ca2+ concentration, which is crucial for Rg3-induced activation of mitochondrial respiration and biogenesis. Both intracellular Ca2+ chelation and reduction of extracellular Ca2+ levels inhibit Rg3-induced mitochondrial activation. Therefore, Rg3 improves stem cell fate by enhancing mitochondrial and antioxidant functions through a Ca2+-dependent pathway."
+  },
+  "data_availability": {
+    "statement": "The authors agree to share data and materials related to this manuscript."
+  },
+  "code_availability": null
+}
