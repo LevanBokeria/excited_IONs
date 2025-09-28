@@ -10,7 +10,7 @@
     "metadata": {
       "type": "object",
       "description": "Paper metadata and bibliographic information",
-      "required": ["title", "authors", "abstract"],
+      "required": ["title", "authors", "abstract", "tags"],
       "additionalProperties": false,
       "properties": {
         "title": {
@@ -35,6 +35,13 @@
         "abstract": {
           "type": "string",
           "description": "Paper abstract"
+        },
+        "tags": {
+          "type": "array",
+          "description": "Arbitrary tags for categorization and discovery (e.g., keywords, subject areas, methodologies)",
+          "items": {
+            "type": "string"
+          }
         }
       }
     },
