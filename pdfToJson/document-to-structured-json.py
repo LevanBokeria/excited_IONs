@@ -56,6 +56,11 @@ def pdf_to_mardown(pdf_path: str) -> str:
             str(num_threads),
             "--output",
             str(os.path.dirname(markdown_path)),
+            # --pipeline vlm --vlm-model granite_docling
+            "--pipeline",
+            "vlm",
+            "--vlm-model",
+            "granite_docling",
         ],
         capture_output=True,
         text=True,
