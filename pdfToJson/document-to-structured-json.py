@@ -49,7 +49,7 @@ def pdf_to_mardown(pdf_path: str) -> str:
             "--from",
             "pdf",
             "--to",
-            "markdown",
+            "md",
             "--image-export-mode",
             "referenced",
             "--num-threads",
