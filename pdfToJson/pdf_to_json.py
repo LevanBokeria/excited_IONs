@@ -12,6 +12,8 @@ PROMPT = """
 Your task is to convert the given PDF into JSON following the given schema.
 
 Be accurate and do not ignore any information!
+
+It is very important to be extensive in the tags. They should cover topics discussed in the paper, materials, chemicals etc used, type of paper (experimental, theoretical, ...) and so on. These tags will serve as one of the fundamental ways to filter the resulting corpus of data.
 """
 
 def pdf_to_text(pdf_path: str) -> str:
