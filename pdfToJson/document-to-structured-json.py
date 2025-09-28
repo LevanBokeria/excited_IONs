@@ -303,4 +303,4 @@ if __name__ == "__main__":
     if not os.path.exists(paper_path):
         raise FileNotFoundError(f"Paper file not found: {paper_path}")
 
-    typer.run(main(schema_path, paper_path))
+    typer.run(lambda x: main(schema_path, paper_path))
