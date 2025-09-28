@@ -74,7 +74,7 @@ def stream_openai_response(client: OpenAI, messages: list, schema: dict) -> str:
     print("\n✅ Streaming complete!")
     return collected_content
 
-def main(filename: str, schema: str = '../schemas/test_schema.json',
+def main(filename: str, schema: str = '../schemas/basic_schema_openai.json',
          show_stream: bool = True):
     # Get API key
     api_key = get_api_key()
